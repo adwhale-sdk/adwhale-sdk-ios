@@ -1,0 +1,152 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
+// swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -module-name AdWhaleAdMobAdapter -package-name adwhale_sdk_ios
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
+import AdWhaleSDK
+import Foundation
+import GoogleMobileAds
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc @_inheritsConvenienceInitializers final public class AdMobAppOpenAdapter : ObjectiveC.NSObject, AdWhaleSDK.AdWhaleAppOpenAdapterProtocol {
+  public static var networkName: Swift.String {
+    get
+  }
+  @objc required override dynamic public init()
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func loadAppOpenAd(placementUid: Swift.String, adUnit: Swift.String, extras: [Swift.String : Swift.String]?, listener: any AdWhaleSDK.AdWhaleAppOpenAdapterListener)
+  #endif
+  final public func showAd(from viewController: UIKit.UIViewController)
+  final public var isAdAvailable: Swift.Bool {
+    get
+  }
+  final public func destroy()
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func setRegion(_ region: Swift.String?)
+  #endif
+  final public func setGeocoder(latitude: Swift.Double, longitude: Swift.Double)
+  @objc deinit
+}
+extension AdWhaleAdMobAdapter.AdMobAppOpenAdapter : GoogleMobileAds.FullScreenContentDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc final public func adDidRecordImpression(_ ad: any GoogleMobileAds.FullScreenPresentingAd)
+  @_Concurrency.MainActor @preconcurrency @objc final public func adDidRecordClick(_ ad: any GoogleMobileAds.FullScreenPresentingAd)
+  @_Concurrency.MainActor @preconcurrency @objc final public func ad(_ ad: any GoogleMobileAds.FullScreenPresentingAd, didFailToPresentFullScreenContentWithError error: any Swift.Error)
+  @_Concurrency.MainActor @preconcurrency @objc final public func adDidDismissFullScreenContent(_ ad: any GoogleMobileAds.FullScreenPresentingAd)
+}
+@objc @_inheritsConvenienceInitializers final public class AdMobBannerAdapter : ObjectiveC.NSObject, AdWhaleSDK.AdWhaleBannerAdapterProtocol {
+  public static var networkName: Swift.String {
+    get
+  }
+  @objc required override dynamic public init()
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func loadBanner(placementUid: Swift.String, adUnit: Swift.String, extras: [Swift.String : Swift.String]?, size: AdWhaleSDK.AdWhaleBannerSize, rootView: UIKit.UIView, listener: any AdWhaleSDK.AdWhaleBannerAdapterListener)
+  #endif
+  final public func show()
+  final public func resume()
+  final public func pause()
+  final public func destroy()
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func setRegion(_ region: Swift.String?)
+  #endif
+  final public func setGeocoder(latitude: Swift.Double, longitude: Swift.Double)
+  final public func setAdaptiveAnchorWidth(_ width: Swift.Int)
+  @objc deinit
+}
+extension AdWhaleAdMobAdapter.AdMobBannerAdapter : GoogleMobileAds.BannerViewDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc final public func bannerViewDidReceiveAd(_ bannerView: GoogleMobileAds.BannerView)
+  @_Concurrency.MainActor @preconcurrency @objc final public func bannerView(_ bannerView: GoogleMobileAds.BannerView, didFailToReceiveAdWithError error: any Swift.Error)
+  @_Concurrency.MainActor @preconcurrency @objc final public func bannerViewDidRecordClick(_ bannerView: GoogleMobileAds.BannerView)
+  @_Concurrency.MainActor @preconcurrency @objc final public func bannerViewWillPresentScreen(_ bannerView: GoogleMobileAds.BannerView)
+  @_Concurrency.MainActor @preconcurrency @objc final public func bannerViewWillDismissScreen(_ bannerView: GoogleMobileAds.BannerView)
+}
+@objc @_inheritsConvenienceInitializers final public class AdMobInterstitialAdapter : ObjectiveC.NSObject, AdWhaleSDK.AdWhaleInterstitialAdapterProtocol {
+  public static var networkName: Swift.String {
+    get
+  }
+  @objc required override dynamic public init()
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func loadInterstitial(placementUid: Swift.String, adUnit: Swift.String, extras: [Swift.String : Swift.String]?, listener: any AdWhaleSDK.AdWhaleInterstitialAdapterListener)
+  #endif
+  final public func showAd(from viewController: UIKit.UIViewController)
+  final public func destroy()
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func setRegion(_ region: Swift.String?)
+  #endif
+  final public func setGeocoder(latitude: Swift.Double, longitude: Swift.Double)
+  @objc deinit
+}
+extension AdWhaleAdMobAdapter.AdMobInterstitialAdapter : GoogleMobileAds.FullScreenContentDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc final public func adDidRecordImpression(_ ad: any GoogleMobileAds.FullScreenPresentingAd)
+  @_Concurrency.MainActor @preconcurrency @objc final public func adDidRecordClick(_ ad: any GoogleMobileAds.FullScreenPresentingAd)
+  @_Concurrency.MainActor @preconcurrency @objc final public func ad(_ ad: any GoogleMobileAds.FullScreenPresentingAd, didFailToPresentFullScreenContentWithError error: any Swift.Error)
+  @_Concurrency.MainActor @preconcurrency @objc final public func adDidDismissFullScreenContent(_ ad: any GoogleMobileAds.FullScreenPresentingAd)
+}
+@objc @_inheritsConvenienceInitializers final public class AdMobNativeAdapter : ObjectiveC.NSObject, AdWhaleSDK.AdWhaleNativeAdapterProtocol {
+  public static var networkName: Swift.String {
+    get
+  }
+  @objc required override dynamic public init()
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func loadNative(placementUid: Swift.String, adUnit: Swift.String, extras: [Swift.String : Swift.String]?, rootView: UIKit.UIView, template: AdWhaleSDK.AdWhaleNativeTemplate, templateStyle: AdWhaleSDK.AdWhaleNativeTemplateStyle?, listener: any AdWhaleSDK.AdWhaleNativeAdapterListener)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func loadNativeWithCustomBinding(placementUid: Swift.String, adUnit: Swift.String, extras: [Swift.String : Swift.String]?, rootView: UIKit.UIView, binder: AdWhaleSDK.AdWhaleNativeAdBinder, listener: any AdWhaleSDK.AdWhaleNativeAdapterListener)
+  #endif
+  final public func show()
+  final public func resume()
+  final public func pause()
+  final public func destroy()
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func setRegion(_ region: Swift.String?)
+  #endif
+  final public func setGeocoder(latitude: Swift.Double, longitude: Swift.Double)
+  @objc deinit
+}
+extension AdWhaleAdMobAdapter.AdMobNativeAdapter : GoogleMobileAds.AdLoaderDelegate {
+  @objc final public func adLoaderDidFinishLoading(_ adLoader: GoogleMobileAds.AdLoader)
+  @objc final public func adLoader(_ adLoader: GoogleMobileAds.AdLoader, didFailToReceiveAdWithError error: any Swift.Error)
+}
+extension AdWhaleAdMobAdapter.AdMobNativeAdapter : GoogleMobileAds.NativeAdLoaderDelegate {
+  @objc final public func adLoader(_ adLoader: GoogleMobileAds.AdLoader, didReceive nativeAd: GoogleMobileAds.NativeAd)
+}
+extension AdWhaleAdMobAdapter.AdMobNativeAdapter : GoogleMobileAds.NativeAdDelegate {
+  @objc final public func nativeAdDidRecordClick(_ nativeAd: GoogleMobileAds.NativeAd)
+  @objc final public func nativeAdDidRecordImpression(_ nativeAd: GoogleMobileAds.NativeAd)
+  @_Concurrency.MainActor @preconcurrency @objc final public func nativeAdWillDismissScreen(_ nativeAd: GoogleMobileAds.NativeAd)
+}
+@_hasMissingDesignatedInitializers final public class AdMobPrivacyAdapter : AdWhaleSDK.AdWhalePrivacyAdapterProtocol {
+  final public func applyPrivacySettings(_ privacy: AdWhaleSDK.AdWhalePrivacySettings)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers final public class AdMobRewardedAdapter : ObjectiveC.NSObject, AdWhaleSDK.AdWhaleRewardedAdapterProtocol {
+  public static var networkName: Swift.String {
+    get
+  }
+  @objc required override dynamic public init()
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func loadRewardedAd(placementUid: Swift.String, adUnit: Swift.String, extras: [Swift.String : Swift.String]?, listener: any AdWhaleSDK.AdWhaleRewardedAdapterListener)
+  #endif
+  final public func showAd(from viewController: UIKit.UIViewController, rewardListener: any AdWhaleSDK.AdWhaleRewardAdapterRewardListener)
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func setFullScreenCallback(_ callback: (any AdWhaleSDK.AdWhaleRewardedAdapterFullScreenCallback)?)
+  #endif
+  final public func destroy()
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func setRegion(_ region: Swift.String?)
+  #endif
+  final public func setGeocoder(latitude: Swift.Double, longitude: Swift.Double)
+  @objc deinit
+}
+extension AdWhaleAdMobAdapter.AdMobRewardedAdapter : GoogleMobileAds.FullScreenContentDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc final public func adDidRecordImpression(_ ad: any GoogleMobileAds.FullScreenPresentingAd)
+  @_Concurrency.MainActor @preconcurrency @objc final public func adDidRecordClick(_ ad: any GoogleMobileAds.FullScreenPresentingAd)
+  @_Concurrency.MainActor @preconcurrency @objc final public func ad(_ ad: any GoogleMobileAds.FullScreenPresentingAd, didFailToPresentFullScreenContentWithError error: any Swift.Error)
+  @_Concurrency.MainActor @preconcurrency @objc final public func adDidDismissFullScreenContent(_ ad: any GoogleMobileAds.FullScreenPresentingAd)
+}
+@_hasMissingDesignatedInitializers final public class AdWhaleAdMobAdapter {
+  public static let networkName: Swift.String
+  public static func register()
+  @objc deinit
+}

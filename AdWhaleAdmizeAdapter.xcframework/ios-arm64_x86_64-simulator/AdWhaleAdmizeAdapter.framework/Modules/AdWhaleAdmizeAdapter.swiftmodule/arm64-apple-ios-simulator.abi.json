@@ -1,0 +1,1899 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "AdWhaleAdmizeAdapter",
+    "printedName": "AdWhaleAdmizeAdapter",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdWhaleAdmizeAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "AdWhaleSDK",
+        "printedName": "AdWhaleSDK",
+        "declKind": "Import",
+        "moduleName": "AdWhaleAdmizeAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "AdmizeSdk",
+        "printedName": "AdmizeSdk",
+        "declKind": "Import",
+        "moduleName": "AdWhaleAdmizeAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdWhaleAdmizeAdapter",
+        "printedName": "AdWhaleAdmizeAdapter",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "networkName",
+            "printedName": "networkName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20AdWhaleAdmizeAdapterAAC11networkNameSSvpZ",
+            "mangledName": "$s20AdWhaleAdmizeAdapterAAC11networkNameSSvpZ",
+            "moduleName": "AdWhaleAdmizeAdapter",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20AdWhaleAdmizeAdapterAAC11networkNameSSvgZ",
+                "mangledName": "$s20AdWhaleAdmizeAdapterAAC11networkNameSSvgZ",
+                "moduleName": "AdWhaleAdmizeAdapter",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20AdWhaleAdmizeAdapterAAC8registeryyFZ",
+            "mangledName": "$s20AdWhaleAdmizeAdapterAAC8registeryyFZ",
+            "moduleName": "AdWhaleAdmizeAdapter",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:20AdWhaleAdmizeAdapterAAC",
+        "mangledName": "$s20AdWhaleAdmizeAdapterAAC",
+        "moduleName": "AdWhaleAdmizeAdapter",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdWhaleAdmizeAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "AdWhaleSDK",
+        "printedName": "AdWhaleSDK",
+        "declKind": "Import",
+        "moduleName": "AdWhaleAdmizeAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "AdmizeSdk",
+        "printedName": "AdmizeSdk",
+        "declKind": "Import",
+        "moduleName": "AdWhaleAdmizeAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdmizeBannerAdapter",
+        "printedName": "AdmizeBannerAdapter",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "networkName",
+            "printedName": "networkName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20AdWhaleAdmizeAdapter0c6BannerD0C11networkNameSSvpZ",
+            "mangledName": "$s20AdWhaleAdmizeAdapter0c6BannerD0C11networkNameSSvpZ",
+            "moduleName": "AdWhaleAdmizeAdapter",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20AdWhaleAdmizeAdapter0c6BannerD0C11networkNameSSvgZ",
+                "mangledName": "$s20AdWhaleAdmizeAdapter0c6BannerD0C11networkNameSSvgZ",
+                "moduleName": "AdWhaleAdmizeAdapter",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdmizeBannerAdapter",
+                "printedName": "AdWhaleAdmizeAdapter.AdmizeBannerAdapter",
+                "usr": "c:@M@AdWhaleAdmizeAdapter@objc(cs)AdmizeBannerAdapter"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AdWhaleAdmizeAdapter@objc(cs)AdmizeBannerAdapter(im)init",
+            "mangledName": "$s20AdWhaleAdmizeAdapter0c6BannerD0CACycfc",
+            "moduleName": "AdWhaleAdmizeAdapter",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "Required",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "loadBanner",
+            "printedName": "loadBanner(placementUid:adUnit:extras:size:rootView:listener:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdWhaleBannerSize",
+                "printedName": "AdWhaleSDK.AdWhaleBannerSize",
+                "usr": "c:@M@AdWhaleSDK@E@AdWhaleBannerSize"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdWhaleBannerAdapterListener",
+                "printedName": "any AdWhaleSDK.AdWhaleBannerAdapterListener",
+                "usr": "s:10AdWhaleSDK0aB21BannerAdapterListenerP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20AdWhaleAdmizeAdapter0c6BannerD0C04loadE012placementUid6adUnit6extras4size8rootView8listenerySS_SSSDyS2SGSg0aB3SDK0abE4SizeOSo6UIViewCAM0abeD8Listener_ptF",
+            "mangledName": "$s20AdWhaleAdmizeAdapter0c6BannerD0C04loadE012placementUid6adUnit6extras4size8rootView8listenerySS_SSSDyS2SGSg0aB3SDK0abE4SizeOSo6UIViewCAM0abeD8Listener_ptF",
+            "moduleName": "AdWhaleAdmizeAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "show",
+            "printedName": "show()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20AdWhaleAdmizeAdapter0c6BannerD0C4showyyF",
+            "mangledName": "$s20AdWhaleAdmizeAdapter0c6BannerD0C4showyyF",
+            "moduleName": "AdWhaleAdmizeAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resume",
+            "printedName": "resume()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20AdWhaleAdmizeAdapter0c6BannerD0C6resumeyyF",
+            "mangledName": "$s20AdWhaleAdmizeAdapter0c6BannerD0C6resumeyyF",
+            "moduleName": "AdWhaleAdmizeAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pause",
+            "printedName": "pause()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20AdWhaleAdmizeAdapter0c6BannerD0C5pauseyyF",
+            "mangledName": "$s20AdWhaleAdmizeAdapter0c6BannerD0C5pauseyyF",
+            "moduleName": "AdWhaleAdmizeAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "destroy",
+            "printedName": "destroy()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20AdWhaleAdmizeAdapter0c6BannerD0C7destroyyyF",
+            "mangledName": "$s20AdWhaleAdmizeAdapter0c6BannerD0C7destroyyyF",
+            "moduleName": "AdWhaleAdmizeAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setRegion",
+            "printedName": "setRegion(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20AdWhaleAdmizeAdapter0c6BannerD0C9setRegionyySSSgF",
+            "mangledName": "$s20AdWhaleAdmizeAdapter0c6BannerD0C9setRegionyySSSgF",
+            "moduleName": "AdWhaleAdmizeAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setGeocoder",
+            "printedName": "setGeocoder(latitude:longitude:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20AdWhaleAdmizeAdapter0c6BannerD0C11setGeocoder8latitude9longitudeySd_SdtF",
+            "mangledName": "$s20AdWhaleAdmizeAdapter0c6BannerD0C11setGeocoder8latitude9longitudeySd_SdtF",
+            "moduleName": "AdWhaleAdmizeAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAdaptiveAnchorWidth",
+            "printedName": "setAdaptiveAnchorWidth(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20AdWhaleAdmizeAdapter0c6BannerD0C22setAdaptiveAnchorWidthyySiF",
+            "mangledName": "$s20AdWhaleAdmizeAdapter0c6BannerD0C22setAdaptiveAnchorWidthyySiF",
+            "moduleName": "AdWhaleAdmizeAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adDidLoad",
+            "printedName": "adDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdWhaleAdmizeAdapter@objc(cs)AdmizeBannerAdapter(im)adDidLoad",
+            "mangledName": "$s20AdWhaleAdmizeAdapter0c6BannerD0C9adDidLoadyyF",
+            "moduleName": "AdWhaleAdmizeAdapter",
+            "objc_name": "adDidLoad",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adDidFailToLoad",
+            "printedName": "adDidFailToLoad(code:message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdWhaleAdmizeAdapter@objc(cs)AdmizeBannerAdapter(im)adDidFailToLoadWithCode:message:",
+            "mangledName": "$s20AdWhaleAdmizeAdapter0c6BannerD0C15adDidFailToLoad4code7messageySi_SStF",
+            "moduleName": "AdWhaleAdmizeAdapter",
+            "objc_name": "adDidFailToLoadWithCode:message:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adDidClick",
+            "printedName": "adDidClick()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdWhaleAdmizeAdapter@objc(cs)AdmizeBannerAdapter(im)adDidClick",
+            "mangledName": "$s20AdWhaleAdmizeAdapter0c6BannerD0C10adDidClickyyF",
+            "moduleName": "AdWhaleAdmizeAdapter",
+            "objc_name": "adDidClick",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didShowLandingScreen",
+            "printedName": "didShowLandingScreen()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdWhaleAdmizeAdapter@objc(cs)AdmizeBannerAdapter(im)didShowLandingScreen",
+            "mangledName": "$s20AdWhaleAdmizeAdapter0c6BannerD0C20didShowLandingScreenyyF",
+            "moduleName": "AdWhaleAdmizeAdapter",
+            "objc_name": "didShowLandingScreen",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didCloseLandingScreen",
+            "printedName": "didCloseLandingScreen()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdWhaleAdmizeAdapter@objc(cs)AdmizeBannerAdapter(im)didCloseLandingScreen",
+            "mangledName": "$s20AdWhaleAdmizeAdapter0c6BannerD0C21didCloseLandingScreenyyF",
+            "moduleName": "AdWhaleAdmizeAdapter",
+            "objc_name": "didCloseLandingScreen",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adDidTimeout",
+            "printedName": "adDidTimeout()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdWhaleAdmizeAdapter@objc(cs)AdmizeBannerAdapter(im)adDidTimeout",
+            "mangledName": "$s20AdWhaleAdmizeAdapter0c6BannerD0C12adDidTimeoutyyF",
+            "moduleName": "AdWhaleAdmizeAdapter",
+            "objc_name": "adDidTimeout",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AdWhaleAdmizeAdapter@objc(cs)AdmizeBannerAdapter",
+        "mangledName": "$s20AdWhaleAdmizeAdapter0c6BannerD0C",
+        "moduleName": "AdWhaleAdmizeAdapter",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "AdWhaleBannerAdapterProtocol",
+            "printedName": "AdWhaleBannerAdapterProtocol",
+            "usr": "s:10AdWhaleSDK0aB21BannerAdapterProtocolP",
+            "mangledName": "$s10AdWhaleSDK0aB21BannerAdapterProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AdWhaleAdapterProtocol",
+            "printedName": "AdWhaleAdapterProtocol",
+            "usr": "s:10AdWhaleSDK0aB15AdapterProtocolP",
+            "mangledName": "$s10AdWhaleSDK0aB15AdapterProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AdmizeAdListener",
+            "printedName": "AdmizeAdListener",
+            "usr": "c:@M@AdmizeSdk@objc(pl)AMAdListener",
+            "mangledName": "$s9AdmizeSdk0A10AdListenerP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdWhaleAdmizeAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "AdWhaleSDK",
+        "printedName": "AdWhaleSDK",
+        "declKind": "Import",
+        "moduleName": "AdWhaleAdmizeAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "AdmizeSdk",
+        "printedName": "AdmizeSdk",
+        "declKind": "Import",
+        "moduleName": "AdWhaleAdmizeAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdmizeInterstitialAdapter",
+        "printedName": "AdmizeInterstitialAdapter",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "networkName",
+            "printedName": "networkName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20AdWhaleAdmizeAdapter0c12InterstitialD0C11networkNameSSvpZ",
+            "mangledName": "$s20AdWhaleAdmizeAdapter0c12InterstitialD0C11networkNameSSvpZ",
+            "moduleName": "AdWhaleAdmizeAdapter",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20AdWhaleAdmizeAdapter0c12InterstitialD0C11networkNameSSvgZ",
+                "mangledName": "$s20AdWhaleAdmizeAdapter0c12InterstitialD0C11networkNameSSvgZ",
+                "moduleName": "AdWhaleAdmizeAdapter",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdmizeInterstitialAdapter",
+                "printedName": "AdWhaleAdmizeAdapter.AdmizeInterstitialAdapter",
+                "usr": "c:@M@AdWhaleAdmizeAdapter@objc(cs)AdmizeInterstitialAdapter"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AdWhaleAdmizeAdapter@objc(cs)AdmizeInterstitialAdapter(im)init",
+            "mangledName": "$s20AdWhaleAdmizeAdapter0c12InterstitialD0CACycfc",
+            "moduleName": "AdWhaleAdmizeAdapter",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "Required",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "loadInterstitial",
+            "printedName": "loadInterstitial(placementUid:adUnit:extras:listener:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdWhaleInterstitialAdapterListener",
+                "printedName": "any AdWhaleSDK.AdWhaleInterstitialAdapterListener",
+                "usr": "s:10AdWhaleSDK0aB27InterstitialAdapterListenerP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20AdWhaleAdmizeAdapter0c12InterstitialD0C04loadE012placementUid6adUnit6extras8listenerySS_SSSDyS2SGSg0aB3SDK0abeD8Listener_ptF",
+            "mangledName": "$s20AdWhaleAdmizeAdapter0c12InterstitialD0C04loadE012placementUid6adUnit6extras8listenerySS_SSSDyS2SGSg0aB3SDK0abeD8Listener_ptF",
+            "moduleName": "AdWhaleAdmizeAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showAd",
+            "printedName": "showAd(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20AdWhaleAdmizeAdapter0c12InterstitialD0C04showA04fromySo16UIViewControllerC_tF",
+            "mangledName": "$s20AdWhaleAdmizeAdapter0c12InterstitialD0C04showA04fromySo16UIViewControllerC_tF",
+            "moduleName": "AdWhaleAdmizeAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "destroy",
+            "printedName": "destroy()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20AdWhaleAdmizeAdapter0c12InterstitialD0C7destroyyyF",
+            "mangledName": "$s20AdWhaleAdmizeAdapter0c12InterstitialD0C7destroyyyF",
+            "moduleName": "AdWhaleAdmizeAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setRegion",
+            "printedName": "setRegion(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20AdWhaleAdmizeAdapter0c12InterstitialD0C9setRegionyySSSgF",
+            "mangledName": "$s20AdWhaleAdmizeAdapter0c12InterstitialD0C9setRegionyySSSgF",
+            "moduleName": "AdWhaleAdmizeAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setGeocoder",
+            "printedName": "setGeocoder(latitude:longitude:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20AdWhaleAdmizeAdapter0c12InterstitialD0C11setGeocoder8latitude9longitudeySd_SdtF",
+            "mangledName": "$s20AdWhaleAdmizeAdapter0c12InterstitialD0C11setGeocoder8latitude9longitudeySd_SdtF",
+            "moduleName": "AdWhaleAdmizeAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adDidLoad",
+            "printedName": "adDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdWhaleAdmizeAdapter@objc(cs)AdmizeInterstitialAdapter(im)adDidLoad",
+            "mangledName": "$s20AdWhaleAdmizeAdapter0c12InterstitialD0C9adDidLoadyyF",
+            "moduleName": "AdWhaleAdmizeAdapter",
+            "objc_name": "adDidLoad",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adDidFailToLoad",
+            "printedName": "adDidFailToLoad(code:message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdWhaleAdmizeAdapter@objc(cs)AdmizeInterstitialAdapter(im)adDidFailToLoadWithCode:message:",
+            "mangledName": "$s20AdWhaleAdmizeAdapter0c12InterstitialD0C15adDidFailToLoad4code7messageySi_SStF",
+            "moduleName": "AdWhaleAdmizeAdapter",
+            "objc_name": "adDidFailToLoadWithCode:message:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adDidShow",
+            "printedName": "adDidShow()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdWhaleAdmizeAdapter@objc(cs)AdmizeInterstitialAdapter(im)adDidShow",
+            "mangledName": "$s20AdWhaleAdmizeAdapter0c12InterstitialD0C9adDidShowyyF",
+            "moduleName": "AdWhaleAdmizeAdapter",
+            "objc_name": "adDidShow",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adDidClick",
+            "printedName": "adDidClick()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdWhaleAdmizeAdapter@objc(cs)AdmizeInterstitialAdapter(im)adDidClick",
+            "mangledName": "$s20AdWhaleAdmizeAdapter0c12InterstitialD0C10adDidClickyyF",
+            "moduleName": "AdWhaleAdmizeAdapter",
+            "objc_name": "adDidClick",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adDidClose",
+            "printedName": "adDidClose()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdWhaleAdmizeAdapter@objc(cs)AdmizeInterstitialAdapter(im)adDidClose",
+            "mangledName": "$s20AdWhaleAdmizeAdapter0c12InterstitialD0C10adDidCloseyyF",
+            "moduleName": "AdWhaleAdmizeAdapter",
+            "objc_name": "adDidClose",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AdWhaleAdmizeAdapter@objc(cs)AdmizeInterstitialAdapter",
+        "mangledName": "$s20AdWhaleAdmizeAdapter0c12InterstitialD0C",
+        "moduleName": "AdWhaleAdmizeAdapter",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "AdWhaleInterstitialAdapterProtocol",
+            "printedName": "AdWhaleInterstitialAdapterProtocol",
+            "usr": "s:10AdWhaleSDK0aB27InterstitialAdapterProtocolP",
+            "mangledName": "$s10AdWhaleSDK0aB27InterstitialAdapterProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AdWhaleAdapterProtocol",
+            "printedName": "AdWhaleAdapterProtocol",
+            "usr": "s:10AdWhaleSDK0aB15AdapterProtocolP",
+            "mangledName": "$s10AdWhaleSDK0aB15AdapterProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AdmizeInterstitialAdListener",
+            "printedName": "AdmizeInterstitialAdListener",
+            "usr": "c:@M@AdmizeSdk@objc(pl)AMInterstitialAdListener",
+            "mangledName": "$s9AdmizeSdk0A22InterstitialAdListenerP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdWhaleAdmizeAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "AdWhaleSDK",
+        "printedName": "AdWhaleSDK",
+        "declKind": "Import",
+        "moduleName": "AdWhaleAdmizeAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "AdmizeSdk",
+        "printedName": "AdmizeSdk",
+        "declKind": "Import",
+        "moduleName": "AdWhaleAdmizeAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdmizeRewardedAdapter",
+        "printedName": "AdmizeRewardedAdapter",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "networkName",
+            "printedName": "networkName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20AdWhaleAdmizeAdapter0c8RewardedD0C11networkNameSSvpZ",
+            "mangledName": "$s20AdWhaleAdmizeAdapter0c8RewardedD0C11networkNameSSvpZ",
+            "moduleName": "AdWhaleAdmizeAdapter",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20AdWhaleAdmizeAdapter0c8RewardedD0C11networkNameSSvgZ",
+                "mangledName": "$s20AdWhaleAdmizeAdapter0c8RewardedD0C11networkNameSSvgZ",
+                "moduleName": "AdWhaleAdmizeAdapter",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdmizeRewardedAdapter",
+                "printedName": "AdWhaleAdmizeAdapter.AdmizeRewardedAdapter",
+                "usr": "c:@M@AdWhaleAdmizeAdapter@objc(cs)AdmizeRewardedAdapter"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AdWhaleAdmizeAdapter@objc(cs)AdmizeRewardedAdapter(im)init",
+            "mangledName": "$s20AdWhaleAdmizeAdapter0c8RewardedD0CACycfc",
+            "moduleName": "AdWhaleAdmizeAdapter",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "Required",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "loadRewardedAd",
+            "printedName": "loadRewardedAd(placementUid:adUnit:extras:listener:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdWhaleRewardedAdapterListener",
+                "printedName": "any AdWhaleSDK.AdWhaleRewardedAdapterListener",
+                "usr": "s:10AdWhaleSDK0aB23RewardedAdapterListenerP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20AdWhaleAdmizeAdapter0c8RewardedD0C04loadeA012placementUid6adUnit6extras8listenerySS_SSSDyS2SGSg0aB3SDK0abeD8Listener_ptF",
+            "mangledName": "$s20AdWhaleAdmizeAdapter0c8RewardedD0C04loadeA012placementUid6adUnit6extras8listenerySS_SSSDyS2SGSg0aB3SDK0abeD8Listener_ptF",
+            "moduleName": "AdWhaleAdmizeAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showAd",
+            "printedName": "showAd(from:rewardListener:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdWhaleRewardAdapterRewardListener",
+                "printedName": "any AdWhaleSDK.AdWhaleRewardAdapterRewardListener",
+                "usr": "s:10AdWhaleSDK0ab13RewardAdapterD8ListenerP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20AdWhaleAdmizeAdapter0c8RewardedD0C04showA04from14rewardListenerySo16UIViewControllerC_0aB3SDK0ab6RewarddmI0_ptF",
+            "mangledName": "$s20AdWhaleAdmizeAdapter0c8RewardedD0C04showA04from14rewardListenerySo16UIViewControllerC_0aB3SDK0ab6RewarddmI0_ptF",
+            "moduleName": "AdWhaleAdmizeAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setFullScreenCallback",
+            "printedName": "setFullScreenCallback(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any AdWhaleSDK.AdWhaleRewardedAdapterFullScreenCallback)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdWhaleRewardedAdapterFullScreenCallback",
+                    "printedName": "any AdWhaleSDK.AdWhaleRewardedAdapterFullScreenCallback",
+                    "usr": "s:10AdWhaleSDK0aB33RewardedAdapterFullScreenCallbackP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20AdWhaleAdmizeAdapter0c8RewardedD0C21setFullScreenCallbackyy0aB3SDK0abedghI0_pSgF",
+            "mangledName": "$s20AdWhaleAdmizeAdapter0c8RewardedD0C21setFullScreenCallbackyy0aB3SDK0abedghI0_pSgF",
+            "moduleName": "AdWhaleAdmizeAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "destroy",
+            "printedName": "destroy()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20AdWhaleAdmizeAdapter0c8RewardedD0C7destroyyyF",
+            "mangledName": "$s20AdWhaleAdmizeAdapter0c8RewardedD0C7destroyyyF",
+            "moduleName": "AdWhaleAdmizeAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setRegion",
+            "printedName": "setRegion(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20AdWhaleAdmizeAdapter0c8RewardedD0C9setRegionyySSSgF",
+            "mangledName": "$s20AdWhaleAdmizeAdapter0c8RewardedD0C9setRegionyySSSgF",
+            "moduleName": "AdWhaleAdmizeAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setGeocoder",
+            "printedName": "setGeocoder(latitude:longitude:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20AdWhaleAdmizeAdapter0c8RewardedD0C11setGeocoder8latitude9longitudeySd_SdtF",
+            "mangledName": "$s20AdWhaleAdmizeAdapter0c8RewardedD0C11setGeocoder8latitude9longitudeySd_SdtF",
+            "moduleName": "AdWhaleAdmizeAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adDidLoad",
+            "printedName": "adDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdWhaleAdmizeAdapter@objc(cs)AdmizeRewardedAdapter(im)adDidLoad",
+            "mangledName": "$s20AdWhaleAdmizeAdapter0c8RewardedD0C9adDidLoadyyF",
+            "moduleName": "AdWhaleAdmizeAdapter",
+            "objc_name": "adDidLoad",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adDidFailToLoad",
+            "printedName": "adDidFailToLoad(code:message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdWhaleAdmizeAdapter@objc(cs)AdmizeRewardedAdapter(im)adDidFailToLoadWithCode:message:",
+            "mangledName": "$s20AdWhaleAdmizeAdapter0c8RewardedD0C15adDidFailToLoad4code7messageySi_SStF",
+            "moduleName": "AdWhaleAdmizeAdapter",
+            "objc_name": "adDidFailToLoadWithCode:message:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adDidShowFullScreen",
+            "printedName": "adDidShowFullScreen()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdWhaleAdmizeAdapter@objc(cs)AdmizeRewardedAdapter(im)adDidShowFullScreen",
+            "mangledName": "$s20AdWhaleAdmizeAdapter0c8RewardedD0C19adDidShowFullScreenyyF",
+            "moduleName": "AdWhaleAdmizeAdapter",
+            "objc_name": "adDidShowFullScreen",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adDidDismissFullScreen",
+            "printedName": "adDidDismissFullScreen()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdWhaleAdmizeAdapter@objc(cs)AdmizeRewardedAdapter(im)adDidDismissFullScreen",
+            "mangledName": "$s20AdWhaleAdmizeAdapter0c8RewardedD0C22adDidDismissFullScreenyyF",
+            "moduleName": "AdWhaleAdmizeAdapter",
+            "objc_name": "adDidDismissFullScreen",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adDidFailToShowFullScreen",
+            "printedName": "adDidFailToShowFullScreen(code:message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdWhaleAdmizeAdapter@objc(cs)AdmizeRewardedAdapter(im)adDidFailToShowFullScreenWithCode:message:",
+            "mangledName": "$s20AdWhaleAdmizeAdapter0c8RewardedD0C25adDidFailToShowFullScreen4code7messageySi_SStF",
+            "moduleName": "AdWhaleAdmizeAdapter",
+            "objc_name": "adDidFailToShowFullScreenWithCode:message:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AdWhaleAdmizeAdapter@objc(cs)AdmizeRewardedAdapter",
+        "mangledName": "$s20AdWhaleAdmizeAdapter0c8RewardedD0C",
+        "moduleName": "AdWhaleAdmizeAdapter",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "AdWhaleRewardedAdapterProtocol",
+            "printedName": "AdWhaleRewardedAdapterProtocol",
+            "usr": "s:10AdWhaleSDK0aB23RewardedAdapterProtocolP",
+            "mangledName": "$s10AdWhaleSDK0aB23RewardedAdapterProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AdWhaleAdapterProtocol",
+            "printedName": "AdWhaleAdapterProtocol",
+            "usr": "s:10AdWhaleSDK0aB15AdapterProtocolP",
+            "mangledName": "$s10AdWhaleSDK0aB15AdapterProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AdmizeRewardedAdLoadCallback",
+            "printedName": "AdmizeRewardedAdLoadCallback",
+            "usr": "c:@M@AdmizeSdk@objc(pl)AMRewardedAdLoadCallback",
+            "mangledName": "$s9AdmizeSdk0A22RewardedAdLoadCallbackP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AdmizeFullScreenContentCallback",
+            "printedName": "AdmizeFullScreenContentCallback",
+            "usr": "c:@M@AdmizeSdk@objc(pl)AMFullScreenContentCallback",
+            "mangledName": "$s9AdmizeSdk0A25FullScreenContentCallbackP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/runner\/work\/adwhale-sdk-ios\/adwhale-sdk-ios\/Sources\/AdWhaleAdmizeAdapter\/AdWhaleAdmizeAdapter.swift",
+      "kind": "StringLiteral",
+      "offset": 160,
+      "length": 8,
+      "value": "\"admize\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/adwhale-sdk-ios\/adwhale-sdk-ios\/Sources\/AdWhaleAdmizeAdapter\/AdmizeBannerAdapter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 449,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/adwhale-sdk-ios\/adwhale-sdk-ios\/Sources\/AdWhaleAdmizeAdapter\/AdmizeBannerAdapter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 487,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/adwhale-sdk-ios\/adwhale-sdk-ios\/Sources\/AdWhaleAdmizeAdapter\/AdmizeInterstitialAdapter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 445,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/adwhale-sdk-ios\/adwhale-sdk-ios\/Sources\/AdWhaleAdmizeAdapter\/AdmizeInterstitialAdapter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 483,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/adwhale-sdk-ios\/adwhale-sdk-ios\/Sources\/AdWhaleAdmizeAdapter\/AdmizeRewardedAdapter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 573,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/adwhale-sdk-ios\/adwhale-sdk-ios\/Sources\/AdWhaleAdmizeAdapter\/AdmizeRewardedAdapter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 611,
+      "length": 1,
+      "value": "0"
+    }
+  ]
+}

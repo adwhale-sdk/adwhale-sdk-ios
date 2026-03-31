@@ -1,0 +1,660 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
+// swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -module-name AdWhaleSDK -package-name adwhale_sdk_ios
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
+import AdSupport
+import AppTrackingTransparency
+import Foundation
+import Foundation/*.Bundle*/
+import Foundation/*.ProcessInfo*/
+import Foundation/*.URL*/
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import os
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc final public class AdWhaleMediationAds : ObjectiveC.NSObject {
+  @objc public static func initialize(completion: @escaping (_ statusCode: Swift.Int, _ message: Swift.String) -> Swift.Void)
+  @objc public static func initialize(delegate: any AdWhaleSDK.AdWhaleInitCompleteDelegate)
+  @objc public static var initialized: Swift.Bool {
+    @objc get
+  }
+  @objc public static func setEnvironment(useUAT: Swift.Bool)
+  @objc public static func setCoppa(_ isChildDirected: Swift.Bool)
+  @objc public static var isCoppaApplied: Swift.Bool {
+    @objc get
+  }
+  @objc public static func setTagForUnderAgeOfConsent(_ tag: AdWhaleSDK.AdWhaleTagForUnderAgeOfConsent)
+  @objc public static func setMaxAdContentRating(_ rating: AdWhaleSDK.AdWhaleAdContentRating)
+  @objc public static func setTestDeviceIdentifiers(_ identifiers: [Swift.String])
+  @objc public static func requestGdprConsent(from viewController: UIKit.UIViewController, completion: @escaping (_ isSuccess: Swift.Bool, _ message: Swift.String) -> Swift.Void)
+  @objc public static func requestGdprConsent(from viewController: UIKit.UIViewController, delegate: any AdWhaleSDK.AdWhaleGdprConsentDelegate)
+  @objc public static func resetGdprConsentStatus()
+  @objc public static func setGdpr(_ hasConsent: Swift.Bool)
+  @objc public static var gdprConsent: Swift.Bool {
+    @objc get
+  }
+  @objc public static var gdprConsentStatus: AdWhaleSDK.AdWhaleGdprConsentStatus {
+    @objc get
+  }
+  @objc public static func setAppMuted(_ isMuted: Swift.Bool)
+  @objc public static func setAppVolume(_ volume: Swift.Float)
+  @objc deinit
+}
+public protocol AdWhaleBannerAdapterListener : AnyObject {
+  func onBannerReceived(responseInfo: AdWhaleSDK.AdWhaleResponseInfo)
+  func onBannerFailedToLoad(statusCode: Swift.Int, message: Swift.String)
+  func onBannerFailedToShow(statusCode: Swift.Int, message: Swift.String)
+  func onBannerClicked()
+  func onBannerShowLandingScreen()
+  func onBannerCloseLandingScreen()
+  func onBannerTimeout(errorMessage: Swift.String)
+}
+public protocol AdWhaleInterstitialAdapterListener : AnyObject {
+  func onInterstitialLoaded(responseInfo: AdWhaleSDK.AdWhaleResponseInfo)
+  func onInterstitialLoadFailed(statusCode: Swift.Int, message: Swift.String)
+  func onInterstitialShowed()
+  func onInterstitialClicked()
+  func onInterstitialShowFailed(statusCode: Swift.Int, message: Swift.String)
+  func onInterstitialClosed()
+}
+public protocol AdWhaleRewardedAdapterListener : AnyObject {
+  func onRewardedAdLoaded(responseInfo: AdWhaleSDK.AdWhaleResponseInfo)
+  func onRewardedAdFailedToLoad(statusCode: Swift.Int, message: Swift.String)
+}
+public protocol AdWhaleRewardedAdapterFullScreenCallback : AnyObject {
+  func onRewardedAdShowed()
+  func onRewardedAdClicked()
+  func onRewardedAdDismissed()
+  func onRewardedAdFailedToShow(statusCode: Swift.Int, message: Swift.String)
+}
+public protocol AdWhaleRewardAdapterRewardListener : AnyObject {
+  func onUserRewarded(rewardType: Swift.String, rewardAmount: Swift.Int)
+}
+public protocol AdWhaleNativeAdapterListener : AnyObject {
+  func onNativeAdLoaded(responseInfo: AdWhaleSDK.AdWhaleResponseInfo)
+  func onNativeAdFailedToLoad(statusCode: Swift.Int, message: Swift.String)
+  func onNativeAdFailedToShow(statusCode: Swift.Int, message: Swift.String)
+  func onNativeAdClicked()
+  func onNativeAdClosed()
+}
+public protocol AdWhaleAppOpenAdapterListener : AnyObject {
+  func onAppOpenAdLoaded(responseInfo: AdWhaleSDK.AdWhaleResponseInfo)
+  func onAppOpenAdFailedToLoad(statusCode: Swift.Int, message: Swift.String)
+  func onAppOpenAdShowed()
+  func onAppOpenAdFailedToShow(statusCode: Swift.Int, message: Swift.String)
+  func onAppOpenAdClicked()
+  func onAppOpenAdDismissed()
+}
+public protocol AdWhalePopupAdapterListener : AnyObject {
+  func onPopupAdLoaded(responseInfo: AdWhaleSDK.AdWhaleResponseInfo)
+  func onPopupAdFailedToLoad(statusCode: Swift.Int, message: Swift.String)
+  func onPopupAdShowed()
+  func onPopupAdShowFailed(statusCode: Swift.Int, message: Swift.String)
+  func onPopupAdClicked()
+  func onPopupAdClosed(reason: AdWhaleSDK.AdWhalePopupCloseReason)
+}
+public protocol AdWhaleAdapterProtocol : AnyObject {
+  static var networkName: Swift.String { get }
+  init()
+}
+public protocol AdWhaleBannerAdapterProtocol : AdWhaleSDK.AdWhaleAdapterProtocol {
+  #if compiler(>=5.3) && $NonescapableTypes
+  func loadBanner(placementUid: Swift.String, adUnit: Swift.String, extras: [Swift.String : Swift.String]?, size: AdWhaleSDK.AdWhaleBannerSize, rootView: UIKit.UIView, listener: any AdWhaleSDK.AdWhaleBannerAdapterListener)
+  #endif
+  func show()
+  func resume()
+  func pause()
+  func destroy()
+  #if compiler(>=5.3) && $NonescapableTypes
+  func setRegion(_ region: Swift.String?)
+  #endif
+  func setGeocoder(latitude: Swift.Double, longitude: Swift.Double)
+  func setAdaptiveAnchorWidth(_ width: Swift.Int)
+}
+public protocol AdWhaleInterstitialAdapterProtocol : AdWhaleSDK.AdWhaleAdapterProtocol {
+  #if compiler(>=5.3) && $NonescapableTypes
+  func loadInterstitial(placementUid: Swift.String, adUnit: Swift.String, extras: [Swift.String : Swift.String]?, listener: any AdWhaleSDK.AdWhaleInterstitialAdapterListener)
+  #endif
+  func showAd(from viewController: UIKit.UIViewController)
+  func destroy()
+  #if compiler(>=5.3) && $NonescapableTypes
+  func setRegion(_ region: Swift.String?)
+  #endif
+  func setGeocoder(latitude: Swift.Double, longitude: Swift.Double)
+}
+public protocol AdWhaleRewardedAdapterProtocol : AdWhaleSDK.AdWhaleAdapterProtocol {
+  #if compiler(>=5.3) && $NonescapableTypes
+  func loadRewardedAd(placementUid: Swift.String, adUnit: Swift.String, extras: [Swift.String : Swift.String]?, listener: any AdWhaleSDK.AdWhaleRewardedAdapterListener)
+  #endif
+  func showAd(from viewController: UIKit.UIViewController, rewardListener: any AdWhaleSDK.AdWhaleRewardAdapterRewardListener)
+  #if compiler(>=5.3) && $NonescapableTypes
+  func setFullScreenCallback(_ callback: (any AdWhaleSDK.AdWhaleRewardedAdapterFullScreenCallback)?)
+  #endif
+  func destroy()
+  #if compiler(>=5.3) && $NonescapableTypes
+  func setRegion(_ region: Swift.String?)
+  #endif
+  func setGeocoder(latitude: Swift.Double, longitude: Swift.Double)
+}
+public protocol AdWhaleNativeAdapterProtocol : AdWhaleSDK.AdWhaleAdapterProtocol {
+  #if compiler(>=5.3) && $NonescapableTypes
+  func loadNative(placementUid: Swift.String, adUnit: Swift.String, extras: [Swift.String : Swift.String]?, rootView: UIKit.UIView, template: AdWhaleSDK.AdWhaleNativeTemplate, templateStyle: AdWhaleSDK.AdWhaleNativeTemplateStyle?, listener: any AdWhaleSDK.AdWhaleNativeAdapterListener)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  func loadNativeWithCustomBinding(placementUid: Swift.String, adUnit: Swift.String, extras: [Swift.String : Swift.String]?, rootView: UIKit.UIView, binder: AdWhaleSDK.AdWhaleNativeAdBinder, listener: any AdWhaleSDK.AdWhaleNativeAdapterListener)
+  #endif
+  func show()
+  func resume()
+  func pause()
+  func destroy()
+  #if compiler(>=5.3) && $NonescapableTypes
+  func setRegion(_ region: Swift.String?)
+  #endif
+  func setGeocoder(latitude: Swift.Double, longitude: Swift.Double)
+}
+public protocol AdWhaleAppOpenAdapterProtocol : AdWhaleSDK.AdWhaleAdapterProtocol {
+  #if compiler(>=5.3) && $NonescapableTypes
+  func loadAppOpenAd(placementUid: Swift.String, adUnit: Swift.String, extras: [Swift.String : Swift.String]?, listener: any AdWhaleSDK.AdWhaleAppOpenAdapterListener)
+  #endif
+  func showAd(from viewController: UIKit.UIViewController)
+  var isAdAvailable: Swift.Bool { get }
+  func destroy()
+  #if compiler(>=5.3) && $NonescapableTypes
+  func setRegion(_ region: Swift.String?)
+  #endif
+  func setGeocoder(latitude: Swift.Double, longitude: Swift.Double)
+}
+public protocol AdWhalePopupAdapterProtocol : AdWhaleSDK.AdWhaleAdapterProtocol {
+  #if compiler(>=5.3) && $NonescapableTypes
+  func loadPopupAd(placementUid: Swift.String, adUnit: Swift.String, extras: [Swift.String : Swift.String]?, popupType: AdWhaleSDK.AdWhalePopupAdType, listener: any AdWhaleSDK.AdWhalePopupAdapterListener)
+  #endif
+  func showAd(from viewController: UIKit.UIViewController)
+  func resume()
+  func destroy()
+  #if compiler(>=5.3) && $NonescapableTypes
+  func setRegion(_ region: Swift.String?)
+  #endif
+  func setGeocoder(latitude: Swift.Double, longitude: Swift.Double)
+}
+public protocol AdWhalePrivacyAdapterProtocol : AnyObject {
+  func applyPrivacySettings(_ privacy: AdWhaleSDK.AdWhalePrivacySettings)
+}
+@_hasMissingDesignatedInitializers final public class AdWhaleAdapterRegistry {
+  public static let shared: AdWhaleSDK.AdWhaleAdapterRegistry
+  final public func registerBannerAdapter(_ adapterType: any AdWhaleSDK.AdWhaleBannerAdapterProtocol.Type)
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func bannerAdapter(for network: Swift.String) -> (any AdWhaleSDK.AdWhaleBannerAdapterProtocol)?
+  #endif
+  final public func registerInterstitialAdapter(_ adapterType: any AdWhaleSDK.AdWhaleInterstitialAdapterProtocol.Type)
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func interstitialAdapter(for network: Swift.String) -> (any AdWhaleSDK.AdWhaleInterstitialAdapterProtocol)?
+  #endif
+  final public func registerRewardedAdapter(_ adapterType: any AdWhaleSDK.AdWhaleRewardedAdapterProtocol.Type)
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func rewardedAdapter(for network: Swift.String) -> (any AdWhaleSDK.AdWhaleRewardedAdapterProtocol)?
+  #endif
+  final public func registerNativeAdapter(_ adapterType: any AdWhaleSDK.AdWhaleNativeAdapterProtocol.Type)
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func nativeAdapter(for network: Swift.String) -> (any AdWhaleSDK.AdWhaleNativeAdapterProtocol)?
+  #endif
+  final public func registerAppOpenAdapter(_ adapterType: any AdWhaleSDK.AdWhaleAppOpenAdapterProtocol.Type)
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func appOpenAdapter(for network: Swift.String) -> (any AdWhaleSDK.AdWhaleAppOpenAdapterProtocol)?
+  #endif
+  final public func registerPopupAdapter(_ adapterType: any AdWhaleSDK.AdWhalePopupAdapterProtocol.Type)
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func popupAdapter(for network: Swift.String) -> (any AdWhaleSDK.AdWhalePopupAdapterProtocol)?
+  #endif
+  final public func registerPrivacyAdapter(for network: Swift.String, adapter: any AdWhaleSDK.AdWhalePrivacyAdapterProtocol)
+  final public func applyPrivacySettings(_ settings: AdWhaleSDK.AdWhalePrivacySettings)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers final public class AdWhalePrivacySettings {
+  final public var isChildDirected: Swift.Bool
+  final public var tagForUnderAgeOfConsent: AdWhaleSDK.AdWhaleTagForUnderAgeOfConsent
+  final public var maxAdContentRating: AdWhaleSDK.AdWhaleAdContentRating?
+  final public var testDeviceIdentifiers: [Swift.String]
+  final public var hasGdprConsent: Swift.Bool
+  final public var gdprConsentStatus: AdWhaleSDK.AdWhaleGdprConsentStatus
+  final public var isAppMuted: Swift.Bool
+  final public var appVolume: Swift.Float
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc final public class AdWhaleLog : ObjectiveC.NSObject {
+  @objc public static func setLogLevel(_ level: AdWhaleSDK.AdWhaleLogLevel)
+  @objc public static func getLogLevel() -> AdWhaleSDK.AdWhaleLogLevel
+  public static func v(_ message: Swift.String, file: Swift.String = #file, function: Swift.String = #function, line: Swift.Int = #line)
+  public static func d(_ message: Swift.String, file: Swift.String = #file, function: Swift.String = #function, line: Swift.Int = #line)
+  public static func i(_ message: Swift.String, file: Swift.String = #file, function: Swift.String = #function, line: Swift.Int = #line)
+  public static func w(_ message: Swift.String, file: Swift.String = #file, function: Swift.String = #function, line: Swift.Int = #line)
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func e(_ message: Swift.String, error: (any Swift.Error)? = nil, file: Swift.String = #file, function: Swift.String = #function, line: Swift.Int = #line)
+  #endif
+  @objc deinit
+}
+@objc public class AdWhaleAppOpenAd : ObjectiveC.NSObject {
+  @objc final public let placementUid: Swift.String
+  @objc weak public var delegate: (any AdWhaleSDK.AdWhaleAppOpenAdDelegate)?
+  @objc public var region: Swift.String?
+  @objc public var placementName: Swift.String?
+  @objc public init(placementUid: Swift.String)
+  @objc public func setGeocoder(latitude: Swift.Double, longitude: Swift.Double)
+  @objc public func loadAd()
+  @objc public func show(from viewController: UIKit.UIViewController)
+  @objc public var isAdAvailable: Swift.Bool {
+    @objc get
+  }
+  @objc public func destroy()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor @preconcurrency public class AdWhaleBannerView : UIKit.UIView {
+  @objc @_Concurrency.MainActor @preconcurrency public var placementUid: Swift.String
+  @objc @_Concurrency.MainActor @preconcurrency public var bannerSize: AdWhaleSDK.AdWhaleBannerSize
+  @objc @_Concurrency.MainActor @preconcurrency weak public var delegate: (any AdWhaleSDK.AdWhaleBannerDelegate)?
+  @objc @_Concurrency.MainActor @preconcurrency public var region: Swift.String?
+  @objc @_Concurrency.MainActor @preconcurrency public var placementName: Swift.String?
+  @objc @_Concurrency.MainActor @preconcurrency public var adaptiveAnchorWidth: Swift.Int
+  @objc @_Concurrency.MainActor @preconcurrency public func setGeocoder(latitude: Swift.Double, longitude: Swift.Double)
+  @objc @_Concurrency.MainActor @preconcurrency public func loadAd()
+  @objc @_Concurrency.MainActor @preconcurrency public func resume()
+  @objc @_Concurrency.MainActor @preconcurrency public func pause()
+  @objc @_Concurrency.MainActor @preconcurrency public func destroy()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
+  @objc deinit
+}
+@objc public class AdWhaleInterstitialAd : ObjectiveC.NSObject {
+  @objc final public let placementUid: Swift.String
+  @objc weak public var delegate: (any AdWhaleSDK.AdWhaleInterstitialDelegate)?
+  @objc public var region: Swift.String?
+  @objc public var placementName: Swift.String?
+  @objc public init(placementUid: Swift.String)
+  @objc public func setGeocoder(latitude: Swift.Double, longitude: Swift.Double)
+  @objc public func loadAd()
+  @objc public func show(from viewController: UIKit.UIViewController)
+  @objc public func cancelAd()
+  @objc public func destroy()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor @preconcurrency public class AdWhaleNativeAdView : UIKit.UIView {
+  @objc @_Concurrency.MainActor @preconcurrency public var placementUid: Swift.String
+  @objc @_Concurrency.MainActor @preconcurrency weak public var delegate: (any AdWhaleSDK.AdWhaleNativeAdDelegate)?
+  @objc @_Concurrency.MainActor @preconcurrency public var region: Swift.String?
+  @objc @_Concurrency.MainActor @preconcurrency public var placementName: Swift.String?
+  @objc @_Concurrency.MainActor @preconcurrency public var templateStyle: AdWhaleSDK.AdWhaleNativeTemplateStyle?
+  @objc @_Concurrency.MainActor @preconcurrency public func setGeocoder(latitude: Swift.Double, longitude: Swift.Double)
+  @objc @_Concurrency.MainActor @preconcurrency public func loadAd(template: AdWhaleSDK.AdWhaleNativeTemplate)
+  @objc @_Concurrency.MainActor @preconcurrency public func loadAd(binder: AdWhaleSDK.AdWhaleNativeAdBinder)
+  @objc @_Concurrency.MainActor @preconcurrency public func show()
+  @objc @_Concurrency.MainActor @preconcurrency public func resume()
+  @objc @_Concurrency.MainActor @preconcurrency public func pause()
+  @objc @_Concurrency.MainActor @preconcurrency public func destroy()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
+  @objc deinit
+}
+@objc public enum AdWhalePopupAdType : Swift.Int {
+  case exit = 0
+  case transition = 1
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public class AdWhalePopupAd : ObjectiveC.NSObject {
+  @objc final public let placementUid: Swift.String
+  @objc final public let popupType: AdWhaleSDK.AdWhalePopupAdType
+  @objc weak public var delegate: (any AdWhaleSDK.AdWhalePopupAdDelegate)?
+  @objc public var region: Swift.String?
+  @objc public var placementName: Swift.String?
+  @objc public init(placementUid: Swift.String, popupType: AdWhaleSDK.AdWhalePopupAdType)
+  @objc public static func exitPopup(placementUid: Swift.String) -> AdWhaleSDK.AdWhalePopupAd
+  @objc public static func transitionPopup(placementUid: Swift.String) -> AdWhaleSDK.AdWhalePopupAd
+  @objc public func setGeocoder(latitude: Swift.Double, longitude: Swift.Double)
+  @objc public func setCustomizeButtonText(primaryButtonText: Swift.String, secondaryButtonText: Swift.String)
+  @objc public func setCustomDescription(_ descriptionText: Swift.String)
+  @objc public func loadAd()
+  @objc public func show(from viewController: UIKit.UIViewController)
+  @objc public func resume()
+  @objc public func destroy()
+  @objc deinit
+}
+@objc public class AdWhaleRewardedAd : ObjectiveC.NSObject {
+  @objc final public let placementUid: Swift.String
+  @objc weak public var loadDelegate: (any AdWhaleSDK.AdWhaleRewardedAdLoadDelegate)?
+  @objc weak public var fullScreenDelegate: (any AdWhaleSDK.AdWhaleRewardedFullScreenDelegate)?
+  @objc public var region: Swift.String?
+  @objc public var placementName: Swift.String?
+  @objc public init(placementUid: Swift.String)
+  @objc public func setGeocoder(latitude: Swift.Double, longitude: Swift.Double)
+  @objc public func loadAd()
+  @objc public func show(from viewController: UIKit.UIViewController, rewardDelegate: any AdWhaleSDK.AdWhaleUserEarnedRewardDelegate)
+  @objc public func destroy()
+  @objc deinit
+}
+@objc public enum AdWhaleAdContentRating : Swift.Int {
+  case general = 0
+  case parentalGuidance = 1
+  case teen = 2
+  case matureAudience = 3
+  public var rawStringValue: Swift.String {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(string: Swift.String)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum AdWhaleBannerSize : Swift.Int {
+  case banner320x50 = 1
+  case banner320x100 = 2
+  case banner300x250 = 4
+  case banner250x250 = 8
+  case adaptiveAnchor = 16
+  public var width: Swift.Int {
+    get
+  }
+  public var height: Swift.Int {
+    get
+  }
+  public var sizeName: Swift.String {
+    get
+  }
+  public var sizeSpec: Swift.String {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum AdWhaleGdprConsentStatus : Swift.Int {
+  case unknown = 0
+  case required = 1
+  case notRequired = 2
+  case obtained = 3
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum AdWhaleLogLevel : Swift.Int, Swift.Comparable {
+  case none = 0
+  case error = 1
+  case warn = 2
+  case info = 3
+  case debug = 4
+  case verbose = 5
+  public static func < (lhs: AdWhaleSDK.AdWhaleLogLevel, rhs: AdWhaleSDK.AdWhaleLogLevel) -> Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum AdWhaleNativeTemplate : Swift.Int {
+  case small = 1
+  case medium = 2
+  case fullscreen = 4
+  public var templateName: Swift.String {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum AdWhalePopupCloseReason : Swift.Int {
+  case unknown = 0
+  case primaryButton = 1
+  case secondaryButton = 2
+  case outsideTouch = 4
+  case backPress = 8
+  case todayDismiss = 16
+  case ambiguousCancel = 32
+  public var reasonName: Swift.String {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum AdWhaleResultCode : Swift.Int {
+  case internalSuccess = 100
+  case internalError = 200
+  case mediationNetworkError = 300
+  case mediationNetworkSuccess = 400
+  public var message: Swift.String {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum AdWhaleTagForUnderAgeOfConsent : Swift.Int {
+  case unspecified = 0
+  case no = 1
+  case yes = 2
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public protocol AdWhaleAppOpenAdDelegate {
+  @objc func appOpenAdDidLoad(_ ad: AdWhaleSDK.AdWhaleAppOpenAd)
+  @objc func appOpenAd(_ ad: AdWhaleSDK.AdWhaleAppOpenAd, didFailToLoadWithError statusCode: Swift.Int, message: Swift.String)
+  @objc optional func appOpenAdDidShow(_ ad: AdWhaleSDK.AdWhaleAppOpenAd)
+  @objc optional func appOpenAd(_ ad: AdWhaleSDK.AdWhaleAppOpenAd, didFailToShowWithError statusCode: Swift.Int, message: Swift.String)
+  @objc optional func appOpenAdDidClick(_ ad: AdWhaleSDK.AdWhaleAppOpenAd)
+  @objc optional func appOpenAdDidDismiss(_ ad: AdWhaleSDK.AdWhaleAppOpenAd)
+}
+@objc public protocol AdWhaleBannerDelegate {
+  @objc func bannerDidReceiveAd(_ bannerView: AdWhaleSDK.AdWhaleBannerView)
+  @objc func banner(_ bannerView: AdWhaleSDK.AdWhaleBannerView, didFailToLoadWithError statusCode: Swift.Int, message: Swift.String)
+  @objc optional func banner(_ bannerView: AdWhaleSDK.AdWhaleBannerView, didFailToShowWithError statusCode: Swift.Int, message: Swift.String)
+  @objc optional func bannerDidClick(_ bannerView: AdWhaleSDK.AdWhaleBannerView)
+  @objc optional func bannerDidShowLandingScreen(_ bannerView: AdWhaleSDK.AdWhaleBannerView)
+  @objc optional func bannerDidCloseLandingScreen(_ bannerView: AdWhaleSDK.AdWhaleBannerView)
+  @objc optional func banner(_ bannerView: AdWhaleSDK.AdWhaleBannerView, didTimeoutWithMessage message: Swift.String)
+}
+@objc public protocol AdWhaleGdprConsentDelegate {
+  @objc func onGdprConsentComplete(isSuccess: Swift.Bool, message: Swift.String)
+}
+@objc public protocol AdWhaleInitCompleteDelegate {
+  @objc func onInitComplete(statusCode: Swift.Int, message: Swift.String)
+}
+@objc public protocol AdWhaleInterstitialDelegate {
+  @objc func interstitialDidLoad(_ ad: AdWhaleSDK.AdWhaleInterstitialAd)
+  @objc func interstitial(_ ad: AdWhaleSDK.AdWhaleInterstitialAd, didFailToLoadWithError statusCode: Swift.Int, message: Swift.String)
+  @objc optional func interstitialDidShow(_ ad: AdWhaleSDK.AdWhaleInterstitialAd)
+  @objc optional func interstitialDidClick(_ ad: AdWhaleSDK.AdWhaleInterstitialAd)
+  @objc optional func interstitial(_ ad: AdWhaleSDK.AdWhaleInterstitialAd, didFailToShowWithError statusCode: Swift.Int, message: Swift.String)
+  @objc optional func interstitialDidClose(_ ad: AdWhaleSDK.AdWhaleInterstitialAd)
+}
+@objc public protocol AdWhaleNativeAdDelegate {
+  @objc func nativeAdDidLoad(_ adView: AdWhaleSDK.AdWhaleNativeAdView)
+  @objc func nativeAd(_ adView: AdWhaleSDK.AdWhaleNativeAdView, didFailToLoadWithError statusCode: Swift.Int, message: Swift.String)
+  @objc optional func nativeAd(_ adView: AdWhaleSDK.AdWhaleNativeAdView, didFailToShowWithError statusCode: Swift.Int, message: Swift.String)
+  @objc optional func nativeAdDidClick(_ adView: AdWhaleSDK.AdWhaleNativeAdView)
+  @objc optional func nativeAdDidClose(_ adView: AdWhaleSDK.AdWhaleNativeAdView)
+}
+@objc public protocol AdWhalePopupAdDelegate {
+  @objc func popupAdDidLoad(_ ad: AdWhaleSDK.AdWhalePopupAd)
+  @objc func popupAd(_ ad: AdWhaleSDK.AdWhalePopupAd, didFailToLoadWithError statusCode: Swift.Int, message: Swift.String)
+  @objc optional func popupAdDidShow(_ ad: AdWhaleSDK.AdWhalePopupAd)
+  @objc optional func popupAd(_ ad: AdWhaleSDK.AdWhalePopupAd, didFailToShowWithError statusCode: Swift.Int, message: Swift.String)
+  @objc optional func popupAdDidClick(_ ad: AdWhaleSDK.AdWhalePopupAd)
+  @objc optional func popupAd(_ ad: AdWhaleSDK.AdWhalePopupAd, didCloseWithReason reason: AdWhaleSDK.AdWhalePopupCloseReason)
+}
+@objc public protocol AdWhaleRewardedAdLoadDelegate {
+  @objc func rewardedAdDidLoad(_ ad: AdWhaleSDK.AdWhaleRewardedAd)
+  @objc func rewardedAd(_ ad: AdWhaleSDK.AdWhaleRewardedAd, didFailToLoadWithError statusCode: Swift.Int, message: Swift.String)
+}
+@objc public protocol AdWhaleRewardedFullScreenDelegate {
+  @objc optional func rewardedAdDidShow(_ ad: AdWhaleSDK.AdWhaleRewardedAd)
+  @objc optional func rewardedAdDidClick(_ ad: AdWhaleSDK.AdWhaleRewardedAd)
+  @objc optional func rewardedAdDidDismiss(_ ad: AdWhaleSDK.AdWhaleRewardedAd)
+  @objc optional func rewardedAd(_ ad: AdWhaleSDK.AdWhaleRewardedAd, didFailToShowWithError statusCode: Swift.Int, message: Swift.String)
+}
+@objc public protocol AdWhaleUserEarnedRewardDelegate {
+  @objc func userDidEarnReward(_ rewardItem: AdWhaleSDK.AdWhaleRewardItem)
+}
+@_hasMissingDesignatedInitializers @objc public class AdWhaleNativeAdBinder : ObjectiveC.NSObject {
+  @objc final public let iconView: UIKit.UIImageView?
+  @objc final public let titleView: UIKit.UILabel?
+  @objc final public let bodyView: UIKit.UILabel?
+  @objc final public let callToActionView: UIKit.UIButton?
+  @objc final public let mediaView: UIKit.UIView?
+  @_inheritsConvenienceInitializers @objc public class Builder : ObjectiveC.NSObject {
+    @discardableResult
+    @objc public func setIconView(_ view: UIKit.UIImageView) -> AdWhaleSDK.AdWhaleNativeAdBinder.Builder
+    @discardableResult
+    @objc public func setTitleView(_ view: UIKit.UILabel) -> AdWhaleSDK.AdWhaleNativeAdBinder.Builder
+    @discardableResult
+    @objc public func setBodyView(_ view: UIKit.UILabel) -> AdWhaleSDK.AdWhaleNativeAdBinder.Builder
+    @discardableResult
+    @objc public func setCallToActionView(_ view: UIKit.UIButton) -> AdWhaleSDK.AdWhaleNativeAdBinder.Builder
+    @discardableResult
+    @objc public func setMediaView(_ view: UIKit.UIView) -> AdWhaleSDK.AdWhaleNativeAdBinder.Builder
+    @objc public func build() -> AdWhaleSDK.AdWhaleNativeAdBinder
+    @objc override dynamic public init()
+    @objc deinit
+  }
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class AdWhaleNativeTemplateStyle : ObjectiveC.NSObject {
+  @objc public var mainBackgroundColor: UIKit.UIColor?
+  @objc public var callToActionTextFont: UIKit.UIFont?
+  @objc public var callToActionTextColor: UIKit.UIColor?
+  @objc public var callToActionBackgroundColor: UIKit.UIColor?
+  @objc public var primaryTextFont: UIKit.UIFont?
+  @objc public var primaryTextColor: UIKit.UIColor?
+  @objc public var primaryTextBackgroundColor: UIKit.UIColor?
+  @objc public var secondaryTextFont: UIKit.UIFont?
+  @objc public var secondaryTextColor: UIKit.UIColor?
+  @objc public var secondaryTextBackgroundColor: UIKit.UIColor?
+  @objc public var tertiaryTextFont: UIKit.UIFont?
+  @objc public var tertiaryTextColor: UIKit.UIColor?
+  @objc public var tertiaryTextBackgroundColor: UIKit.UIColor?
+  @_inheritsConvenienceInitializers @objc public class Builder : ObjectiveC.NSObject {
+    @discardableResult
+    @objc public func setMainBackgroundColor(_ color: UIKit.UIColor) -> AdWhaleSDK.AdWhaleNativeTemplateStyle.Builder
+    @discardableResult
+    @objc public func setCallToActionTextFont(_ font: UIKit.UIFont) -> AdWhaleSDK.AdWhaleNativeTemplateStyle.Builder
+    @discardableResult
+    @objc public func setCallToActionTextColor(_ color: UIKit.UIColor) -> AdWhaleSDK.AdWhaleNativeTemplateStyle.Builder
+    @discardableResult
+    @objc public func setCallToActionBackgroundColor(_ color: UIKit.UIColor) -> AdWhaleSDK.AdWhaleNativeTemplateStyle.Builder
+    @discardableResult
+    @objc public func setPrimaryTextFont(_ font: UIKit.UIFont) -> AdWhaleSDK.AdWhaleNativeTemplateStyle.Builder
+    @discardableResult
+    @objc public func setPrimaryTextColor(_ color: UIKit.UIColor) -> AdWhaleSDK.AdWhaleNativeTemplateStyle.Builder
+    @discardableResult
+    @objc public func setPrimaryTextBackgroundColor(_ color: UIKit.UIColor) -> AdWhaleSDK.AdWhaleNativeTemplateStyle.Builder
+    @discardableResult
+    @objc public func setSecondaryTextFont(_ font: UIKit.UIFont) -> AdWhaleSDK.AdWhaleNativeTemplateStyle.Builder
+    @discardableResult
+    @objc public func setSecondaryTextColor(_ color: UIKit.UIColor) -> AdWhaleSDK.AdWhaleNativeTemplateStyle.Builder
+    @discardableResult
+    @objc public func setSecondaryTextBackgroundColor(_ color: UIKit.UIColor) -> AdWhaleSDK.AdWhaleNativeTemplateStyle.Builder
+    @discardableResult
+    @objc public func setTertiaryTextFont(_ font: UIKit.UIFont) -> AdWhaleSDK.AdWhaleNativeTemplateStyle.Builder
+    @discardableResult
+    @objc public func setTertiaryTextColor(_ color: UIKit.UIColor) -> AdWhaleSDK.AdWhaleNativeTemplateStyle.Builder
+    @discardableResult
+    @objc public func setTertiaryTextBackgroundColor(_ color: UIKit.UIColor) -> AdWhaleSDK.AdWhaleNativeTemplateStyle.Builder
+    @objc public func build() -> AdWhaleSDK.AdWhaleNativeTemplateStyle
+    @objc override dynamic public init()
+    @objc deinit
+  }
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class AdWhaleResponseInfo : ObjectiveC.NSObject {
+  @objc public var mediationProvider: Swift.String?
+  @objc public var adNetworkName: Swift.String?
+  @objc public var networkInstanceName: Swift.String?
+  @objc public var networkInstanceId: Swift.String?
+  @objc public var revenue: Foundation.NSNumber?
+  @objc public var revenuePrecision: Swift.String?
+  @objc public var auctionId: Swift.String?
+  @objc public var segmentName: Swift.String?
+  @objc public var encryptedCPM: Swift.String?
+  @objc public var abTestGroup: Swift.String?
+  @objc public var country: Swift.String?
+  @objc public var responseId: Swift.String?
+  @objc public var adSourceName: Swift.String?
+  @objc public var adSourceId: Swift.String?
+  @objc public var adapterClassName: Swift.String?
+  @objc public var latencyMillis: Foundation.NSNumber?
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public class AdWhaleRewardItem : ObjectiveC.NSObject {
+  @objc final public let rewardType: Swift.String
+  @objc final public let rewardAmount: Swift.Int
+  @objc public init(rewardType: Swift.String, rewardAmount: Swift.Int)
+  @objc deinit
+}
+extension AdWhaleSDK.AdWhalePopupAdType : Swift.Equatable {}
+extension AdWhaleSDK.AdWhalePopupAdType : Swift.Hashable {}
+extension AdWhaleSDK.AdWhalePopupAdType : Swift.RawRepresentable {}
+extension AdWhaleSDK.AdWhaleAdContentRating : Swift.Equatable {}
+extension AdWhaleSDK.AdWhaleAdContentRating : Swift.Hashable {}
+extension AdWhaleSDK.AdWhaleAdContentRating : Swift.RawRepresentable {}
+extension AdWhaleSDK.AdWhaleBannerSize : Swift.Equatable {}
+extension AdWhaleSDK.AdWhaleBannerSize : Swift.Hashable {}
+extension AdWhaleSDK.AdWhaleBannerSize : Swift.RawRepresentable {}
+extension AdWhaleSDK.AdWhaleGdprConsentStatus : Swift.Equatable {}
+extension AdWhaleSDK.AdWhaleGdprConsentStatus : Swift.Hashable {}
+extension AdWhaleSDK.AdWhaleGdprConsentStatus : Swift.RawRepresentable {}
+extension AdWhaleSDK.AdWhaleLogLevel : Swift.Hashable {}
+extension AdWhaleSDK.AdWhaleLogLevel : Swift.RawRepresentable {}
+extension AdWhaleSDK.AdWhaleNativeTemplate : Swift.Equatable {}
+extension AdWhaleSDK.AdWhaleNativeTemplate : Swift.Hashable {}
+extension AdWhaleSDK.AdWhaleNativeTemplate : Swift.RawRepresentable {}
+extension AdWhaleSDK.AdWhalePopupCloseReason : Swift.Equatable {}
+extension AdWhaleSDK.AdWhalePopupCloseReason : Swift.Hashable {}
+extension AdWhaleSDK.AdWhalePopupCloseReason : Swift.RawRepresentable {}
+extension AdWhaleSDK.AdWhaleResultCode : Swift.Equatable {}
+extension AdWhaleSDK.AdWhaleResultCode : Swift.Hashable {}
+extension AdWhaleSDK.AdWhaleResultCode : Swift.RawRepresentable {}
+extension AdWhaleSDK.AdWhaleTagForUnderAgeOfConsent : Swift.Equatable {}
+extension AdWhaleSDK.AdWhaleTagForUnderAgeOfConsent : Swift.Hashable {}
+extension AdWhaleSDK.AdWhaleTagForUnderAgeOfConsent : Swift.RawRepresentable {}

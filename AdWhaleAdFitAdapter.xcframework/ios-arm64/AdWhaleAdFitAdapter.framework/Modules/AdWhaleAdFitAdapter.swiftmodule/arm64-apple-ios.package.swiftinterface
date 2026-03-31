@@ -1,0 +1,65 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -module-name AdWhaleAdFitAdapter -package-name adwhale_sdk_ios
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
+import AdFitSDK
+import AdWhaleSDK
+import Foundation
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc @_inheritsConvenienceInitializers final public class AdFitBannerAdapter : ObjectiveC.NSObject, AdWhaleSDK.AdWhaleBannerAdapterProtocol {
+  public static var networkName: Swift.String {
+    get
+  }
+  @objc required override dynamic public init()
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func loadBanner(placementUid: Swift.String, adUnit: Swift.String, extras: [Swift.String : Swift.String]?, size: AdWhaleSDK.AdWhaleBannerSize, rootView: UIKit.UIView, listener: any AdWhaleSDK.AdWhaleBannerAdapterListener)
+  #endif
+  final public func show()
+  final public func resume()
+  final public func pause()
+  final public func destroy()
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func setRegion(_ region: Swift.String?)
+  #endif
+  final public func setGeocoder(latitude: Swift.Double, longitude: Swift.Double)
+  final public func setAdaptiveAnchorWidth(_ width: Swift.Int)
+  @objc deinit
+}
+extension AdWhaleAdFitAdapter.AdFitBannerAdapter : AdFitSDK.AdFitBannerAdViewDelegate {
+  @objc final public func adViewDidReceiveAd(_ bannerAdView: AdFitSDK.AdFitBannerAdView)
+  @objc final public func adViewDidFailToReceiveAd(_ bannerAdView: AdFitSDK.AdFitBannerAdView, error: any Swift.Error)
+  @objc final public func adViewDidClickAd(_ bannerAdView: AdFitSDK.AdFitBannerAdView)
+}
+@objc @_inheritsConvenienceInitializers final public class AdFitPopupAdapter : ObjectiveC.NSObject, AdWhaleSDK.AdWhalePopupAdapterProtocol {
+  public static var networkName: Swift.String {
+    get
+  }
+  @objc required override dynamic public init()
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func loadPopupAd(placementUid: Swift.String, adUnit: Swift.String, extras: [Swift.String : Swift.String]?, popupType: AdWhaleSDK.AdWhalePopupAdType, listener: any AdWhaleSDK.AdWhalePopupAdapterListener)
+  #endif
+  final public func showAd(from viewController: UIKit.UIViewController)
+  final public func resume()
+  final public func destroy()
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func setRegion(_ region: Swift.String?)
+  #endif
+  final public func setGeocoder(latitude: Swift.Double, longitude: Swift.Double)
+  @objc deinit
+}
+extension AdWhaleAdFitAdapter.AdFitPopupAdapter : AdFitSDK.SuperboardPopUpDelegate {
+  final public func adViewDidReceiveAd()
+  final public func adViewDidFailToReceiveAd(error: any Swift.Error)
+  final public func adViewDidClickAd()
+  final public func adViewControllerClickClose()
+  final public func adViewControllerClickHideForToday()
+}
+@_hasMissingDesignatedInitializers final public class AdWhaleAdFitAdapter {
+  public static let networkName: Swift.String
+  public static func register()
+  @objc deinit
+}
