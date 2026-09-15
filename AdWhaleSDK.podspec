@@ -24,7 +24,7 @@
 
 Pod::Spec.new do |s|
   s.name     = 'AdWhaleSDK'
-  s.version  = '0.0.4'
+  s.version  = '0.0.5'
   s.summary  = 'ADwhale Mediation iOS SDK'
   s.description = <<-DESC
     다양한 광고 네트워크를 지원하는 광고 미디에이션 플랫폼 iOS SDK.
