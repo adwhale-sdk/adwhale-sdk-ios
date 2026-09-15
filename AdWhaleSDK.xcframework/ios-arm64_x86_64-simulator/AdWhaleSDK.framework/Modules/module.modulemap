@@ -1,0 +1,6 @@
+framework module AdWhaleSDK {
+  umbrella header "AdWhaleSDK-Swift.h"
+  export *
+
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module AdWhaleAdFitAdapter {
+  umbrella header "AdWhaleAdFitAdapter-Swift.h"
+  export *
+
+  module * { export * }
+}

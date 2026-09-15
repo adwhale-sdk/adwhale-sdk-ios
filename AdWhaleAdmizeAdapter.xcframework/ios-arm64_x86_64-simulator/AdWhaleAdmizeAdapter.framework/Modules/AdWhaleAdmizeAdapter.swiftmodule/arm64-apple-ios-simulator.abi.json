@@ -93,29 +93,82 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:20AdWhaleAdmizeAdapterAAC8registeryyFZ",
+            "usr": "c:@M@AdWhaleAdmizeAdapter@objc(cs)AdWhaleAdmizeAdapter(cm)register",
             "mangledName": "$s20AdWhaleAdmizeAdapterAAC8registeryyFZ",
             "moduleName": "AdWhaleAdmizeAdapter",
             "static": true,
             "declAttributes": [
               "Final",
               "AccessControl",
+              "ObjC",
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdWhaleAdmizeAdapter",
+                "printedName": "AdWhaleAdmizeAdapter.AdWhaleAdmizeAdapter",
+                "usr": "c:@M@AdWhaleAdmizeAdapter@objc(cs)AdWhaleAdmizeAdapter"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AdWhaleAdmizeAdapter@objc(cs)AdWhaleAdmizeAdapter(im)init",
+            "mangledName": "$s20AdWhaleAdmizeAdapterAACABycfc",
+            "moduleName": "AdWhaleAdmizeAdapter",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
           }
         ],
         "declKind": "Class",
-        "usr": "s:20AdWhaleAdmizeAdapterAAC",
+        "usr": "c:@M@AdWhaleAdmizeAdapter@objc(cs)AdWhaleAdmizeAdapter",
         "mangledName": "$s20AdWhaleAdmizeAdapterAAC",
         "moduleName": "AdWhaleAdmizeAdapter",
         "declAttributes": [
           "Final",
           "AccessControl",
+          "ObjC",
           "RawDocComment"
         ],
-        "hasMissingDesignatedInitializers": true,
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
           {
             "kind": "Conformance",
             "name": "Copyable",
@@ -125,10 +178,38 @@
           },
           {
             "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
             "name": "Escapable",
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           }
         ]
       },
@@ -295,14 +376,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "AdWhaleBannerAdapterListener",
-                "printedName": "any AdWhaleSDK.AdWhaleBannerAdapterListener",
-                "usr": "s:10AdWhaleSDK0aB21BannerAdapterListenerP"
+                "name": "AdWhaleMediationBannerAdapterListener",
+                "printedName": "any AdWhaleSDK.AdWhaleMediationBannerAdapterListener",
+                "usr": "s:10AdWhaleSDK0aB30MediationBannerAdapterListenerP"
               }
             ],
             "declKind": "Func",
-            "usr": "s:20AdWhaleAdmizeAdapter0c6BannerD0C04loadE012placementUid6adUnit6extras4size8rootView8listenerySS_SSSDyS2SGSg0aB3SDK0abE4SizeOSo6UIViewCAM0abeD8Listener_ptF",
-            "mangledName": "$s20AdWhaleAdmizeAdapter0c6BannerD0C04loadE012placementUid6adUnit6extras4size8rootView8listenerySS_SSSDyS2SGSg0aB3SDK0abE4SizeOSo6UIViewCAM0abeD8Listener_ptF",
+            "usr": "s:20AdWhaleAdmizeAdapter0c6BannerD0C04loadE012placementUid6adUnit6extras4size8rootView8listenerySS_SSSDyS2SGSg0aB3SDK0abE4SizeOSo6UIViewCAM0ab9MediationeD8Listener_ptF",
+            "mangledName": "$s20AdWhaleAdmizeAdapter0c6BannerD0C04loadE012placementUid6adUnit6extras4size8rootView8listenerySS_SSSDyS2SGSg0aB3SDK0abE4SizeOSo6UIViewCAM0ab9MediationeD8Listener_ptF",
             "moduleName": "AdWhaleAdmizeAdapter",
             "declAttributes": [
               "Final",
@@ -664,52 +745,24 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "AdWhaleBannerAdapterProtocol",
-            "printedName": "AdWhaleBannerAdapterProtocol",
-            "usr": "s:10AdWhaleSDK0aB21BannerAdapterProtocolP",
-            "mangledName": "$s10AdWhaleSDK0aB21BannerAdapterProtocolP"
+            "name": "AdWhaleMediationBannerAdapterProtocol",
+            "printedName": "AdWhaleMediationBannerAdapterProtocol",
+            "usr": "s:10AdWhaleSDK0aB30MediationBannerAdapterProtocolP",
+            "mangledName": "$s10AdWhaleSDK0aB30MediationBannerAdapterProtocolP"
           },
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
+            "name": "AdWhaleMediationAdapterProtocol",
+            "printedName": "AdWhaleMediationAdapterProtocol",
+            "usr": "s:10AdWhaleSDK0aB24MediationAdapterProtocolP",
+            "mangledName": "$s10AdWhaleSDK0aB24MediationAdapterProtocolP"
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+            "name": "AdmizeAdListener",
+            "printedName": "AdmizeAdListener",
+            "usr": "c:@M@AdmizeSdk@objc(pl)AMAdListener",
+            "mangledName": "$s9AdmizeSdk0A10AdListenerP"
           },
           {
             "kind": "Conformance",
@@ -720,10 +773,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           },
           {
             "kind": "Conformance",
@@ -734,17 +801,31 @@
           },
           {
             "kind": "Conformance",
-            "name": "AdWhaleAdapterProtocol",
-            "printedName": "AdWhaleAdapterProtocol",
-            "usr": "s:10AdWhaleSDK0aB15AdapterProtocolP",
-            "mangledName": "$s10AdWhaleSDK0aB15AdapterProtocolP"
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
           },
           {
             "kind": "Conformance",
-            "name": "AdmizeAdListener",
-            "printedName": "AdmizeAdListener",
-            "usr": "c:@M@AdmizeSdk@objc(pl)AMAdListener",
-            "mangledName": "$s9AdmizeSdk0A10AdListenerP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           }
         ]
       },
@@ -899,14 +980,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "AdWhaleInterstitialAdapterListener",
-                "printedName": "any AdWhaleSDK.AdWhaleInterstitialAdapterListener",
-                "usr": "s:10AdWhaleSDK0aB27InterstitialAdapterListenerP"
+                "name": "AdWhaleMediationInterstitialAdapterListener",
+                "printedName": "any AdWhaleSDK.AdWhaleMediationInterstitialAdapterListener",
+                "usr": "s:10AdWhaleSDK0aB36MediationInterstitialAdapterListenerP"
               }
             ],
             "declKind": "Func",
-            "usr": "s:20AdWhaleAdmizeAdapter0c12InterstitialD0C04loadE012placementUid6adUnit6extras8listenerySS_SSSDyS2SGSg0aB3SDK0abeD8Listener_ptF",
-            "mangledName": "$s20AdWhaleAdmizeAdapter0c12InterstitialD0C04loadE012placementUid6adUnit6extras8listenerySS_SSSDyS2SGSg0aB3SDK0abeD8Listener_ptF",
+            "usr": "s:20AdWhaleAdmizeAdapter0c12InterstitialD0C04loadE012placementUid6adUnit6extras8listenerySS_SSSDyS2SGSg0aB3SDK0ab9MediationeD8Listener_ptF",
+            "mangledName": "$s20AdWhaleAdmizeAdapter0c12InterstitialD0C04loadE012placementUid6adUnit6extras8listenerySS_SSSDyS2SGSg0aB3SDK0ab9MediationeD8Listener_ptF",
             "moduleName": "AdWhaleAdmizeAdapter",
             "declAttributes": [
               "Final",
@@ -1181,52 +1262,24 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "AdWhaleInterstitialAdapterProtocol",
-            "printedName": "AdWhaleInterstitialAdapterProtocol",
-            "usr": "s:10AdWhaleSDK0aB27InterstitialAdapterProtocolP",
-            "mangledName": "$s10AdWhaleSDK0aB27InterstitialAdapterProtocolP"
+            "name": "AdWhaleMediationInterstitialAdapterProtocol",
+            "printedName": "AdWhaleMediationInterstitialAdapterProtocol",
+            "usr": "s:10AdWhaleSDK0aB36MediationInterstitialAdapterProtocolP",
+            "mangledName": "$s10AdWhaleSDK0aB36MediationInterstitialAdapterProtocolP"
           },
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
+            "name": "AdWhaleMediationAdapterProtocol",
+            "printedName": "AdWhaleMediationAdapterProtocol",
+            "usr": "s:10AdWhaleSDK0aB24MediationAdapterProtocolP",
+            "mangledName": "$s10AdWhaleSDK0aB24MediationAdapterProtocolP"
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+            "name": "AdmizeInterstitialAdListener",
+            "printedName": "AdmizeInterstitialAdListener",
+            "usr": "c:@M@AdmizeSdk@objc(pl)AMInterstitialAdListener",
+            "mangledName": "$s9AdmizeSdk0A22InterstitialAdListenerP"
           },
           {
             "kind": "Conformance",
@@ -1237,10 +1290,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           },
           {
             "kind": "Conformance",
@@ -1251,17 +1318,31 @@
           },
           {
             "kind": "Conformance",
-            "name": "AdWhaleAdapterProtocol",
-            "printedName": "AdWhaleAdapterProtocol",
-            "usr": "s:10AdWhaleSDK0aB15AdapterProtocolP",
-            "mangledName": "$s10AdWhaleSDK0aB15AdapterProtocolP"
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
           },
           {
             "kind": "Conformance",
-            "name": "AdmizeInterstitialAdListener",
-            "printedName": "AdmizeInterstitialAdListener",
-            "usr": "c:@M@AdmizeSdk@objc(pl)AMInterstitialAdListener",
-            "mangledName": "$s9AdmizeSdk0A22InterstitialAdListenerP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           }
         ]
       },
@@ -1288,8 +1369,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "AdmizeRewardedAdapter",
-        "printedName": "AdmizeRewardedAdapter",
+        "name": "AdmizeRewardAdapter",
+        "printedName": "AdmizeRewardAdapter",
         "children": [
           {
             "kind": "Var",
@@ -1304,8 +1385,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:20AdWhaleAdmizeAdapter0c8RewardedD0C11networkNameSSvpZ",
-            "mangledName": "$s20AdWhaleAdmizeAdapter0c8RewardedD0C11networkNameSSvpZ",
+            "usr": "s:20AdWhaleAdmizeAdapter0c6RewardD0C11networkNameSSvpZ",
+            "mangledName": "$s20AdWhaleAdmizeAdapter0c6RewardD0C11networkNameSSvpZ",
             "moduleName": "AdWhaleAdmizeAdapter",
             "static": true,
             "declAttributes": [
@@ -1326,8 +1407,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:20AdWhaleAdmizeAdapter0c8RewardedD0C11networkNameSSvgZ",
-                "mangledName": "$s20AdWhaleAdmizeAdapter0c8RewardedD0C11networkNameSSvgZ",
+                "usr": "s:20AdWhaleAdmizeAdapter0c6RewardD0C11networkNameSSvgZ",
+                "mangledName": "$s20AdWhaleAdmizeAdapter0c6RewardD0C11networkNameSSvgZ",
                 "moduleName": "AdWhaleAdmizeAdapter",
                 "static": true,
                 "declAttributes": [
@@ -1344,14 +1425,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "AdmizeRewardedAdapter",
-                "printedName": "AdWhaleAdmizeAdapter.AdmizeRewardedAdapter",
-                "usr": "c:@M@AdWhaleAdmizeAdapter@objc(cs)AdmizeRewardedAdapter"
+                "name": "AdmizeRewardAdapter",
+                "printedName": "AdWhaleAdmizeAdapter.AdmizeRewardAdapter",
+                "usr": "c:@M@AdWhaleAdmizeAdapter@objc(cs)AdmizeRewardAdapter"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@AdWhaleAdmizeAdapter@objc(cs)AdmizeRewardedAdapter(im)init",
-            "mangledName": "$s20AdWhaleAdmizeAdapter0c8RewardedD0CACycfc",
+            "usr": "c:@M@AdWhaleAdmizeAdapter@objc(cs)AdmizeRewardAdapter(im)init",
+            "mangledName": "$s20AdWhaleAdmizeAdapter0c6RewardD0CACycfc",
             "moduleName": "AdWhaleAdmizeAdapter",
             "overriding": true,
             "objc_name": "init",
@@ -1416,14 +1497,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "AdWhaleRewardedAdapterListener",
-                "printedName": "any AdWhaleSDK.AdWhaleRewardedAdapterListener",
-                "usr": "s:10AdWhaleSDK0aB23RewardedAdapterListenerP"
+                "name": "AdWhaleMediationRewardAdapterListener",
+                "printedName": "any AdWhaleSDK.AdWhaleMediationRewardAdapterListener",
+                "usr": "s:10AdWhaleSDK0aB30MediationRewardAdapterListenerP"
               }
             ],
             "declKind": "Func",
-            "usr": "s:20AdWhaleAdmizeAdapter0c8RewardedD0C04loadeA012placementUid6adUnit6extras8listenerySS_SSSDyS2SGSg0aB3SDK0abeD8Listener_ptF",
-            "mangledName": "$s20AdWhaleAdmizeAdapter0c8RewardedD0C04loadeA012placementUid6adUnit6extras8listenerySS_SSSDyS2SGSg0aB3SDK0abeD8Listener_ptF",
+            "usr": "s:20AdWhaleAdmizeAdapter0c6RewardD0C012loadRewardedA012placementUid6adUnit6extras8listenerySS_SSSDyS2SGSg0aB3SDK0ab9MediationeD8Listener_ptF",
+            "mangledName": "$s20AdWhaleAdmizeAdapter0c6RewardD0C012loadRewardedA012placementUid6adUnit6extras8listenerySS_SSSDyS2SGSg0aB3SDK0ab9MediationeD8Listener_ptF",
             "moduleName": "AdWhaleAdmizeAdapter",
             "declAttributes": [
               "Final",
@@ -1449,14 +1530,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "AdWhaleRewardAdapterRewardListener",
-                "printedName": "any AdWhaleSDK.AdWhaleRewardAdapterRewardListener",
-                "usr": "s:10AdWhaleSDK0ab13RewardAdapterD8ListenerP"
+                "name": "AdWhaleMediationRewardAdapterRewardListener",
+                "printedName": "any AdWhaleSDK.AdWhaleMediationRewardAdapterRewardListener",
+                "usr": "s:10AdWhaleSDK0ab22MediationRewardAdapterE8ListenerP"
               }
             ],
             "declKind": "Func",
-            "usr": "s:20AdWhaleAdmizeAdapter0c8RewardedD0C04showA04from14rewardListenerySo16UIViewControllerC_0aB3SDK0ab6RewarddmI0_ptF",
-            "mangledName": "$s20AdWhaleAdmizeAdapter0c8RewardedD0C04showA04from14rewardListenerySo16UIViewControllerC_0aB3SDK0ab6RewarddmI0_ptF",
+            "usr": "s:20AdWhaleAdmizeAdapter0c6RewardD0C04showA04from14rewardListenerySo16UIViewControllerC_0aB3SDK0ab9MediationedeI0_ptF",
+            "mangledName": "$s20AdWhaleAdmizeAdapter0c6RewardD0C04showA04from14rewardListenerySo16UIViewControllerC_0aB3SDK0ab9MediationedeI0_ptF",
             "moduleName": "AdWhaleAdmizeAdapter",
             "declAttributes": [
               "Final",
@@ -1477,21 +1558,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "(any AdWhaleSDK.AdWhaleRewardedAdapterFullScreenCallback)?",
+                "printedName": "(any AdWhaleSDK.AdWhaleMediationRewardAdapterFullScreenCallback)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "AdWhaleRewardedAdapterFullScreenCallback",
-                    "printedName": "any AdWhaleSDK.AdWhaleRewardedAdapterFullScreenCallback",
-                    "usr": "s:10AdWhaleSDK0aB33RewardedAdapterFullScreenCallbackP"
+                    "name": "AdWhaleMediationRewardAdapterFullScreenCallback",
+                    "printedName": "any AdWhaleSDK.AdWhaleMediationRewardAdapterFullScreenCallback",
+                    "usr": "s:10AdWhaleSDK0aB40MediationRewardAdapterFullScreenCallbackP"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:20AdWhaleAdmizeAdapter0c8RewardedD0C21setFullScreenCallbackyy0aB3SDK0abedghI0_pSgF",
-            "mangledName": "$s20AdWhaleAdmizeAdapter0c8RewardedD0C21setFullScreenCallbackyy0aB3SDK0abedghI0_pSgF",
+            "usr": "s:20AdWhaleAdmizeAdapter0c6RewardD0C21setFullScreenCallbackyy0aB3SDK0ab9MediationedghI0_pSgF",
+            "mangledName": "$s20AdWhaleAdmizeAdapter0c6RewardD0C21setFullScreenCallbackyy0aB3SDK0ab9MediationedghI0_pSgF",
             "moduleName": "AdWhaleAdmizeAdapter",
             "declAttributes": [
               "Final",
@@ -1511,8 +1592,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:20AdWhaleAdmizeAdapter0c8RewardedD0C7destroyyyF",
-            "mangledName": "$s20AdWhaleAdmizeAdapter0c8RewardedD0C7destroyyyF",
+            "usr": "s:20AdWhaleAdmizeAdapter0c6RewardD0C7destroyyyF",
+            "mangledName": "$s20AdWhaleAdmizeAdapter0c6RewardD0C7destroyyyF",
             "moduleName": "AdWhaleAdmizeAdapter",
             "declAttributes": [
               "Final",
@@ -1546,8 +1627,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:20AdWhaleAdmizeAdapter0c8RewardedD0C9setRegionyySSSgF",
-            "mangledName": "$s20AdWhaleAdmizeAdapter0c8RewardedD0C9setRegionyySSSgF",
+            "usr": "s:20AdWhaleAdmizeAdapter0c6RewardD0C9setRegionyySSSgF",
+            "mangledName": "$s20AdWhaleAdmizeAdapter0c6RewardD0C9setRegionyySSSgF",
             "moduleName": "AdWhaleAdmizeAdapter",
             "declAttributes": [
               "Final",
@@ -1579,8 +1660,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:20AdWhaleAdmizeAdapter0c8RewardedD0C11setGeocoder8latitude9longitudeySd_SdtF",
-            "mangledName": "$s20AdWhaleAdmizeAdapter0c8RewardedD0C11setGeocoder8latitude9longitudeySd_SdtF",
+            "usr": "s:20AdWhaleAdmizeAdapter0c6RewardD0C11setGeocoder8latitude9longitudeySd_SdtF",
+            "mangledName": "$s20AdWhaleAdmizeAdapter0c6RewardD0C11setGeocoder8latitude9longitudeySd_SdtF",
             "moduleName": "AdWhaleAdmizeAdapter",
             "declAttributes": [
               "Final",
@@ -1600,8 +1681,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@CM@AdWhaleAdmizeAdapter@objc(cs)AdmizeRewardedAdapter(im)adDidLoad",
-            "mangledName": "$s20AdWhaleAdmizeAdapter0c8RewardedD0C9adDidLoadyyF",
+            "usr": "c:@CM@AdWhaleAdmizeAdapter@objc(cs)AdmizeRewardAdapter(im)adDidLoad",
+            "mangledName": "$s20AdWhaleAdmizeAdapter0c6RewardD0C9adDidLoadyyF",
             "moduleName": "AdWhaleAdmizeAdapter",
             "objc_name": "adDidLoad",
             "declAttributes": [
@@ -1636,8 +1717,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@CM@AdWhaleAdmizeAdapter@objc(cs)AdmizeRewardedAdapter(im)adDidFailToLoadWithCode:message:",
-            "mangledName": "$s20AdWhaleAdmizeAdapter0c8RewardedD0C15adDidFailToLoad4code7messageySi_SStF",
+            "usr": "c:@CM@AdWhaleAdmizeAdapter@objc(cs)AdmizeRewardAdapter(im)adDidFailToLoadWithCode:message:",
+            "mangledName": "$s20AdWhaleAdmizeAdapter0c6RewardD0C15adDidFailToLoad4code7messageySi_SStF",
             "moduleName": "AdWhaleAdmizeAdapter",
             "objc_name": "adDidFailToLoadWithCode:message:",
             "declAttributes": [
@@ -1660,8 +1741,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@CM@AdWhaleAdmizeAdapter@objc(cs)AdmizeRewardedAdapter(im)adDidShowFullScreen",
-            "mangledName": "$s20AdWhaleAdmizeAdapter0c8RewardedD0C19adDidShowFullScreenyyF",
+            "usr": "c:@CM@AdWhaleAdmizeAdapter@objc(cs)AdmizeRewardAdapter(im)adDidShowFullScreen",
+            "mangledName": "$s20AdWhaleAdmizeAdapter0c6RewardD0C19adDidShowFullScreenyyF",
             "moduleName": "AdWhaleAdmizeAdapter",
             "objc_name": "adDidShowFullScreen",
             "declAttributes": [
@@ -1684,8 +1765,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@CM@AdWhaleAdmizeAdapter@objc(cs)AdmizeRewardedAdapter(im)adDidDismissFullScreen",
-            "mangledName": "$s20AdWhaleAdmizeAdapter0c8RewardedD0C22adDidDismissFullScreenyyF",
+            "usr": "c:@CM@AdWhaleAdmizeAdapter@objc(cs)AdmizeRewardAdapter(im)adDidDismissFullScreen",
+            "mangledName": "$s20AdWhaleAdmizeAdapter0c6RewardD0C22adDidDismissFullScreenyyF",
             "moduleName": "AdWhaleAdmizeAdapter",
             "objc_name": "adDidDismissFullScreen",
             "declAttributes": [
@@ -1720,8 +1801,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@CM@AdWhaleAdmizeAdapter@objc(cs)AdmizeRewardedAdapter(im)adDidFailToShowFullScreenWithCode:message:",
-            "mangledName": "$s20AdWhaleAdmizeAdapter0c8RewardedD0C25adDidFailToShowFullScreen4code7messageySi_SStF",
+            "usr": "c:@CM@AdWhaleAdmizeAdapter@objc(cs)AdmizeRewardAdapter(im)adDidFailToShowFullScreenWithCode:message:",
+            "mangledName": "$s20AdWhaleAdmizeAdapter0c6RewardD0C25adDidFailToShowFullScreen4code7messageySi_SStF",
             "moduleName": "AdWhaleAdmizeAdapter",
             "objc_name": "adDidFailToShowFullScreenWithCode:message:",
             "declAttributes": [
@@ -1734,8 +1815,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@AdWhaleAdmizeAdapter@objc(cs)AdmizeRewardedAdapter",
-        "mangledName": "$s20AdWhaleAdmizeAdapter0c8RewardedD0C",
+        "usr": "c:@M@AdWhaleAdmizeAdapter@objc(cs)AdmizeRewardAdapter",
+        "mangledName": "$s20AdWhaleAdmizeAdapter0c6RewardD0C",
         "moduleName": "AdWhaleAdmizeAdapter",
         "declAttributes": [
           "Final",
@@ -1751,80 +1832,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "AdWhaleRewardedAdapterProtocol",
-            "printedName": "AdWhaleRewardedAdapterProtocol",
-            "usr": "s:10AdWhaleSDK0aB23RewardedAdapterProtocolP",
-            "mangledName": "$s10AdWhaleSDK0aB23RewardedAdapterProtocolP"
+            "name": "AdWhaleMediationRewardAdapterProtocol",
+            "printedName": "AdWhaleMediationRewardAdapterProtocol",
+            "usr": "s:10AdWhaleSDK0aB30MediationRewardAdapterProtocolP",
+            "mangledName": "$s10AdWhaleSDK0aB30MediationRewardAdapterProtocolP"
           },
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "AdWhaleAdapterProtocol",
-            "printedName": "AdWhaleAdapterProtocol",
-            "usr": "s:10AdWhaleSDK0aB15AdapterProtocolP",
-            "mangledName": "$s10AdWhaleSDK0aB15AdapterProtocolP"
+            "name": "AdWhaleMediationAdapterProtocol",
+            "printedName": "AdWhaleMediationAdapterProtocol",
+            "usr": "s:10AdWhaleSDK0aB24MediationAdapterProtocolP",
+            "mangledName": "$s10AdWhaleSDK0aB24MediationAdapterProtocolP"
           },
           {
             "kind": "Conformance",
@@ -1839,6 +1857,69 @@
             "printedName": "AdmizeFullScreenContentCallback",
             "usr": "c:@M@AdmizeSdk@objc(pl)AMFullScreenContentCallback",
             "mangledName": "$s9AdmizeSdk0A25FullScreenContentCallbackP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           }
         ]
       }
@@ -1847,51 +1928,51 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/runner\/work\/adwhale-sdk-ios\/adwhale-sdk-ios\/Sources\/AdWhaleAdmizeAdapter\/AdWhaleAdmizeAdapter.swift",
+      "filePath": "\/Users\/runner\/work\/adwhale-sdk-ios\/adwhale-sdk-ios\/.build\/adapters\/Sources\/AdWhaleAdmizeAdapter\/AdWhaleAdmizeAdapter.swift",
       "kind": "StringLiteral",
-      "offset": 160,
+      "offset": 388,
       "length": 8,
       "value": "\"admize\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/adwhale-sdk-ios\/adwhale-sdk-ios\/Sources\/AdWhaleAdmizeAdapter\/AdmizeBannerAdapter.swift",
+      "filePath": "\/Users\/runner\/work\/adwhale-sdk-ios\/adwhale-sdk-ios\/.build\/adapters\/Sources\/AdWhaleAdmizeAdapter\/AdmizeBannerAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 449,
+      "offset": 467,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/runner\/work\/adwhale-sdk-ios\/adwhale-sdk-ios\/Sources\/AdWhaleAdmizeAdapter\/AdmizeBannerAdapter.swift",
+      "filePath": "\/Users\/runner\/work\/adwhale-sdk-ios\/adwhale-sdk-ios\/.build\/adapters\/Sources\/AdWhaleAdmizeAdapter\/AdmizeBannerAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 487,
+      "offset": 505,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/runner\/work\/adwhale-sdk-ios\/adwhale-sdk-ios\/Sources\/AdWhaleAdmizeAdapter\/AdmizeInterstitialAdapter.swift",
+      "filePath": "\/Users\/runner\/work\/adwhale-sdk-ios\/adwhale-sdk-ios\/.build\/adapters\/Sources\/AdWhaleAdmizeAdapter\/AdmizeInterstitialAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 445,
+      "offset": 463,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/runner\/work\/adwhale-sdk-ios\/adwhale-sdk-ios\/Sources\/AdWhaleAdmizeAdapter\/AdmizeInterstitialAdapter.swift",
+      "filePath": "\/Users\/runner\/work\/adwhale-sdk-ios\/adwhale-sdk-ios\/.build\/adapters\/Sources\/AdWhaleAdmizeAdapter\/AdmizeInterstitialAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 483,
+      "offset": 501,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/runner\/work\/adwhale-sdk-ios\/adwhale-sdk-ios\/Sources\/AdWhaleAdmizeAdapter\/AdmizeRewardedAdapter.swift",
+      "filePath": "\/Users\/runner\/work\/adwhale-sdk-ios\/adwhale-sdk-ios\/.build\/adapters\/Sources\/AdWhaleAdmizeAdapter\/AdmizeRewardAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 573,
+      "offset": 592,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/runner\/work\/adwhale-sdk-ios\/adwhale-sdk-ios\/Sources\/AdWhaleAdmizeAdapter\/AdmizeRewardedAdapter.swift",
+      "filePath": "\/Users\/runner\/work\/adwhale-sdk-ios\/adwhale-sdk-ios\/.build\/adapters\/Sources\/AdWhaleAdmizeAdapter\/AdmizeRewardAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 611,
+      "offset": 630,
       "length": 1,
       "value": "0"
     }

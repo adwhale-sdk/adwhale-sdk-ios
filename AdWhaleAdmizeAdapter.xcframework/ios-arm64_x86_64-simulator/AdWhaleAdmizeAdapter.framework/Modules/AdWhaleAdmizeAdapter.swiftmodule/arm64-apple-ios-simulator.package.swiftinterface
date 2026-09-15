@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
-// swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -module-name AdWhaleAdmizeAdapter -package-name adwhale_sdk_ios
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
+// swift-compiler-version: Apple Swift version 6.3.3 effective-5.10 (swiftlang-6.3.3.1.3 clang-2100.1.1.101)
+// swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-experimental-feature DebugDescriptionMacro -module-name AdWhaleAdmizeAdapter -package-name adapters
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.3
 import AdWhaleSDK
 import AdmizeSdk
 import Foundation
@@ -10,26 +10,23 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@_hasMissingDesignatedInitializers final public class AdWhaleAdmizeAdapter {
+@_inheritsConvenienceInitializers @objc final public class AdWhaleAdmizeAdapter : ObjectiveC.NSObject {
   public static let networkName: Swift.String
-  public static func register()
+  @objc public static func register()
+  @objc override dynamic public init()
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers final public class AdmizeBannerAdapter : ObjectiveC.NSObject, AdWhaleSDK.AdWhaleBannerAdapterProtocol {
+@objc @_inheritsConvenienceInitializers final public class AdmizeBannerAdapter : ObjectiveC.NSObject, AdWhaleSDK.AdWhaleMediationBannerAdapterProtocol {
   public static var networkName: Swift.String {
     get
   }
   @objc required override dynamic public init()
-  #if compiler(>=5.3) && $NonescapableTypes
-  final public func loadBanner(placementUid: Swift.String, adUnit: Swift.String, extras: [Swift.String : Swift.String]?, size: AdWhaleSDK.AdWhaleBannerSize, rootView: UIKit.UIView, listener: any AdWhaleSDK.AdWhaleBannerAdapterListener)
-  #endif
+  final public func loadBanner(placementUid: Swift.String, adUnit: Swift.String, extras: [Swift.String : Swift.String]?, size: AdWhaleSDK.AdWhaleBannerSize, rootView: UIKit.UIView, listener: any AdWhaleSDK.AdWhaleMediationBannerAdapterListener)
   final public func show()
   final public func resume()
   final public func pause()
   final public func destroy()
-  #if compiler(>=5.3) && $NonescapableTypes
   final public func setRegion(_ region: Swift.String?)
-  #endif
   final public func setGeocoder(latitude: Swift.Double, longitude: Swift.Double)
   final public func setAdaptiveAnchorWidth(_ width: Swift.Int)
   @objc deinit
@@ -42,19 +39,15 @@ extension AdWhaleAdmizeAdapter.AdmizeBannerAdapter : AdmizeSdk.AdmizeAdListener 
   @objc final public func didCloseLandingScreen()
   @objc final public func adDidTimeout()
 }
-@objc @_inheritsConvenienceInitializers final public class AdmizeInterstitialAdapter : ObjectiveC.NSObject, AdWhaleSDK.AdWhaleInterstitialAdapterProtocol {
+@objc @_inheritsConvenienceInitializers final public class AdmizeInterstitialAdapter : ObjectiveC.NSObject, AdWhaleSDK.AdWhaleMediationInterstitialAdapterProtocol {
   public static var networkName: Swift.String {
     get
   }
   @objc required override dynamic public init()
-  #if compiler(>=5.3) && $NonescapableTypes
-  final public func loadInterstitial(placementUid: Swift.String, adUnit: Swift.String, extras: [Swift.String : Swift.String]?, listener: any AdWhaleSDK.AdWhaleInterstitialAdapterListener)
-  #endif
+  final public func loadInterstitial(placementUid: Swift.String, adUnit: Swift.String, extras: [Swift.String : Swift.String]?, listener: any AdWhaleSDK.AdWhaleMediationInterstitialAdapterListener)
   final public func showAd(from viewController: UIKit.UIViewController)
   final public func destroy()
-  #if compiler(>=5.3) && $NonescapableTypes
   final public func setRegion(_ region: Swift.String?)
-  #endif
   final public func setGeocoder(latitude: Swift.Double, longitude: Swift.Double)
   @objc deinit
 }
@@ -65,30 +58,24 @@ extension AdWhaleAdmizeAdapter.AdmizeInterstitialAdapter : AdmizeSdk.AdmizeInter
   @objc final public func adDidClick()
   @objc final public func adDidClose()
 }
-@objc @_inheritsConvenienceInitializers final public class AdmizeRewardedAdapter : ObjectiveC.NSObject, AdWhaleSDK.AdWhaleRewardedAdapterProtocol {
+@objc @_inheritsConvenienceInitializers final public class AdmizeRewardAdapter : ObjectiveC.NSObject, AdWhaleSDK.AdWhaleMediationRewardAdapterProtocol {
   public static var networkName: Swift.String {
     get
   }
   @objc required override dynamic public init()
-  #if compiler(>=5.3) && $NonescapableTypes
-  final public func loadRewardedAd(placementUid: Swift.String, adUnit: Swift.String, extras: [Swift.String : Swift.String]?, listener: any AdWhaleSDK.AdWhaleRewardedAdapterListener)
-  #endif
-  final public func showAd(from viewController: UIKit.UIViewController, rewardListener: any AdWhaleSDK.AdWhaleRewardAdapterRewardListener)
-  #if compiler(>=5.3) && $NonescapableTypes
-  final public func setFullScreenCallback(_ callback: (any AdWhaleSDK.AdWhaleRewardedAdapterFullScreenCallback)?)
-  #endif
+  final public func loadRewardedAd(placementUid: Swift.String, adUnit: Swift.String, extras: [Swift.String : Swift.String]?, listener: any AdWhaleSDK.AdWhaleMediationRewardAdapterListener)
+  final public func showAd(from viewController: UIKit.UIViewController, rewardListener: any AdWhaleSDK.AdWhaleMediationRewardAdapterRewardListener)
+  final public func setFullScreenCallback(_ callback: (any AdWhaleSDK.AdWhaleMediationRewardAdapterFullScreenCallback)?)
   final public func destroy()
-  #if compiler(>=5.3) && $NonescapableTypes
   final public func setRegion(_ region: Swift.String?)
-  #endif
   final public func setGeocoder(latitude: Swift.Double, longitude: Swift.Double)
   @objc deinit
 }
-extension AdWhaleAdmizeAdapter.AdmizeRewardedAdapter : AdmizeSdk.AdmizeRewardedAdLoadCallback {
+extension AdWhaleAdmizeAdapter.AdmizeRewardAdapter : AdmizeSdk.AdmizeRewardedAdLoadCallback {
   @objc final public func adDidLoad()
   @objc final public func adDidFailToLoad(code: Swift.Int, message: Swift.String)
 }
-extension AdWhaleAdmizeAdapter.AdmizeRewardedAdapter : AdmizeSdk.AdmizeFullScreenContentCallback {
+extension AdWhaleAdmizeAdapter.AdmizeRewardAdapter : AdmizeSdk.AdmizeFullScreenContentCallback {
   @objc final public func adDidShowFullScreen()
   @objc final public func adDidDismissFullScreen()
   @objc final public func adDidFailToShowFullScreen(code: Swift.Int, message: Swift.String)
