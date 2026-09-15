@@ -24,7 +24,7 @@ https://github.com/adwhale-sdk/adwhale-sdk-ios
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/adwhale-sdk/adwhale-sdk-ios.git", from: "0.0.5")
+    .package(url: "https://github.com/adwhale-sdk/adwhale-sdk-ios.git", from: "0.0.6")
 ]
 ```
 
@@ -60,7 +60,7 @@ Xcode → File → Add Package Dependencies 에서 필요한 네트워크만 추
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/adwhale-sdk/adwhale-sdk-ios.git", from: "0.0.5"),
+    .package(url: "https://github.com/adwhale-sdk/adwhale-sdk-ios.git", from: "0.0.6"),
     .package(url: "https://github.com/googleads/googleads-mobile-ios-mediation-inmobi.git", exact: "11.1.101"),
     // 필요한 네트워크만 추가
 ]
@@ -127,7 +127,7 @@ SDK 는 `ATTrackingManager` 상태를 확인만 하며 권한 팝업은 **앱이
 import AppTrackingTransparency
 
 ATTrackingManager.requestTrackingAuthorization { _ in
-    AdWhaleAdMobAdapter.register()
+    AdWhaleAdMobAdapterRegistrar.register()
     AdWhaleMediationAds.initialize { _, _ in }
 }
 ```
@@ -141,7 +141,7 @@ import AdWhaleSDK
 import AdWhaleAdMobAdapter  // AdMob 사용 시
 
 // AppDelegate 또는 앱 시작 시
-AdWhaleAdMobAdapter.register()  // 어댑터 등록
+AdWhaleAdMobAdapterRegistrar.register()  // 어댑터 등록
 
 AdWhaleMediationAds.initialize { statusCode, message in
     if statusCode == 100 {
@@ -292,7 +292,7 @@ AdWhaleMediationAds.resetGdprConsentStatus()        // UMP 리셋 + 저장된 �
 
 ### 10. AdMob Ad Inspector (개발용)
 
-AdMob 광고 호출을 실시간 진단하는 검사기를 실행합니다. `AdWhaleAdMobAdapter.register()` 가 호출된 경우에만 동작합니다.
+AdMob 광고 호출을 실시간 진단하는 검사기를 실행합니다. `AdWhaleAdMobAdapterRegistrar.register()` 가 호출된 경우에만 동작합니다.
 
 ```swift
 AdWhaleMediationAds.openAdInspector(from: self) { errorCode, errorMessage in

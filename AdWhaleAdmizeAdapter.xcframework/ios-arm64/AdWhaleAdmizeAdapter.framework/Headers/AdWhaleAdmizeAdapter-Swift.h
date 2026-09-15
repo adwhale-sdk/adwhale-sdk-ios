@@ -369,8 +369,8 @@ extern "C" {
 #if defined(__OBJC__)
 
 /// Admize 어댑터 등록
-SWIFT_CLASS("_TtC20AdWhaleAdmizeAdapter20AdWhaleAdmizeAdapter")
-@interface AdWhaleAdmizeAdapter : NSObject
+SWIFT_CLASS("_TtC20AdWhaleAdmizeAdapter29AdWhaleAdmizeAdapterRegistrar")
+@interface AdWhaleAdmizeAdapterRegistrar : NSObject
 /// 어댑터 등록 (앱 시작 시 호출)
 + (void)register;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;

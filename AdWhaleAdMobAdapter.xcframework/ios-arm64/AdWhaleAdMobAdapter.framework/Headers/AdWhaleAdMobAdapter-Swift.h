@@ -594,19 +594,19 @@ SWIFT_CLASS("_TtC19AdWhaleAdMobAdapter32AdMobRewardedInterstitialAdapter")
 /// AdManager(Google Ad Manager) 어댑터 등록.
 /// AdManager 는 AdMob 과 동일하게 GoogleMobileAds SDK 를 사용하므로,
 /// 별도의 SDK 초기화 없이 어댑터만 미디에이션 레지스트리에 등록한다.
-/// (SDK 초기화 <code>MobileAds.shared.start()</code> 는 <code>AdWhaleAdMobAdapter.register()</code> 에서 이미 수행된다.)
+/// (SDK 초기화 <code>MobileAds.shared.start()</code> 는 <code>AdWhaleAdMobAdapterRegistrar.register()</code> 에서 이미 수행된다.)
 /// 미디에이션 network 키는 Android 의 <code>admanager_keyword</code> / <code>admanager_2_keyword</code> 와 정합한다.
 SWIFT_CLASS("_TtC19AdWhaleAdMobAdapter23AdWhaleAdManagerAdapter")
 @interface AdWhaleAdManagerAdapter : NSObject
 /// AdManager 어댑터 등록.
-/// <code>AdWhaleAdMobAdapter.register()</code> 에서 함께 호출된다.
+/// <code>AdWhaleAdMobAdapterRegistrar.register()</code> 에서 함께 호출된다.
 + (void)register;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 /// AdMob 어댑터 등록 및 초기화
-SWIFT_CLASS("_TtC19AdWhaleAdMobAdapter19AdWhaleAdMobAdapter")
-@interface AdWhaleAdMobAdapter : NSObject
+SWIFT_CLASS("_TtC19AdWhaleAdMobAdapter28AdWhaleAdMobAdapterRegistrar")
+@interface AdWhaleAdMobAdapterRegistrar : NSObject
 /// 어댑터 등록 (앱 시작 시 호출)
 + (void)register;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;

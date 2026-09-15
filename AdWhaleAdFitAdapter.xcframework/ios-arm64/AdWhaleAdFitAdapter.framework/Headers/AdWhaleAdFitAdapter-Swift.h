@@ -410,8 +410,8 @@ SWIFT_CLASS("_TtC19AdWhaleAdFitAdapter17AdFitPopupAdapter")
 @end
 
 /// AdFit 어댑터 등록
-SWIFT_CLASS("_TtC19AdWhaleAdFitAdapter19AdWhaleAdFitAdapter")
-@interface AdWhaleAdFitAdapter : NSObject
+SWIFT_CLASS("_TtC19AdWhaleAdFitAdapter28AdWhaleAdFitAdapterRegistrar")
+@interface AdWhaleAdFitAdapterRegistrar : NSObject
 /// 어댑터 등록 (앱 시작 시 호출)
 + (void)register;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;

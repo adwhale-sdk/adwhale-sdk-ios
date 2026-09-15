@@ -27,8 +27,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "AdWhaleAdmizeAdapter",
-        "printedName": "AdWhaleAdmizeAdapter",
+        "name": "AdWhaleAdmizeAdapterRegistrar",
+        "printedName": "AdWhaleAdmizeAdapterRegistrar",
         "children": [
           {
             "kind": "Var",
@@ -43,8 +43,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:20AdWhaleAdmizeAdapterAAC11networkNameSSvpZ",
-            "mangledName": "$s20AdWhaleAdmizeAdapterAAC11networkNameSSvpZ",
+            "usr": "s:20AdWhaleAdmizeAdapter0abcD9RegistrarC11networkNameSSvpZ",
+            "mangledName": "$s20AdWhaleAdmizeAdapter0abcD9RegistrarC11networkNameSSvpZ",
             "moduleName": "AdWhaleAdmizeAdapter",
             "static": true,
             "declAttributes": [
@@ -69,8 +69,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:20AdWhaleAdmizeAdapterAAC11networkNameSSvgZ",
-                "mangledName": "$s20AdWhaleAdmizeAdapterAAC11networkNameSSvgZ",
+                "usr": "s:20AdWhaleAdmizeAdapter0abcD9RegistrarC11networkNameSSvgZ",
+                "mangledName": "$s20AdWhaleAdmizeAdapter0abcD9RegistrarC11networkNameSSvgZ",
                 "moduleName": "AdWhaleAdmizeAdapter",
                 "static": true,
                 "implicit": true,
@@ -93,8 +93,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@AdWhaleAdmizeAdapter@objc(cs)AdWhaleAdmizeAdapter(cm)register",
-            "mangledName": "$s20AdWhaleAdmizeAdapterAAC8registeryyFZ",
+            "usr": "c:@M@AdWhaleAdmizeAdapter@objc(cs)AdWhaleAdmizeAdapterRegistrar(cm)register",
+            "mangledName": "$s20AdWhaleAdmizeAdapter0abcD9RegistrarC8registeryyFZ",
             "moduleName": "AdWhaleAdmizeAdapter",
             "static": true,
             "declAttributes": [
@@ -112,14 +112,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "AdWhaleAdmizeAdapter",
-                "printedName": "AdWhaleAdmizeAdapter.AdWhaleAdmizeAdapter",
-                "usr": "c:@M@AdWhaleAdmizeAdapter@objc(cs)AdWhaleAdmizeAdapter"
+                "name": "AdWhaleAdmizeAdapterRegistrar",
+                "printedName": "AdWhaleAdmizeAdapter.AdWhaleAdmizeAdapterRegistrar",
+                "usr": "c:@M@AdWhaleAdmizeAdapter@objc(cs)AdWhaleAdmizeAdapterRegistrar"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@AdWhaleAdmizeAdapter@objc(cs)AdWhaleAdmizeAdapter(im)init",
-            "mangledName": "$s20AdWhaleAdmizeAdapterAACABycfc",
+            "usr": "c:@M@AdWhaleAdmizeAdapter@objc(cs)AdWhaleAdmizeAdapterRegistrar(im)init",
+            "mangledName": "$s20AdWhaleAdmizeAdapter0abcD9RegistrarCACycfc",
             "moduleName": "AdWhaleAdmizeAdapter",
             "overriding": true,
             "implicit": true,
@@ -133,8 +133,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@AdWhaleAdmizeAdapter@objc(cs)AdWhaleAdmizeAdapter",
-        "mangledName": "$s20AdWhaleAdmizeAdapterAAC",
+        "usr": "c:@M@AdWhaleAdmizeAdapter@objc(cs)AdWhaleAdmizeAdapterRegistrar",
+        "mangledName": "$s20AdWhaleAdmizeAdapter0abcD9RegistrarC",
         "moduleName": "AdWhaleAdmizeAdapter",
         "declAttributes": [
           "Final",
@@ -1928,51 +1928,51 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/runner\/work\/adwhale-sdk-ios\/adwhale-sdk-ios\/.build\/adapters\/Sources\/AdWhaleAdmizeAdapter\/AdWhaleAdmizeAdapter.swift",
+      "filePath": "\/Users\/runner\/work\/adwhale-sdk-ios\/adwhale-sdk-ios\/.build\/adapters\/Sources\/AdWhaleAdmizeAdapter\/AdWhaleAdmizeAdapterRegistrar.swift",
       "kind": "StringLiteral",
-      "offset": 388,
+      "offset": 1016,
       "length": 8,
       "value": "\"admize\""
     },
     {
       "filePath": "\/Users\/runner\/work\/adwhale-sdk-ios\/adwhale-sdk-ios\/.build\/adapters\/Sources\/AdWhaleAdmizeAdapter\/AdmizeBannerAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 467,
+      "offset": 476,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/adwhale-sdk-ios\/adwhale-sdk-ios\/.build\/adapters\/Sources\/AdWhaleAdmizeAdapter\/AdmizeBannerAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 505,
+      "offset": 514,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/adwhale-sdk-ios\/adwhale-sdk-ios\/.build\/adapters\/Sources\/AdWhaleAdmizeAdapter\/AdmizeInterstitialAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 463,
+      "offset": 472,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/adwhale-sdk-ios\/adwhale-sdk-ios\/.build\/adapters\/Sources\/AdWhaleAdmizeAdapter\/AdmizeInterstitialAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 501,
+      "offset": 510,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/adwhale-sdk-ios\/adwhale-sdk-ios\/.build\/adapters\/Sources\/AdWhaleAdmizeAdapter\/AdmizeRewardAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 592,
+      "offset": 601,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/adwhale-sdk-ios\/adwhale-sdk-ios\/.build\/adapters\/Sources\/AdWhaleAdmizeAdapter\/AdmizeRewardAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 630,
+      "offset": 639,
       "length": 1,
       "value": "0"
     }

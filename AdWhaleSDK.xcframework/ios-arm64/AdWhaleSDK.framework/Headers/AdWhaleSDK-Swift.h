@@ -683,7 +683,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) enum AdWhaleGdprCons
 + (enum AdWhaleGdprConsentStatus)gdprConsentStatus SWIFT_WARN_UNUSED_RESULT;
 /// AdMob Ad Inspector(광고 검사기) 실행
 /// note:
-/// AdMob 어댑터 모듈이 앱에 포함되어 <code>AdWhaleAdMobAdapter.register()</code> 가 호출된 경우에만 동작합니다.
+/// AdMob 어댑터 모듈이 앱에 포함되어 <code>AdWhaleAdMobAdapterRegistrar.register()</code> 가 호출된 경우에만 동작합니다.
 /// \param viewController Inspector 를 표시할 ViewController
 ///
 /// \param completion 종료 콜백 (성공 시 errorCode=0, errorMessage=“OK”)

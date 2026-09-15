@@ -15,7 +15,7 @@
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/adwhale-sdk/adwhale-sdk-ios.git", from: "0.0.5")
+    .package(url: "https://github.com/adwhale-sdk/adwhale-sdk-ios.git", from: "0.0.6")
 ]
 ```
 
@@ -83,7 +83,7 @@ import AdWhaleSDK
 import AdWhaleAdMobAdapter
 
 ATTrackingManager.requestTrackingAuthorization { _ in
-    AdWhaleAdMobAdapter.register()
+    AdWhaleAdMobAdapterRegistrar.register()
     AdWhaleMediationAds.initialize { statusCode, _ in
         if statusCode == 100 { print("SDK 초기화 성공") }
     }
@@ -96,7 +96,7 @@ ATTrackingManager.requestTrackingAuthorization { _ in
 import AdWhaleSDK
 import AdWhaleAdMobAdapter  // 사용 어댑터 import
 
-AdWhaleAdMobAdapter.register()  // 어댑터 등록
+AdWhaleAdMobAdapterRegistrar.register()  // 어댑터 등록
 
 AdWhaleMediationAds.initialize { statusCode, message in
     if statusCode == 100 {
@@ -219,7 +219,7 @@ SDK 는 두 단계 모두 통지한다.
 
 ### 7. AdMob Ad Inspector (개발용)
 
-`AdWhaleAdMobAdapter.register()` 가 호출된 경우에만 동작합니다.
+`AdWhaleAdMobAdapterRegistrar.register()` 가 호출된 경우에만 동작합니다.
 
 ```swift
 AdWhaleMediationAds.openAdInspector(from: self) { errorCode, errorMessage in

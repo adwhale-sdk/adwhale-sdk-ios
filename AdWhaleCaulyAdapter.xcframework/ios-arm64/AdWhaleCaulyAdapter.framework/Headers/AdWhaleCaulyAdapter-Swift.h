@@ -369,8 +369,8 @@ extern "C" {
 #if defined(__OBJC__)
 
 /// Cauly 어댑터 등록 및 초기화
-SWIFT_CLASS("_TtC19AdWhaleCaulyAdapter19AdWhaleCaulyAdapter")
-@interface AdWhaleCaulyAdapter : NSObject
+SWIFT_CLASS("_TtC19AdWhaleCaulyAdapter28AdWhaleCaulyAdapterRegistrar")
+@interface AdWhaleCaulyAdapterRegistrar : NSObject
 /// 어댑터 등록 (앱 시작 시 호출)
 /// Cauly 의 appCode/appId 는 지면(광고)마다 다를 수 있으므로 register 가 아닌
 /// 각 광고 load 시점에 서버 config 값으로 설정한다.
