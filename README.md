@@ -24,7 +24,7 @@ https://github.com/adwhale-sdk/adwhale-sdk-ios
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/adwhale-sdk/adwhale-sdk-ios.git", from: "0.0.3")
+    .package(url: "https://github.com/adwhale-sdk/adwhale-sdk-ios.git", from: "0.0.4")
 ]
 ```
 
@@ -60,7 +60,7 @@ Xcode → File → Add Package Dependencies 에서 필요한 네트워크만 추
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/adwhale-sdk/adwhale-sdk-ios.git", from: "0.0.3"),
+    .package(url: "https://github.com/adwhale-sdk/adwhale-sdk-ios.git", from: "0.0.4"),
     .package(url: "https://github.com/googleads/googleads-mobile-ios-mediation-inmobi.git", exact: "11.1.101"),
     // 필요한 네트워크만 추가
 ]
