@@ -1,0 +1,113 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.3.3 effective-5.10 (swiftlang-6.3.3.1.3 clang-2100.1.1.101)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-experimental-feature DebugDescriptionMacro -module-name AdWhaleLevelPlayAdapter -package-name adapters
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.3
+import AdWhaleSDK
+import Foundation
+import IronSource
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_inheritsConvenienceInitializers @objc final public class AdWhaleLevelPlayAdapterRegistrar : NSObject {
+  public static let networkName: Swift.String
+  @objc public static func register()
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers final public class LevelPlayBannerAdapter : NSObject, AdWhaleMediationBannerAdapterProtocol, AdWhaleMediationPlacementAdapterProtocol {
+  public static var networkName: String {
+    get
+  }
+  @objc required override dynamic public init()
+  final public func loadBanner(placementUid: String, adUnit: String, extras: [String : String]?, size: AdWhaleBannerSize, rootView: UIView, listener: AdWhaleMediationBannerAdapterListener)
+  final public func show()
+  final public func resume()
+  final public func pause()
+  final public func destroy()
+  final public func setPlacementName(_ placementName: String?)
+  final public func setRegion(_ region: String?)
+  final public func setGeocoder(latitude: Double, longitude: Double)
+  final public func setAdaptiveAnchorWidth(_ width: Int)
+  @objc deinit
+}
+extension LevelPlayBannerAdapter : LPMBannerAdViewDelegate {
+  @objc final public func didLoadAd(with adInfo: LPMAdInfo)
+  @objc final public func didFailToLoadAd(withAdUnitId adUnitId: String, error: Error)
+  @objc final public func didClickAd(with adInfo: LPMAdInfo)
+  @objc final public func didFailToDisplayAd(with adInfo: LPMAdInfo, error: Error)
+}
+@objc @_inheritsConvenienceInitializers final public class LevelPlayInterstitialAdapter : NSObject, AdWhaleMediationInterstitialAdapterProtocol, AdWhaleMediationPlacementAdapterProtocol {
+  public static var networkName: String {
+    get
+  }
+  @objc required override dynamic public init()
+  final public func loadInterstitial(placementUid: String, adUnit: String, extras: [String : String]?, listener: AdWhaleMediationInterstitialAdapterListener)
+  final public func showAd(from viewController: UIViewController)
+  final public func destroy()
+  final public func setPlacementName(_ placementName: String?)
+  final public func setRegion(_ region: String?)
+  final public func setGeocoder(latitude: Double, longitude: Double)
+  @objc deinit
+}
+extension LevelPlayInterstitialAdapter : LPMInterstitialAdDelegate {
+  @objc final public func didLoadAd(with adInfo: LPMAdInfo)
+  @objc final public func didFailToLoadAd(withAdUnitId adUnitId: String, error: Error)
+  @objc final public func didDisplayAd(with adInfo: LPMAdInfo)
+  @objc final public func didFailToDisplayAd(with adInfo: LPMAdInfo, error: Error)
+  @objc final public func didClickAd(with adInfo: LPMAdInfo)
+  @objc final public func didCloseAd(with adInfo: LPMAdInfo)
+}
+@objc @_inheritsConvenienceInitializers final public class LevelPlayNativeAdapter : NSObject, AdWhaleMediationNativeAdapterProtocol, AdWhaleMediationPlacementAdapterProtocol {
+  public static var networkName: String {
+    get
+  }
+  @objc required override dynamic public init()
+  final public func loadNative(placementUid: String, adUnit: String, extras: [String : String]?, rootView: UIView, template: AdWhaleNativeTemplate, templateStyle: AdWhaleMediationNativeTemplateStyle?, listener: AdWhaleMediationNativeAdapterListener)
+  final public func loadNativeWithCustomBinding(placementUid: String, adUnit: String, extras: [String : String]?, rootView: UIView, binder: AdWhaleMediationNativeAdBindingHelper, listener: AdWhaleMediationNativeAdapterListener)
+  final public func show()
+  final public func resume()
+  final public func pause()
+  final public func destroy()
+  final public func setPlacementName(_ placementName: String?)
+  final public func setRegion(_ region: String?)
+  final public func setGeocoder(latitude: Double, longitude: Double)
+  @objc deinit
+}
+extension LevelPlayNativeAdapter : LevelPlayNativeAdDelegate {
+  @objc final public func didLoad(_ nativeAd: LevelPlayNativeAd, with adInfo: ISAdInfo)
+  @objc final public func didFail(toLoad nativeAd: LevelPlayNativeAd, withError error: Error)
+  @objc final public func didClick(_ nativeAd: LevelPlayNativeAd, with adInfo: ISAdInfo)
+  @objc final public func didRecordImpression(_ nativeAd: LevelPlayNativeAd, with adInfo: ISAdInfo)
+}
+final public class LevelPlayPrivacyAdapter : AdWhaleMediationPrivacyAdapterProtocol {
+  public init()
+  final public func applyPrivacySettings(_ privacy: AdWhalePrivacySettings)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers final public class LevelPlayRewardAdapter : NSObject, AdWhaleMediationRewardAdapterProtocol, AdWhaleMediationPlacementAdapterProtocol, AdWhaleMediationRewardSSVAdapterProtocol {
+  public static var networkName: String {
+    get
+  }
+  @objc required override dynamic public init()
+  final public func loadRewardedAd(placementUid: String, adUnit: String, extras: [String : String]?, listener: AdWhaleMediationRewardAdapterListener)
+  final public func showAd(from viewController: UIViewController, rewardListener: AdWhaleMediationRewardAdapterRewardListener)
+  final public func setFullScreenCallback(_ callback: AdWhaleMediationRewardAdapterFullScreenCallback?)
+  final public func destroy()
+  final public func setPlacementName(_ placementName: String?)
+  final public func setUserId(_ userId: String?)
+  final public func setCustomData(_ customData: [String : String])
+  final public func setRegion(_ region: String?)
+  final public func setGeocoder(latitude: Double, longitude: Double)
+  @objc deinit
+}
+extension LevelPlayRewardAdapter : LPMRewardedAdDelegate {
+  @objc final public func didLoadAd(with adInfo: LPMAdInfo)
+  @objc final public func didFailToLoadAd(withAdUnitId adUnitId: String, error: Error)
+  @objc final public func didDisplayAd(with adInfo: LPMAdInfo)
+  @objc final public func didRewardAd(with adInfo: LPMAdInfo, reward: LPMReward)
+  @objc final public func didFailToDisplayAd(with adInfo: LPMAdInfo, error: Error)
+  @objc final public func didClickAd(with adInfo: LPMAdInfo)
+  @objc final public func didCloseAd(with adInfo: LPMAdInfo)
+}

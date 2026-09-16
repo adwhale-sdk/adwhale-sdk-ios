@@ -1,0 +1,6 @@
+framework module AdWhaleLevelPlayAdapter {
+  umbrella header "AdWhaleLevelPlayAdapter-Swift.h"
+  export *
+
+  module * { export * }
+}

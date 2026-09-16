@@ -24,7 +24,7 @@ https://github.com/adwhale-sdk/adwhale-sdk-ios
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/adwhale-sdk/adwhale-sdk-ios.git", from: "0.0.6")
+    .package(url: "https://github.com/adwhale-sdk/adwhale-sdk-ios.git", from: "0.0.7")
 ]
 ```
 
@@ -34,10 +34,12 @@ dependencies: [
 - `AdWhaleCaulyAdapter` - Cauly 어댑터 (선택)
 - `AdWhaleAdFitAdapter` - AdFit 어댑터 (선택)
 - `AdWhaleAdmizeAdapter` - Admize 어댑터 (선택)
+- `AdWhaleLevelPlayAdapter` - LevelPlay 어댑터 (선택)
 
-> **LevelPlay 는 이 패키지에 포함되지 않습니다.**
-> LevelPlay 는 AdMob 과 동시 탑재가 불가능해 별도 배포 라인으로 제공됩니다.
-> AdMob 라인과 LevelPlay 라인 중 **하나만** 선택하세요. 둘 다 링크하면 중복 심볼 링커 에러가 발생합니다.
+> **LevelPlay 와 AdMob 은 함께 탑재할 수 있습니다.**
+> 충돌하는 경우는 앱이 AdMob 미디에이션 파트너로 **IronSource 어댑터**를 추가했을 때뿐입니다.
+> 그 어댑터가 가져오는 IronSource SDK 가 LevelPlay 가 제공하는 것과 중복되어 링커 에러가 납니다.
+> 이 경우에만 둘 중 하나를 선택하세요.
 
 ### AdMob 미디에이션 파트너 (선택)
 
@@ -60,7 +62,7 @@ Xcode → File → Add Package Dependencies 에서 필요한 네트워크만 추
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/adwhale-sdk/adwhale-sdk-ios.git", from: "0.0.6"),
+    .package(url: "https://github.com/adwhale-sdk/adwhale-sdk-ios.git", from: "0.0.7"),
     .package(url: "https://github.com/googleads/googleads-mobile-ios-mediation-inmobi.git", exact: "11.1.101"),
     // 필요한 네트워크만 추가
 ]

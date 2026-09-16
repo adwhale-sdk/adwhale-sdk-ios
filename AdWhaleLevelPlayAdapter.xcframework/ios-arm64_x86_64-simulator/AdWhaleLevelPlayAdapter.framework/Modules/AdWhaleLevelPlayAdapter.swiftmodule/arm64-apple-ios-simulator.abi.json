@@ -1,0 +1,3159 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "AdWhaleLevelPlayAdapter",
+    "printedName": "AdWhaleLevelPlayAdapter",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdWhaleLevelPlayAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "AdWhaleSDK",
+        "printedName": "AdWhaleSDK",
+        "declKind": "Import",
+        "moduleName": "AdWhaleLevelPlayAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "IronSource",
+        "printedName": "IronSource",
+        "declKind": "Import",
+        "moduleName": "AdWhaleLevelPlayAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdWhaleLevelPlayAdapterRegistrar",
+        "printedName": "AdWhaleLevelPlayAdapterRegistrar",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "networkName",
+            "printedName": "networkName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23AdWhaleLevelPlayAdapter0abcdE9RegistrarC11networkNameSSvpZ",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0abcdE9RegistrarC11networkNameSSvpZ",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23AdWhaleLevelPlayAdapter0abcdE9RegistrarC11networkNameSSvgZ",
+                "mangledName": "$s23AdWhaleLevelPlayAdapter0abcdE9RegistrarC11networkNameSSvgZ",
+                "moduleName": "AdWhaleLevelPlayAdapter",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdWhaleLevelPlayAdapter@objc(cs)AdWhaleLevelPlayAdapterRegistrar(cm)register",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0abcdE9RegistrarC8registeryyFZ",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdWhaleLevelPlayAdapterRegistrar",
+                "printedName": "AdWhaleLevelPlayAdapter.AdWhaleLevelPlayAdapterRegistrar",
+                "usr": "c:@M@AdWhaleLevelPlayAdapter@objc(cs)AdWhaleLevelPlayAdapterRegistrar"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AdWhaleLevelPlayAdapter@objc(cs)AdWhaleLevelPlayAdapterRegistrar(im)init",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0abcdE9RegistrarCACycfc",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AdWhaleLevelPlayAdapter@objc(cs)AdWhaleLevelPlayAdapterRegistrar",
+        "mangledName": "$s23AdWhaleLevelPlayAdapter0abcdE9RegistrarC",
+        "moduleName": "AdWhaleLevelPlayAdapter",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdWhaleLevelPlayAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "AdWhaleSDK",
+        "printedName": "AdWhaleSDK",
+        "declKind": "Import",
+        "moduleName": "AdWhaleLevelPlayAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "IronSource",
+        "printedName": "IronSource",
+        "declKind": "Import",
+        "moduleName": "AdWhaleLevelPlayAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LevelPlayBannerAdapter",
+        "printedName": "LevelPlayBannerAdapter",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "networkName",
+            "printedName": "networkName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23AdWhaleLevelPlayAdapter0cd6BannerE0C11networkNameSSvpZ",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd6BannerE0C11networkNameSSvpZ",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23AdWhaleLevelPlayAdapter0cd6BannerE0C11networkNameSSvgZ",
+                "mangledName": "$s23AdWhaleLevelPlayAdapter0cd6BannerE0C11networkNameSSvgZ",
+                "moduleName": "AdWhaleLevelPlayAdapter",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LevelPlayBannerAdapter",
+                "printedName": "AdWhaleLevelPlayAdapter.LevelPlayBannerAdapter",
+                "usr": "c:@M@AdWhaleLevelPlayAdapter@objc(cs)LevelPlayBannerAdapter"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AdWhaleLevelPlayAdapter@objc(cs)LevelPlayBannerAdapter(im)init",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd6BannerE0CACycfc",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "Required",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "loadBanner",
+            "printedName": "loadBanner(placementUid:adUnit:extras:size:rootView:listener:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdWhaleBannerSize",
+                "printedName": "AdWhaleSDK.AdWhaleBannerSize",
+                "usr": "c:@M@AdWhaleSDK@E@AdWhaleBannerSize"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdWhaleMediationBannerAdapterListener",
+                "printedName": "any AdWhaleSDK.AdWhaleMediationBannerAdapterListener",
+                "usr": "s:10AdWhaleSDK0aB30MediationBannerAdapterListenerP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AdWhaleLevelPlayAdapter0cd6BannerE0C04loadF012placementUid6adUnit6extras4size8rootView8listenerySS_SSSDyS2SGSg0aB3SDK0abF4SizeOSo6UIViewCAM0ab9MediationfE8Listener_ptF",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd6BannerE0C04loadF012placementUid6adUnit6extras4size8rootView8listenerySS_SSSDyS2SGSg0aB3SDK0abF4SizeOSo6UIViewCAM0ab9MediationfE8Listener_ptF",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "show",
+            "printedName": "show()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AdWhaleLevelPlayAdapter0cd6BannerE0C4showyyF",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd6BannerE0C4showyyF",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resume",
+            "printedName": "resume()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AdWhaleLevelPlayAdapter0cd6BannerE0C6resumeyyF",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd6BannerE0C6resumeyyF",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pause",
+            "printedName": "pause()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AdWhaleLevelPlayAdapter0cd6BannerE0C5pauseyyF",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd6BannerE0C5pauseyyF",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "destroy",
+            "printedName": "destroy()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AdWhaleLevelPlayAdapter0cd6BannerE0C7destroyyyF",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd6BannerE0C7destroyyyF",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setPlacementName",
+            "printedName": "setPlacementName(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AdWhaleLevelPlayAdapter0cd6BannerE0C16setPlacementNameyySSSgF",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd6BannerE0C16setPlacementNameyySSSgF",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setRegion",
+            "printedName": "setRegion(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AdWhaleLevelPlayAdapter0cd6BannerE0C9setRegionyySSSgF",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd6BannerE0C9setRegionyySSSgF",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setGeocoder",
+            "printedName": "setGeocoder(latitude:longitude:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AdWhaleLevelPlayAdapter0cd6BannerE0C11setGeocoder8latitude9longitudeySd_SdtF",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd6BannerE0C11setGeocoder8latitude9longitudeySd_SdtF",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAdaptiveAnchorWidth",
+            "printedName": "setAdaptiveAnchorWidth(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AdWhaleLevelPlayAdapter0cd6BannerE0C22setAdaptiveAnchorWidthyySiF",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd6BannerE0C22setAdaptiveAnchorWidthyySiF",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didLoadAd",
+            "printedName": "didLoadAd(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LPMAdInfo",
+                "printedName": "IronSource.LPMAdInfo",
+                "usr": "c:objc(cs)LPMAdInfo"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdWhaleLevelPlayAdapter@objc(cs)LevelPlayBannerAdapter(im)didLoadAdWithAdInfo:",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd6BannerE0C07didLoadA04withySo9LPMAdInfoC_tF",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "objc_name": "didLoadAdWithAdInfo:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didFailToLoadAd",
+            "printedName": "didFailToLoadAd(withAdUnitId:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdWhaleLevelPlayAdapter@objc(cs)LevelPlayBannerAdapter(im)didFailToLoadAdWithAdUnitId:error:",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd6BannerE0C013didFailToLoadA004withA6UnitId5errorySS_s5Error_ptF",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "objc_name": "didFailToLoadAdWithAdUnitId:error:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didClickAd",
+            "printedName": "didClickAd(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LPMAdInfo",
+                "printedName": "IronSource.LPMAdInfo",
+                "usr": "c:objc(cs)LPMAdInfo"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdWhaleLevelPlayAdapter@objc(cs)LevelPlayBannerAdapter(im)didClickAdWithAdInfo:",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd6BannerE0C08didClickA04withySo9LPMAdInfoC_tF",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "objc_name": "didClickAdWithAdInfo:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didFailToDisplayAd",
+            "printedName": "didFailToDisplayAd(with:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LPMAdInfo",
+                "printedName": "IronSource.LPMAdInfo",
+                "usr": "c:objc(cs)LPMAdInfo"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdWhaleLevelPlayAdapter@objc(cs)LevelPlayBannerAdapter(im)didFailToDisplayAdWithAdInfo:error:",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd6BannerE0C016didFailToDisplayA04with5errorySo9LPMAdInfoC_s5Error_ptF",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "objc_name": "didFailToDisplayAdWithAdInfo:error:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AdWhaleLevelPlayAdapter@objc(cs)LevelPlayBannerAdapter",
+        "mangledName": "$s23AdWhaleLevelPlayAdapter0cd6BannerE0C",
+        "moduleName": "AdWhaleLevelPlayAdapter",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "AdWhaleMediationBannerAdapterProtocol",
+            "printedName": "AdWhaleMediationBannerAdapterProtocol",
+            "usr": "s:10AdWhaleSDK0aB30MediationBannerAdapterProtocolP",
+            "mangledName": "$s10AdWhaleSDK0aB30MediationBannerAdapterProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AdWhaleMediationPlacementAdapterProtocol",
+            "printedName": "AdWhaleMediationPlacementAdapterProtocol",
+            "usr": "s:10AdWhaleSDK0aB33MediationPlacementAdapterProtocolP",
+            "mangledName": "$s10AdWhaleSDK0aB33MediationPlacementAdapterProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AdWhaleMediationAdapterProtocol",
+            "printedName": "AdWhaleMediationAdapterProtocol",
+            "usr": "s:10AdWhaleSDK0aB24MediationAdapterProtocolP",
+            "mangledName": "$s10AdWhaleSDK0aB24MediationAdapterProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdWhaleLevelPlayAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "AdWhaleSDK",
+        "printedName": "AdWhaleSDK",
+        "declKind": "Import",
+        "moduleName": "AdWhaleLevelPlayAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "IronSource",
+        "printedName": "IronSource",
+        "declKind": "Import",
+        "moduleName": "AdWhaleLevelPlayAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdWhaleLevelPlayAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "AdWhaleSDK",
+        "printedName": "AdWhaleSDK",
+        "declKind": "Import",
+        "moduleName": "AdWhaleLevelPlayAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "IronSource",
+        "printedName": "IronSource",
+        "declKind": "Import",
+        "moduleName": "AdWhaleLevelPlayAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LevelPlayInterstitialAdapter",
+        "printedName": "LevelPlayInterstitialAdapter",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "networkName",
+            "printedName": "networkName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23AdWhaleLevelPlayAdapter0cd12InterstitialE0C11networkNameSSvpZ",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd12InterstitialE0C11networkNameSSvpZ",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23AdWhaleLevelPlayAdapter0cd12InterstitialE0C11networkNameSSvgZ",
+                "mangledName": "$s23AdWhaleLevelPlayAdapter0cd12InterstitialE0C11networkNameSSvgZ",
+                "moduleName": "AdWhaleLevelPlayAdapter",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LevelPlayInterstitialAdapter",
+                "printedName": "AdWhaleLevelPlayAdapter.LevelPlayInterstitialAdapter",
+                "usr": "c:@M@AdWhaleLevelPlayAdapter@objc(cs)LevelPlayInterstitialAdapter"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AdWhaleLevelPlayAdapter@objc(cs)LevelPlayInterstitialAdapter(im)init",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd12InterstitialE0CACycfc",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "Required",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "loadInterstitial",
+            "printedName": "loadInterstitial(placementUid:adUnit:extras:listener:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdWhaleMediationInterstitialAdapterListener",
+                "printedName": "any AdWhaleSDK.AdWhaleMediationInterstitialAdapterListener",
+                "usr": "s:10AdWhaleSDK0aB36MediationInterstitialAdapterListenerP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AdWhaleLevelPlayAdapter0cd12InterstitialE0C04loadF012placementUid6adUnit6extras8listenerySS_SSSDyS2SGSg0aB3SDK0ab9MediationfE8Listener_ptF",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd12InterstitialE0C04loadF012placementUid6adUnit6extras8listenerySS_SSSDyS2SGSg0aB3SDK0ab9MediationfE8Listener_ptF",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showAd",
+            "printedName": "showAd(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AdWhaleLevelPlayAdapter0cd12InterstitialE0C04showA04fromySo16UIViewControllerC_tF",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd12InterstitialE0C04showA04fromySo16UIViewControllerC_tF",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "destroy",
+            "printedName": "destroy()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AdWhaleLevelPlayAdapter0cd12InterstitialE0C7destroyyyF",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd12InterstitialE0C7destroyyyF",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setPlacementName",
+            "printedName": "setPlacementName(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AdWhaleLevelPlayAdapter0cd12InterstitialE0C16setPlacementNameyySSSgF",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd12InterstitialE0C16setPlacementNameyySSSgF",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setRegion",
+            "printedName": "setRegion(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AdWhaleLevelPlayAdapter0cd12InterstitialE0C9setRegionyySSSgF",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd12InterstitialE0C9setRegionyySSSgF",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setGeocoder",
+            "printedName": "setGeocoder(latitude:longitude:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AdWhaleLevelPlayAdapter0cd12InterstitialE0C11setGeocoder8latitude9longitudeySd_SdtF",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd12InterstitialE0C11setGeocoder8latitude9longitudeySd_SdtF",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didLoadAd",
+            "printedName": "didLoadAd(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LPMAdInfo",
+                "printedName": "IronSource.LPMAdInfo",
+                "usr": "c:objc(cs)LPMAdInfo"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdWhaleLevelPlayAdapter@objc(cs)LevelPlayInterstitialAdapter(im)didLoadAdWithAdInfo:",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd12InterstitialE0C07didLoadA04withySo9LPMAdInfoC_tF",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "objc_name": "didLoadAdWithAdInfo:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didFailToLoadAd",
+            "printedName": "didFailToLoadAd(withAdUnitId:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdWhaleLevelPlayAdapter@objc(cs)LevelPlayInterstitialAdapter(im)didFailToLoadAdWithAdUnitId:error:",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd12InterstitialE0C013didFailToLoadA004withA6UnitId5errorySS_s5Error_ptF",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "objc_name": "didFailToLoadAdWithAdUnitId:error:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didDisplayAd",
+            "printedName": "didDisplayAd(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LPMAdInfo",
+                "printedName": "IronSource.LPMAdInfo",
+                "usr": "c:objc(cs)LPMAdInfo"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdWhaleLevelPlayAdapter@objc(cs)LevelPlayInterstitialAdapter(im)didDisplayAdWithAdInfo:",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd12InterstitialE0C010didDisplayA04withySo9LPMAdInfoC_tF",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "objc_name": "didDisplayAdWithAdInfo:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didFailToDisplayAd",
+            "printedName": "didFailToDisplayAd(with:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LPMAdInfo",
+                "printedName": "IronSource.LPMAdInfo",
+                "usr": "c:objc(cs)LPMAdInfo"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdWhaleLevelPlayAdapter@objc(cs)LevelPlayInterstitialAdapter(im)didFailToDisplayAdWithAdInfo:error:",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd12InterstitialE0C016didFailToDisplayA04with5errorySo9LPMAdInfoC_s5Error_ptF",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "objc_name": "didFailToDisplayAdWithAdInfo:error:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didClickAd",
+            "printedName": "didClickAd(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LPMAdInfo",
+                "printedName": "IronSource.LPMAdInfo",
+                "usr": "c:objc(cs)LPMAdInfo"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdWhaleLevelPlayAdapter@objc(cs)LevelPlayInterstitialAdapter(im)didClickAdWithAdInfo:",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd12InterstitialE0C08didClickA04withySo9LPMAdInfoC_tF",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "objc_name": "didClickAdWithAdInfo:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didCloseAd",
+            "printedName": "didCloseAd(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LPMAdInfo",
+                "printedName": "IronSource.LPMAdInfo",
+                "usr": "c:objc(cs)LPMAdInfo"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdWhaleLevelPlayAdapter@objc(cs)LevelPlayInterstitialAdapter(im)didCloseAdWithAdInfo:",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd12InterstitialE0C08didCloseA04withySo9LPMAdInfoC_tF",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "objc_name": "didCloseAdWithAdInfo:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AdWhaleLevelPlayAdapter@objc(cs)LevelPlayInterstitialAdapter",
+        "mangledName": "$s23AdWhaleLevelPlayAdapter0cd12InterstitialE0C",
+        "moduleName": "AdWhaleLevelPlayAdapter",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "AdWhaleMediationInterstitialAdapterProtocol",
+            "printedName": "AdWhaleMediationInterstitialAdapterProtocol",
+            "usr": "s:10AdWhaleSDK0aB36MediationInterstitialAdapterProtocolP",
+            "mangledName": "$s10AdWhaleSDK0aB36MediationInterstitialAdapterProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AdWhaleMediationPlacementAdapterProtocol",
+            "printedName": "AdWhaleMediationPlacementAdapterProtocol",
+            "usr": "s:10AdWhaleSDK0aB33MediationPlacementAdapterProtocolP",
+            "mangledName": "$s10AdWhaleSDK0aB33MediationPlacementAdapterProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AdWhaleMediationAdapterProtocol",
+            "printedName": "AdWhaleMediationAdapterProtocol",
+            "usr": "s:10AdWhaleSDK0aB24MediationAdapterProtocolP",
+            "mangledName": "$s10AdWhaleSDK0aB24MediationAdapterProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdWhaleLevelPlayAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "AdWhaleSDK",
+        "printedName": "AdWhaleSDK",
+        "declKind": "Import",
+        "moduleName": "AdWhaleLevelPlayAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "IronSource",
+        "printedName": "IronSource",
+        "declKind": "Import",
+        "moduleName": "AdWhaleLevelPlayAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LevelPlayNativeAdapter",
+        "printedName": "LevelPlayNativeAdapter",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "networkName",
+            "printedName": "networkName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23AdWhaleLevelPlayAdapter0cd6NativeE0C11networkNameSSvpZ",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd6NativeE0C11networkNameSSvpZ",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23AdWhaleLevelPlayAdapter0cd6NativeE0C11networkNameSSvgZ",
+                "mangledName": "$s23AdWhaleLevelPlayAdapter0cd6NativeE0C11networkNameSSvgZ",
+                "moduleName": "AdWhaleLevelPlayAdapter",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LevelPlayNativeAdapter",
+                "printedName": "AdWhaleLevelPlayAdapter.LevelPlayNativeAdapter",
+                "usr": "c:@M@AdWhaleLevelPlayAdapter@objc(cs)LevelPlayNativeAdapter"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AdWhaleLevelPlayAdapter@objc(cs)LevelPlayNativeAdapter(im)init",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd6NativeE0CACycfc",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "Required",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "loadNative",
+            "printedName": "loadNative(placementUid:adUnit:extras:rootView:template:templateStyle:listener:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdWhaleNativeTemplate",
+                "printedName": "AdWhaleSDK.AdWhaleNativeTemplate",
+                "usr": "c:@M@AdWhaleSDK@E@AdWhaleNativeTemplate"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AdWhaleSDK.AdWhaleMediationNativeTemplateStyle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdWhaleMediationNativeTemplateStyle",
+                    "printedName": "AdWhaleSDK.AdWhaleMediationNativeTemplateStyle",
+                    "usr": "c:@M@AdWhaleSDK@objc(cs)AdWhaleMediationNativeTemplateStyle"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdWhaleMediationNativeAdapterListener",
+                "printedName": "any AdWhaleSDK.AdWhaleMediationNativeAdapterListener",
+                "usr": "s:10AdWhaleSDK0aB30MediationNativeAdapterListenerP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AdWhaleLevelPlayAdapter0cd6NativeE0C04loadF012placementUid6adUnit6extras8rootView8template0O5Style8listenerySS_SSSDyS2SGSgSo6UIViewC0aB3SDK0abF8TemplateOAP0ab9MediationftP0CSgAP0abufE8Listener_ptF",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd6NativeE0C04loadF012placementUid6adUnit6extras8rootView8template0O5Style8listenerySS_SSSDyS2SGSgSo6UIViewC0aB3SDK0abF8TemplateOAP0ab9MediationftP0CSgAP0abufE8Listener_ptF",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loadNativeWithCustomBinding",
+            "printedName": "loadNativeWithCustomBinding(placementUid:adUnit:extras:rootView:binder:listener:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdWhaleMediationNativeAdBindingHelper",
+                "printedName": "AdWhaleSDK.AdWhaleMediationNativeAdBindingHelper",
+                "usr": "c:@M@AdWhaleSDK@objc(cs)AdWhaleMediationNativeAdBindingHelper"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdWhaleMediationNativeAdapterListener",
+                "printedName": "any AdWhaleSDK.AdWhaleMediationNativeAdapterListener",
+                "usr": "s:10AdWhaleSDK0aB30MediationNativeAdapterListenerP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AdWhaleLevelPlayAdapter0cd6NativeE0C04loadF17WithCustomBinding12placementUid6adUnit6extras8rootView6binder8listenerySS_SSSDyS2SGSgSo6UIViewC0aB3SDK0ab9MediationfaJ6HelperCAO0abvfE8Listener_ptF",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd6NativeE0C04loadF17WithCustomBinding12placementUid6adUnit6extras8rootView6binder8listenerySS_SSSDyS2SGSgSo6UIViewC0aB3SDK0ab9MediationfaJ6HelperCAO0abvfE8Listener_ptF",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "show",
+            "printedName": "show()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AdWhaleLevelPlayAdapter0cd6NativeE0C4showyyF",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd6NativeE0C4showyyF",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resume",
+            "printedName": "resume()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AdWhaleLevelPlayAdapter0cd6NativeE0C6resumeyyF",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd6NativeE0C6resumeyyF",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pause",
+            "printedName": "pause()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AdWhaleLevelPlayAdapter0cd6NativeE0C5pauseyyF",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd6NativeE0C5pauseyyF",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "destroy",
+            "printedName": "destroy()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AdWhaleLevelPlayAdapter0cd6NativeE0C7destroyyyF",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd6NativeE0C7destroyyyF",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setPlacementName",
+            "printedName": "setPlacementName(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AdWhaleLevelPlayAdapter0cd6NativeE0C16setPlacementNameyySSSgF",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd6NativeE0C16setPlacementNameyySSSgF",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setRegion",
+            "printedName": "setRegion(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AdWhaleLevelPlayAdapter0cd6NativeE0C9setRegionyySSSgF",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd6NativeE0C9setRegionyySSSgF",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setGeocoder",
+            "printedName": "setGeocoder(latitude:longitude:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AdWhaleLevelPlayAdapter0cd6NativeE0C11setGeocoder8latitude9longitudeySd_SdtF",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd6NativeE0C11setGeocoder8latitude9longitudeySd_SdtF",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didLoad",
+            "printedName": "didLoad(_:with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LevelPlayNativeAd",
+                "printedName": "IronSource.LevelPlayNativeAd",
+                "usr": "c:objc(cs)LevelPlayNativeAd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ISAdInfo",
+                "printedName": "IronSource.ISAdInfo",
+                "usr": "c:objc(cs)ISAdInfo"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdWhaleLevelPlayAdapter@objc(cs)LevelPlayNativeAdapter(im)didLoad:withAdInfo:",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd6NativeE0C7didLoad_4withySo0cdfA0C_So8ISAdInfoCtF",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "objc_name": "didLoad:withAdInfo:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didFail",
+            "printedName": "didFail(toLoad:withError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LevelPlayNativeAd",
+                "printedName": "IronSource.LevelPlayNativeAd",
+                "usr": "c:objc(cs)LevelPlayNativeAd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdWhaleLevelPlayAdapter@objc(cs)LevelPlayNativeAdapter(im)didFailToLoad:withError:",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd6NativeE0C7didFail6toLoad9withErrorySo0cdfA0C_s0L0_ptF",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "objc_name": "didFailToLoad:withError:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didClick",
+            "printedName": "didClick(_:with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LevelPlayNativeAd",
+                "printedName": "IronSource.LevelPlayNativeAd",
+                "usr": "c:objc(cs)LevelPlayNativeAd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ISAdInfo",
+                "printedName": "IronSource.ISAdInfo",
+                "usr": "c:objc(cs)ISAdInfo"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdWhaleLevelPlayAdapter@objc(cs)LevelPlayNativeAdapter(im)didClick:withAdInfo:",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd6NativeE0C8didClick_4withySo0cdfA0C_So8ISAdInfoCtF",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "objc_name": "didClick:withAdInfo:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didRecordImpression",
+            "printedName": "didRecordImpression(_:with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LevelPlayNativeAd",
+                "printedName": "IronSource.LevelPlayNativeAd",
+                "usr": "c:objc(cs)LevelPlayNativeAd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ISAdInfo",
+                "printedName": "IronSource.ISAdInfo",
+                "usr": "c:objc(cs)ISAdInfo"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdWhaleLevelPlayAdapter@objc(cs)LevelPlayNativeAdapter(im)didRecordImpression:withAdInfo:",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd6NativeE0C19didRecordImpression_4withySo0cdfA0C_So8ISAdInfoCtF",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "objc_name": "didRecordImpression:withAdInfo:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AdWhaleLevelPlayAdapter@objc(cs)LevelPlayNativeAdapter",
+        "mangledName": "$s23AdWhaleLevelPlayAdapter0cd6NativeE0C",
+        "moduleName": "AdWhaleLevelPlayAdapter",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "AdWhaleMediationNativeAdapterProtocol",
+            "printedName": "AdWhaleMediationNativeAdapterProtocol",
+            "usr": "s:10AdWhaleSDK0aB30MediationNativeAdapterProtocolP",
+            "mangledName": "$s10AdWhaleSDK0aB30MediationNativeAdapterProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AdWhaleMediationPlacementAdapterProtocol",
+            "printedName": "AdWhaleMediationPlacementAdapterProtocol",
+            "usr": "s:10AdWhaleSDK0aB33MediationPlacementAdapterProtocolP",
+            "mangledName": "$s10AdWhaleSDK0aB33MediationPlacementAdapterProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AdWhaleMediationAdapterProtocol",
+            "printedName": "AdWhaleMediationAdapterProtocol",
+            "usr": "s:10AdWhaleSDK0aB24MediationAdapterProtocolP",
+            "mangledName": "$s10AdWhaleSDK0aB24MediationAdapterProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdWhaleLevelPlayAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "AdWhaleSDK",
+        "printedName": "AdWhaleSDK",
+        "declKind": "Import",
+        "moduleName": "AdWhaleLevelPlayAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdWhaleLevelPlayAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "AdWhaleSDK",
+        "printedName": "AdWhaleSDK",
+        "declKind": "Import",
+        "moduleName": "AdWhaleLevelPlayAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "IronSource",
+        "printedName": "IronSource",
+        "declKind": "Import",
+        "moduleName": "AdWhaleLevelPlayAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LevelPlayPrivacyAdapter",
+        "printedName": "LevelPlayPrivacyAdapter",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LevelPlayPrivacyAdapter",
+                "printedName": "AdWhaleLevelPlayAdapter.LevelPlayPrivacyAdapter",
+                "usr": "s:23AdWhaleLevelPlayAdapter0cd7PrivacyE0C"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23AdWhaleLevelPlayAdapter0cd7PrivacyE0CACycfc",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd7PrivacyE0CACycfc",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "applyPrivacySettings",
+            "printedName": "applyPrivacySettings(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdWhalePrivacySettings",
+                "printedName": "AdWhaleSDK.AdWhalePrivacySettings",
+                "usr": "s:10AdWhaleSDK0aB15PrivacySettingsC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AdWhaleLevelPlayAdapter0cd7PrivacyE0C05applyF8Settingsyy0aB3SDK0abfH0CF",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd7PrivacyE0C05applyF8Settingsyy0aB3SDK0abfH0CF",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:23AdWhaleLevelPlayAdapter0cd7PrivacyE0C",
+        "mangledName": "$s23AdWhaleLevelPlayAdapter0cd7PrivacyE0C",
+        "moduleName": "AdWhaleLevelPlayAdapter",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "AdWhaleMediationPrivacyAdapterProtocol",
+            "printedName": "AdWhaleMediationPrivacyAdapterProtocol",
+            "usr": "s:10AdWhaleSDK0aB31MediationPrivacyAdapterProtocolP",
+            "mangledName": "$s10AdWhaleSDK0aB31MediationPrivacyAdapterProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdWhaleLevelPlayAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "AdWhaleSDK",
+        "printedName": "AdWhaleSDK",
+        "declKind": "Import",
+        "moduleName": "AdWhaleLevelPlayAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "IronSource",
+        "printedName": "IronSource",
+        "declKind": "Import",
+        "moduleName": "AdWhaleLevelPlayAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LevelPlayRewardAdapter",
+        "printedName": "LevelPlayRewardAdapter",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "networkName",
+            "printedName": "networkName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23AdWhaleLevelPlayAdapter0cd6RewardE0C11networkNameSSvpZ",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd6RewardE0C11networkNameSSvpZ",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23AdWhaleLevelPlayAdapter0cd6RewardE0C11networkNameSSvgZ",
+                "mangledName": "$s23AdWhaleLevelPlayAdapter0cd6RewardE0C11networkNameSSvgZ",
+                "moduleName": "AdWhaleLevelPlayAdapter",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LevelPlayRewardAdapter",
+                "printedName": "AdWhaleLevelPlayAdapter.LevelPlayRewardAdapter",
+                "usr": "c:@M@AdWhaleLevelPlayAdapter@objc(cs)LevelPlayRewardAdapter"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AdWhaleLevelPlayAdapter@objc(cs)LevelPlayRewardAdapter(im)init",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd6RewardE0CACycfc",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "Required",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "loadRewardedAd",
+            "printedName": "loadRewardedAd(placementUid:adUnit:extras:listener:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdWhaleMediationRewardAdapterListener",
+                "printedName": "any AdWhaleSDK.AdWhaleMediationRewardAdapterListener",
+                "usr": "s:10AdWhaleSDK0aB30MediationRewardAdapterListenerP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AdWhaleLevelPlayAdapter0cd6RewardE0C012loadRewardedA012placementUid6adUnit6extras8listenerySS_SSSDyS2SGSg0aB3SDK0ab9MediationfE8Listener_ptF",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd6RewardE0C012loadRewardedA012placementUid6adUnit6extras8listenerySS_SSSDyS2SGSg0aB3SDK0ab9MediationfE8Listener_ptF",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showAd",
+            "printedName": "showAd(from:rewardListener:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdWhaleMediationRewardAdapterRewardListener",
+                "printedName": "any AdWhaleSDK.AdWhaleMediationRewardAdapterRewardListener",
+                "usr": "s:10AdWhaleSDK0ab22MediationRewardAdapterE8ListenerP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AdWhaleLevelPlayAdapter0cd6RewardE0C04showA04from14rewardListenerySo16UIViewControllerC_0aB3SDK0ab9MediationfefJ0_ptF",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd6RewardE0C04showA04from14rewardListenerySo16UIViewControllerC_0aB3SDK0ab9MediationfefJ0_ptF",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setFullScreenCallback",
+            "printedName": "setFullScreenCallback(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any AdWhaleSDK.AdWhaleMediationRewardAdapterFullScreenCallback)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdWhaleMediationRewardAdapterFullScreenCallback",
+                    "printedName": "any AdWhaleSDK.AdWhaleMediationRewardAdapterFullScreenCallback",
+                    "usr": "s:10AdWhaleSDK0aB40MediationRewardAdapterFullScreenCallbackP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AdWhaleLevelPlayAdapter0cd6RewardE0C21setFullScreenCallbackyy0aB3SDK0ab9MediationfehiJ0_pSgF",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd6RewardE0C21setFullScreenCallbackyy0aB3SDK0ab9MediationfehiJ0_pSgF",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "destroy",
+            "printedName": "destroy()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AdWhaleLevelPlayAdapter0cd6RewardE0C7destroyyyF",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd6RewardE0C7destroyyyF",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setPlacementName",
+            "printedName": "setPlacementName(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AdWhaleLevelPlayAdapter0cd6RewardE0C16setPlacementNameyySSSgF",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd6RewardE0C16setPlacementNameyySSSgF",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setUserId",
+            "printedName": "setUserId(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AdWhaleLevelPlayAdapter0cd6RewardE0C9setUserIdyySSSgF",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd6RewardE0C9setUserIdyySSSgF",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setCustomData",
+            "printedName": "setCustomData(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AdWhaleLevelPlayAdapter0cd6RewardE0C13setCustomDatayySDyS2SGF",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd6RewardE0C13setCustomDatayySDyS2SGF",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setRegion",
+            "printedName": "setRegion(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AdWhaleLevelPlayAdapter0cd6RewardE0C9setRegionyySSSgF",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd6RewardE0C9setRegionyySSSgF",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setGeocoder",
+            "printedName": "setGeocoder(latitude:longitude:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AdWhaleLevelPlayAdapter0cd6RewardE0C11setGeocoder8latitude9longitudeySd_SdtF",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd6RewardE0C11setGeocoder8latitude9longitudeySd_SdtF",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didLoadAd",
+            "printedName": "didLoadAd(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LPMAdInfo",
+                "printedName": "IronSource.LPMAdInfo",
+                "usr": "c:objc(cs)LPMAdInfo"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdWhaleLevelPlayAdapter@objc(cs)LevelPlayRewardAdapter(im)didLoadAdWithAdInfo:",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd6RewardE0C07didLoadA04withySo9LPMAdInfoC_tF",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "objc_name": "didLoadAdWithAdInfo:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didFailToLoadAd",
+            "printedName": "didFailToLoadAd(withAdUnitId:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdWhaleLevelPlayAdapter@objc(cs)LevelPlayRewardAdapter(im)didFailToLoadAdWithAdUnitId:error:",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd6RewardE0C013didFailToLoadA004withA6UnitId5errorySS_s5Error_ptF",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "objc_name": "didFailToLoadAdWithAdUnitId:error:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didDisplayAd",
+            "printedName": "didDisplayAd(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LPMAdInfo",
+                "printedName": "IronSource.LPMAdInfo",
+                "usr": "c:objc(cs)LPMAdInfo"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdWhaleLevelPlayAdapter@objc(cs)LevelPlayRewardAdapter(im)didDisplayAdWithAdInfo:",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd6RewardE0C010didDisplayA04withySo9LPMAdInfoC_tF",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "objc_name": "didDisplayAdWithAdInfo:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didRewardAd",
+            "printedName": "didRewardAd(with:reward:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LPMAdInfo",
+                "printedName": "IronSource.LPMAdInfo",
+                "usr": "c:objc(cs)LPMAdInfo"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LPMReward",
+                "printedName": "IronSource.LPMReward",
+                "usr": "c:objc(cs)LPMReward"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdWhaleLevelPlayAdapter@objc(cs)LevelPlayRewardAdapter(im)didRewardAdWithAdInfo:reward:",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd6RewardE0C03didfA04with6rewardySo9LPMAdInfoC_So9LPMRewardCtF",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "objc_name": "didRewardAdWithAdInfo:reward:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didFailToDisplayAd",
+            "printedName": "didFailToDisplayAd(with:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LPMAdInfo",
+                "printedName": "IronSource.LPMAdInfo",
+                "usr": "c:objc(cs)LPMAdInfo"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdWhaleLevelPlayAdapter@objc(cs)LevelPlayRewardAdapter(im)didFailToDisplayAdWithAdInfo:error:",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd6RewardE0C016didFailToDisplayA04with5errorySo9LPMAdInfoC_s5Error_ptF",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "objc_name": "didFailToDisplayAdWithAdInfo:error:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didClickAd",
+            "printedName": "didClickAd(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LPMAdInfo",
+                "printedName": "IronSource.LPMAdInfo",
+                "usr": "c:objc(cs)LPMAdInfo"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdWhaleLevelPlayAdapter@objc(cs)LevelPlayRewardAdapter(im)didClickAdWithAdInfo:",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd6RewardE0C08didClickA04withySo9LPMAdInfoC_tF",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "objc_name": "didClickAdWithAdInfo:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didCloseAd",
+            "printedName": "didCloseAd(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LPMAdInfo",
+                "printedName": "IronSource.LPMAdInfo",
+                "usr": "c:objc(cs)LPMAdInfo"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdWhaleLevelPlayAdapter@objc(cs)LevelPlayRewardAdapter(im)didCloseAdWithAdInfo:",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd6RewardE0C08didCloseA04withySo9LPMAdInfoC_tF",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "objc_name": "didCloseAdWithAdInfo:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AdWhaleLevelPlayAdapter@objc(cs)LevelPlayRewardAdapter",
+        "mangledName": "$s23AdWhaleLevelPlayAdapter0cd6RewardE0C",
+        "moduleName": "AdWhaleLevelPlayAdapter",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "AdWhaleMediationRewardAdapterProtocol",
+            "printedName": "AdWhaleMediationRewardAdapterProtocol",
+            "usr": "s:10AdWhaleSDK0aB30MediationRewardAdapterProtocolP",
+            "mangledName": "$s10AdWhaleSDK0aB30MediationRewardAdapterProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AdWhaleMediationPlacementAdapterProtocol",
+            "printedName": "AdWhaleMediationPlacementAdapterProtocol",
+            "usr": "s:10AdWhaleSDK0aB33MediationPlacementAdapterProtocolP",
+            "mangledName": "$s10AdWhaleSDK0aB33MediationPlacementAdapterProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AdWhaleMediationRewardSSVAdapterProtocol",
+            "printedName": "AdWhaleMediationRewardSSVAdapterProtocol",
+            "usr": "s:10AdWhaleSDK0aB33MediationRewardSSVAdapterProtocolP",
+            "mangledName": "$s10AdWhaleSDK0aB33MediationRewardSSVAdapterProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AdWhaleMediationAdapterProtocol",
+            "printedName": "AdWhaleMediationAdapterProtocol",
+            "usr": "s:10AdWhaleSDK0aB24MediationAdapterProtocolP",
+            "mangledName": "$s10AdWhaleSDK0aB24MediationAdapterProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/runner\/work\/adwhale-sdk-ios\/adwhale-sdk-ios\/.build\/adapters\/Sources\/AdWhaleLevelPlayAdapter\/AdWhaleLevelPlayAdapterRegistrar.swift",
+      "kind": "StringLiteral",
+      "offset": 1043,
+      "length": 11,
+      "value": "\"levelplay\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/adwhale-sdk-ios\/adwhale-sdk-ios\/.build\/adapters\/Sources\/AdWhaleLevelPlayAdapter\/LevelPlayBannerAdapter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 753,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/adwhale-sdk-ios\/adwhale-sdk-ios\/.build\/adapters\/Sources\/AdWhaleLevelPlayAdapter\/LevelPlayBannerAdapter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 791,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/adwhale-sdk-ios\/adwhale-sdk-ios\/.build\/adapters\/Sources\/AdWhaleLevelPlayAdapter\/LevelPlayBannerAdapter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 828,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/adwhale-sdk-ios\/adwhale-sdk-ios\/.build\/adapters\/Sources\/AdWhaleLevelPlayAdapter\/LevelPlayInterstitialAdapter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 560,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/adwhale-sdk-ios\/adwhale-sdk-ios\/.build\/adapters\/Sources\/AdWhaleLevelPlayAdapter\/LevelPlayInterstitialAdapter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 598,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/adwhale-sdk-ios\/adwhale-sdk-ios\/.build\/adapters\/Sources\/AdWhaleLevelPlayAdapter\/LevelPlayNativeAdapter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1229,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/adwhale-sdk-ios\/adwhale-sdk-ios\/.build\/adapters\/Sources\/AdWhaleLevelPlayAdapter\/LevelPlayNativeAdapter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1267,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/adwhale-sdk-ios\/adwhale-sdk-ios\/.build\/adapters\/Sources\/AdWhaleLevelPlayAdapter\/LevelPlayRewardAdapter.swift",
+      "kind": "Dictionary",
+      "offset": 836,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/adwhale-sdk-ios\/adwhale-sdk-ios\/.build\/adapters\/Sources\/AdWhaleLevelPlayAdapter\/LevelPlayRewardAdapter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 907,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/adwhale-sdk-ios\/adwhale-sdk-ios\/.build\/adapters\/Sources\/AdWhaleLevelPlayAdapter\/LevelPlayRewardAdapter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 945,
+      "length": 1,
+      "value": "0"
+    }
+  ]
+}

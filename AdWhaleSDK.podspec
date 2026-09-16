@@ -19,12 +19,12 @@
 # 제외된 어댑터:
 #   AdFit  - CocoaPods 지원 중단 (SPM 전용). pod 고객은 팝업 포맷 미지원.
 #   Admize - CocoaPods 미지원 (추후 지원 예정). 지원 시 subspec 추가만 하면 된다.
-#   LevelPlay - AdMob 과 동시 탑재 불가. 별도 배포 라인.
+#   LevelPlay - CocoaPods 미지원 (SPM 전용).
 # ─────────────────────────────────────────────────────────────
 
 Pod::Spec.new do |s|
   s.name     = 'AdWhaleSDK'
-  s.version  = '0.0.6'
+  s.version  = '0.0.7'
   s.summary  = 'ADwhale Mediation iOS SDK'
   s.description = <<-DESC
     다양한 광고 네트워크를 지원하는 광고 미디에이션 플랫폼 iOS SDK.

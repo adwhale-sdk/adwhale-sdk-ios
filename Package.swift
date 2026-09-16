@@ -33,6 +33,7 @@ let package = Package(
         .library(name: "AdWhaleCaulyAdapter",  targets: ["AdWhaleCaulyAdapterTarget"]),
         .library(name: "AdWhaleAdFitAdapter",  targets: ["AdWhaleAdFitAdapterTarget"]),
         .library(name: "AdWhaleAdmizeAdapter", targets: ["AdWhaleAdmizeAdapterTarget"]),
+        .library(name: "AdWhaleLevelPlayAdapter", targets: ["AdWhaleLevelPlayAdapterTarget"]),
     ],
     dependencies: [
         // Google UMP (Core SDK 의 GDPR 동의 플로우용)
@@ -45,6 +46,8 @@ let package = Package(
         .package(url: "https://github.com/adfit/adfit-spm.git", exact: "3.21.24"),
         // Admize adapter dependency
         .package(url: "https://github.com/admize-sdk/admize-sdk-ios.git", exact: "0.0.1"),
+        // LevelPlay(ironSource) adapter dependency
+        .package(url: "https://github.com/ironsource-mobile/LevelPlay-Swift-Package", exact: "9.5.0"),
     ],
     targets: [
         // ── Core ──
@@ -119,6 +122,23 @@ let package = Package(
                 .product(name: "AdmizeSdk", package: "admize-sdk-ios"),
             ],
             path: "Shims/AdWhaleAdmizeAdapterTarget"
+        ),
+
+        // ── LevelPlay 어댑터 ──
+        // AdMob 과 함께 탑재할 수 있다. 충돌하는 경우는 앱이 AdMob 미디에이션 파트너로
+        // IronSource 어댑터를 추가했을 때뿐이다 (IronSource SDK 중복).
+        .binaryTarget(
+            name: "AdWhaleLevelPlayAdapter",
+            path: "AdWhaleLevelPlayAdapter.xcframework"
+        ),
+        .target(
+            name: "AdWhaleLevelPlayAdapterTarget",
+            dependencies: [
+                "AdWhaleLevelPlayAdapter",
+                "AdWhaleSDKTarget",
+                .product(name: "UnityMediationSDK", package: "LevelPlay-Swift-Package"),
+            ],
+            path: "Shims/AdWhaleLevelPlayAdapterTarget"
         ),
     ]
 )
