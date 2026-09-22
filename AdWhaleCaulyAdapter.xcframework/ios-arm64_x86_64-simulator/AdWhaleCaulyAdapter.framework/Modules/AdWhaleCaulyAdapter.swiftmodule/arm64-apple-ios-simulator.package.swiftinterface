@@ -74,3 +74,8 @@ extension AdWhaleCaulyAdapter.CaulyNativeAdapter : CaulySDK.CaulyNativeAdDelegat
   @objc final public func didReceive(_ nativeAd: CaulySDK.CaulyNativeAd!, isChargeableAd: Swift.Bool)
   @objc final public func didFail(toReceive nativeAd: CaulySDK.CaulyNativeAd!, errorCode: Swift.Int32, errorMsg: Swift.String!)
 }
+final public class CaulyPrivacyAdapter : AdWhaleSDK.AdWhaleMediationPrivacyAdapterProtocol {
+  public init()
+  final public func applyPrivacySettings(_ privacy: AdWhaleSDK.AdWhalePrivacySettings)
+  @objc deinit
+}

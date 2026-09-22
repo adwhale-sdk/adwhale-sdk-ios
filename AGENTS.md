@@ -15,7 +15,7 @@
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/adwhale-sdk/adwhale-sdk-ios.git", from: "0.0.7")
+    .package(url: "https://github.com/adwhale-sdk/adwhale-sdk-ios.git", from: "0.0.8")
 ]
 ```
 

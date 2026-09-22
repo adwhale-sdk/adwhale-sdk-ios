@@ -24,7 +24,7 @@
 
 Pod::Spec.new do |s|
   s.name     = 'AdWhaleSDK'
-  s.version  = '0.0.7'
+  s.version  = '0.0.8'
   s.summary  = 'ADwhale Mediation iOS SDK'
   s.description = <<-DESC
     다양한 광고 네트워크를 지원하는 광고 미디에이션 플랫폼 iOS SDK.
@@ -85,7 +85,7 @@ Pod::Spec.new do |s|
   s.subspec 'Cauly' do |ss|
     ss.dependency 'AdWhaleSDK/Core'
     ss.vendored_frameworks = 'AdWhaleCaulyAdapter.xcframework'
-    ss.dependency 'CaulySDK', '3.1.22'
+    ss.dependency 'CaulySDK', '3.1.24'
   end
 
   # ── AdFit 어댑터 - CocoaPods 미지원 ──

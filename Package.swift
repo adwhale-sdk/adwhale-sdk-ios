@@ -41,7 +41,7 @@ let package = Package(
         // AdMob adapter dependency
         .package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git", exact: "13.0.0"),
         // Cauly adapter dependency
-        .package(url: "https://github.com/cauly/CaulySPM.git", exact: "3.1.22"),
+        .package(url: "https://github.com/cauly/CaulySPM.git", exact: "3.1.24"),
         // AdFit adapter dependency
         .package(url: "https://github.com/adfit/adfit-spm.git", exact: "3.21.24"),
         // Admize adapter dependency

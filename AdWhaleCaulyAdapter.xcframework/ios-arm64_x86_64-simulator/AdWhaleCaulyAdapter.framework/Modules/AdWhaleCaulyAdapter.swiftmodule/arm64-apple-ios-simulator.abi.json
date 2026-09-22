@@ -2020,6 +2020,114 @@
             "mangledName": "$sSH"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdWhaleCaulyAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "AdWhaleSDK",
+        "printedName": "AdWhaleSDK",
+        "declKind": "Import",
+        "moduleName": "AdWhaleCaulyAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "CaulySDK",
+        "printedName": "CaulySDK",
+        "declKind": "Import",
+        "moduleName": "AdWhaleCaulyAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CaulyPrivacyAdapter",
+        "printedName": "CaulyPrivacyAdapter",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CaulyPrivacyAdapter",
+                "printedName": "AdWhaleCaulyAdapter.CaulyPrivacyAdapter",
+                "usr": "s:19AdWhaleCaulyAdapter0c7PrivacyD0C"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19AdWhaleCaulyAdapter0c7PrivacyD0CACycfc",
+            "mangledName": "$s19AdWhaleCaulyAdapter0c7PrivacyD0CACycfc",
+            "moduleName": "AdWhaleCaulyAdapter",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "applyPrivacySettings",
+            "printedName": "applyPrivacySettings(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdWhalePrivacySettings",
+                "printedName": "AdWhaleSDK.AdWhalePrivacySettings",
+                "usr": "s:10AdWhaleSDK0aB15PrivacySettingsC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19AdWhaleCaulyAdapter0c7PrivacyD0C05applyE8Settingsyy0aB3SDK0abeG0CF",
+            "mangledName": "$s19AdWhaleCaulyAdapter0c7PrivacyD0C05applyE8Settingsyy0aB3SDK0abeG0CF",
+            "moduleName": "AdWhaleCaulyAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:19AdWhaleCaulyAdapter0c7PrivacyD0C",
+        "mangledName": "$s19AdWhaleCaulyAdapter0c7PrivacyD0C",
+        "moduleName": "AdWhaleCaulyAdapter",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "AdWhaleMediationPrivacyAdapterProtocol",
+            "printedName": "AdWhaleMediationPrivacyAdapterProtocol",
+            "usr": "s:10AdWhaleSDK0aB31MediationPrivacyAdapterProtocolP",
+            "mangledName": "$s10AdWhaleSDK0aB31MediationPrivacyAdapterProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       }
     ],
     "json_format_version": 8
@@ -2043,6 +2151,13 @@
       "filePath": "\/Users\/runner\/work\/adwhale-sdk-ios\/adwhale-sdk-ios\/.build\/adapters\/Sources\/AdWhaleCaulyAdapter\/CaulyBannerAdapter.swift",
       "kind": "IntegerLiteral",
       "offset": 508,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/adwhale-sdk-ios\/adwhale-sdk-ios\/.build\/adapters\/Sources\/AdWhaleCaulyAdapter\/CaulyBannerAdapter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 545,
       "length": 1,
       "value": "0"
     },

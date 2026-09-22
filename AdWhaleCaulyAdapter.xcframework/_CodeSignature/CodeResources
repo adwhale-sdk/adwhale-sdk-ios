@@ -6,7 +6,7 @@
 	<dict>
 		<key>ios-arm64/AdWhaleCaulyAdapter.framework/AdWhaleCaulyAdapter</key>
 		<data>
-		Xf0USD+k8iqdF4h6CcZPWr5BlHY=
+		lEW7u61EzKYD7+/+Bekg2YqUyWo=
 		</data>
 		<key>ios-arm64/AdWhaleCaulyAdapter.framework/Headers/AdWhaleCaulyAdapter-Swift.h</key>
 		<data>
@@ -18,23 +18,23 @@
 		</data>
 		<key>ios-arm64/AdWhaleCaulyAdapter.framework/Modules/AdWhaleCaulyAdapter.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		/BLUiCvY+G9+h0OqtntICcDeyqs=
+		GfjWZ/vD3JILJydaHJ+eoVJujrM=
 		</data>
 		<key>ios-arm64/AdWhaleCaulyAdapter.framework/Modules/AdWhaleCaulyAdapter.swiftmodule/arm64-apple-ios.package.swiftinterface</key>
 		<data>
-		oWiEstktvAmFZodTGdW+RSeiWqk=
+		L1NivYyrGBRX8UarMtLzxNGHlc0=
 		</data>
 		<key>ios-arm64/AdWhaleCaulyAdapter.framework/Modules/AdWhaleCaulyAdapter.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		oWiEstktvAmFZodTGdW+RSeiWqk=
+		L1NivYyrGBRX8UarMtLzxNGHlc0=
 		</data>
 		<key>ios-arm64/AdWhaleCaulyAdapter.framework/Modules/AdWhaleCaulyAdapter.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		MFaEdO3aAOlVWnRQ8aB0kWz2Pr0=
+		duv0P3B1SDV2RDDVbOMlnMCDn0M=
 		</data>
 		<key>ios-arm64/AdWhaleCaulyAdapter.framework/Modules/AdWhaleCaulyAdapter.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		oWiEstktvAmFZodTGdW+RSeiWqk=
+		L1NivYyrGBRX8UarMtLzxNGHlc0=
 		</data>
 		<key>ios-arm64/AdWhaleCaulyAdapter.framework/Modules/module.modulemap</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleCaulyAdapter.framework/AdWhaleCaulyAdapter</key>
 		<data>
-		YWzgu72MSXM66+bjYU/DFFxyM/o=
+		Lq0p0Ev5q+8MvC6e+dbltqtxtDc=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleCaulyAdapter.framework/Headers/AdWhaleCaulyAdapter-Swift.h</key>
 		<data>
@@ -54,43 +54,43 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleCaulyAdapter.framework/Modules/AdWhaleCaulyAdapter.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		/BLUiCvY+G9+h0OqtntICcDeyqs=
+		GfjWZ/vD3JILJydaHJ+eoVJujrM=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleCaulyAdapter.framework/Modules/AdWhaleCaulyAdapter.swiftmodule/arm64-apple-ios-simulator.package.swiftinterface</key>
 		<data>
-		4IcvnLTFVlLo3FtKFhhoKpuxI+w=
+		3NEWaC/pPh5gI2ubcL75JTF02sM=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleCaulyAdapter.framework/Modules/AdWhaleCaulyAdapter.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		4IcvnLTFVlLo3FtKFhhoKpuxI+w=
+		3NEWaC/pPh5gI2ubcL75JTF02sM=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleCaulyAdapter.framework/Modules/AdWhaleCaulyAdapter.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		RuKelQ8dS4G4w/pZNJOyGhdDKhU=
+		uiYP+fEAvPH/vq/wdEIr6lNsWxU=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleCaulyAdapter.framework/Modules/AdWhaleCaulyAdapter.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		4IcvnLTFVlLo3FtKFhhoKpuxI+w=
+		3NEWaC/pPh5gI2ubcL75JTF02sM=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleCaulyAdapter.framework/Modules/AdWhaleCaulyAdapter.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		/BLUiCvY+G9+h0OqtntICcDeyqs=
+		GfjWZ/vD3JILJydaHJ+eoVJujrM=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleCaulyAdapter.framework/Modules/AdWhaleCaulyAdapter.swiftmodule/x86_64-apple-ios-simulator.package.swiftinterface</key>
 		<data>
-		zfzS8z9fjYxq/bAtmYMvmMMpQOg=
+		5AeozR/QlvPXPOe16RLXotZ7s8E=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleCaulyAdapter.framework/Modules/AdWhaleCaulyAdapter.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		zfzS8z9fjYxq/bAtmYMvmMMpQOg=
+		5AeozR/QlvPXPOe16RLXotZ7s8E=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleCaulyAdapter.framework/Modules/AdWhaleCaulyAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		bL0fubVS4u8iEwaaVzKS+/o1Bbg=
+		M60nhl7En4/igl3I03PBQhlKkM0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleCaulyAdapter.framework/Modules/AdWhaleCaulyAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		zfzS8z9fjYxq/bAtmYMvmMMpQOg=
+		5AeozR/QlvPXPOe16RLXotZ7s8E=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleCaulyAdapter.framework/Modules/module.modulemap</key>
 		<data>
@@ -98,7 +98,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleCaulyAdapter.framework/_CodeSignature/CodeDirectory</key>
 		<data>
-		n9RGkC3oRqSVRoyOutCPuK7BlrE=
+		SXqus4QJImhvsvLayU6bUNRiqRU=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleCaulyAdapter.framework/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -119,7 +119,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FxEoTD3H9R//VffXXjIlUGiDB+8B7Em7a1Fs16b4CUs=
+			Yls22I0DOrBbvGLrJRYARYHVIeNA1/e0i4C4XMnKvxc=
 			</data>
 		</dict>
 		<key>ios-arm64/AdWhaleCaulyAdapter.framework/Headers/AdWhaleCaulyAdapter-Swift.h</key>
@@ -140,35 +140,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ccHuUwfBhBLgpdEewwvMT9J17kj35gP5iTFfR1rmjDM=
+			we81IZt7XqTHNNve9fsL8pDFS/zNhm0RoktSl9gifZw=
 			</data>
 		</dict>
 		<key>ios-arm64/AdWhaleCaulyAdapter.framework/Modules/AdWhaleCaulyAdapter.swiftmodule/arm64-apple-ios.package.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QRLgrUro4v0dIVwui4+bRfNAiA89yK/8jhR7c8HTFHU=
+			lI1/LoaD8CNOoJNE3jwAgXwp2iEt6R1EVTkLPqPeDmA=
 			</data>
 		</dict>
 		<key>ios-arm64/AdWhaleCaulyAdapter.framework/Modules/AdWhaleCaulyAdapter.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QRLgrUro4v0dIVwui4+bRfNAiA89yK/8jhR7c8HTFHU=
+			lI1/LoaD8CNOoJNE3jwAgXwp2iEt6R1EVTkLPqPeDmA=
 			</data>
 		</dict>
 		<key>ios-arm64/AdWhaleCaulyAdapter.framework/Modules/AdWhaleCaulyAdapter.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vmw/l4sjfYthrx7CqJPzFaXBcaJuZUzQgLTC39K1RFY=
+			xhLucFHy1shg9qoE7s4vbLVAcCbB1Nk0YtgEWIXKBYk=
 			</data>
 		</dict>
 		<key>ios-arm64/AdWhaleCaulyAdapter.framework/Modules/AdWhaleCaulyAdapter.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QRLgrUro4v0dIVwui4+bRfNAiA89yK/8jhR7c8HTFHU=
+			lI1/LoaD8CNOoJNE3jwAgXwp2iEt6R1EVTkLPqPeDmA=
 			</data>
 		</dict>
 		<key>ios-arm64/AdWhaleCaulyAdapter.framework/Modules/module.modulemap</key>
@@ -182,7 +182,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Pj7Fwy0VjhlQ4qhAUtJ3LtnQnk0FmUk4btWvvm33BCU=
+			Sn6OQ7129KW2bUoKdTwEu3bisKQHHpGp36gOtlVhxdY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AdWhaleCaulyAdapter.framework/Headers/AdWhaleCaulyAdapter-Swift.h</key>
@@ -203,70 +203,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ccHuUwfBhBLgpdEewwvMT9J17kj35gP5iTFfR1rmjDM=
+			we81IZt7XqTHNNve9fsL8pDFS/zNhm0RoktSl9gifZw=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AdWhaleCaulyAdapter.framework/Modules/AdWhaleCaulyAdapter.swiftmodule/arm64-apple-ios-simulator.package.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4guqBdeghuxMeEjhLhuIiGFQgZjo9FRKlSxSYQjOGn4=
+			ptt1ZiqyVZPI/vR6b3Tc/D/B+FlJLVOxM9tcaM9sAdY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AdWhaleCaulyAdapter.framework/Modules/AdWhaleCaulyAdapter.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4guqBdeghuxMeEjhLhuIiGFQgZjo9FRKlSxSYQjOGn4=
+			ptt1ZiqyVZPI/vR6b3Tc/D/B+FlJLVOxM9tcaM9sAdY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AdWhaleCaulyAdapter.framework/Modules/AdWhaleCaulyAdapter.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6Yy191YVp0JaZ6+e4t1MKLPAWTEk7FJB0LEgBqkzuRI=
+			9ZFdHxpW4oYzZ8e2nI1KMN1S1hQzYDbNRcWRuoahS4Y=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AdWhaleCaulyAdapter.framework/Modules/AdWhaleCaulyAdapter.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4guqBdeghuxMeEjhLhuIiGFQgZjo9FRKlSxSYQjOGn4=
+			ptt1ZiqyVZPI/vR6b3Tc/D/B+FlJLVOxM9tcaM9sAdY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AdWhaleCaulyAdapter.framework/Modules/AdWhaleCaulyAdapter.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ccHuUwfBhBLgpdEewwvMT9J17kj35gP5iTFfR1rmjDM=
+			we81IZt7XqTHNNve9fsL8pDFS/zNhm0RoktSl9gifZw=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AdWhaleCaulyAdapter.framework/Modules/AdWhaleCaulyAdapter.swiftmodule/x86_64-apple-ios-simulator.package.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/QdiSSX3vityBNTV4ZbROZ2uVY18SoKWJMgfQjfuGik=
+			x0A1E5cYiSCCbA2Ny+k/6khwc5LSGil8dD83VGw9SZk=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AdWhaleCaulyAdapter.framework/Modules/AdWhaleCaulyAdapter.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/QdiSSX3vityBNTV4ZbROZ2uVY18SoKWJMgfQjfuGik=
+			x0A1E5cYiSCCbA2Ny+k/6khwc5LSGil8dD83VGw9SZk=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AdWhaleCaulyAdapter.framework/Modules/AdWhaleCaulyAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8P51r3+wMIuyEchTO0TTmCf91GekwzVK5JJ+AOWJ62c=
+			XDR2lRJKEYIS3YhmUyKHCmzWRLDWC7rOtKUXaBI+ZNk=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AdWhaleCaulyAdapter.framework/Modules/AdWhaleCaulyAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/QdiSSX3vityBNTV4ZbROZ2uVY18SoKWJMgfQjfuGik=
+			x0A1E5cYiSCCbA2Ny+k/6khwc5LSGil8dD83VGw9SZk=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AdWhaleCaulyAdapter.framework/Modules/module.modulemap</key>
@@ -280,7 +280,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			l+8ypm1sOBhnZt+cqpvGVyQrtgv7Fz1VYu4lISggl8E=
+			QdTRa6CoEJUlXyZC6hghLLW958ylrOf83y2jppWP0dI=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AdWhaleCaulyAdapter.framework/_CodeSignature/CodeRequirements</key>
