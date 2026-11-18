@@ -6,8 +6,7 @@
 ## Requirements
 
 - iOS 15.0+
-- Swift 5.9+
-- Xcode 16.0+
+- Xcode 26.0+
 
 ## Installation
 
@@ -15,7 +14,7 @@
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/adwhale-sdk/adwhale-sdk-ios.git", from: "1.0.1")
+    .package(url: "https://github.com/adwhale-sdk/adwhale-sdk-ios.git", from: "1.1.0")
 ]
 ```
 

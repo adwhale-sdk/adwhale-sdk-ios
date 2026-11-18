@@ -3,7 +3,7 @@
 다양한 광고 네트워크를 지원하는 광고 미디에이션 플랫폼 iOS SDK 입니다.
 바이너리(XCFramework)로 배포되며, Swift 및 Objective-C 프로젝트 모두에서 사용할 수 있습니다.
 
-> **Requirements:** iOS 15.0+, Swift 5.9+, Xcode 16.0+
+> **Requirements:** iOS 15.0+, Xcode 26.0+
 >
 > **Privacy manifest:** 이 SDK 는 `PrivacyInfo.xcprivacy` 를 포함합니다.
 > Xcode 가 앱을 아카이브할 때 앱의 개인정보 보고서에 자동으로 합쳐집니다. 별도 설정은 필요 없습니다.
@@ -24,7 +24,7 @@ https://github.com/adwhale-sdk/adwhale-sdk-ios
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/adwhale-sdk/adwhale-sdk-ios.git", from: "1.0.1")
+    .package(url: "https://github.com/adwhale-sdk/adwhale-sdk-ios.git", from: "1.1.0")
 ]
 ```
 
@@ -62,7 +62,7 @@ Xcode → File → Add Package Dependencies 에서 필요한 네트워크만 추
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/adwhale-sdk/adwhale-sdk-ios.git", from: "1.0.1"),
+    .package(url: "https://github.com/adwhale-sdk/adwhale-sdk-ios.git", from: "1.1.0"),
     .package(url: "https://github.com/googleads/googleads-mobile-ios-mediation-inmobi.git", exact: "11.5.000"),
     // 필요한 네트워크만 추가
 ]

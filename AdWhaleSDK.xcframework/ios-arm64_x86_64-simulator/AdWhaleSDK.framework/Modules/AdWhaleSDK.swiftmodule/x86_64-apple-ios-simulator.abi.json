@@ -25662,7 +25662,7 @@
       "kind": "StringLiteral",
       "offset": 193,
       "length": 7,
-      "value": "\"1.0.1\""
+      "value": "\"1.1.0\""
     },
     {
       "filePath": "\/Users\/runner\/work\/adwhale-sdk-ios\/adwhale-sdk-ios\/Sources\/AdWhaleSDK\/Internal\/Utils\/AdWhaleConstants.swift",
