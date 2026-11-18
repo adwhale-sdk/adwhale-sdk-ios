@@ -39,15 +39,15 @@ let package = Package(
         // Google UMP (Core SDK 의 GDPR 동의 플로우용)
         .package(url: "https://github.com/googleads/swift-package-manager-google-user-messaging-platform.git", from: "3.0.0"),
         // AdMob adapter dependency
-        .package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git", exact: "13.0.0"),
+        .package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git", exact: "13.11.0"),
         // Cauly adapter dependency
-        .package(url: "https://github.com/cauly/CaulySPM.git", exact: "3.1.24"),
+        .package(url: "https://github.com/cauly/CaulySPM.git", exact: "3.1.25"),
         // AdFit adapter dependency
         .package(url: "https://github.com/adfit/adfit-spm.git", exact: "3.21.24"),
         // Admize adapter dependency
         .package(url: "https://github.com/admize-sdk/admize-sdk-ios.git", exact: "0.0.1"),
         // LevelPlay(ironSource) adapter dependency
-        .package(url: "https://github.com/ironsource-mobile/LevelPlay-Swift-Package", exact: "9.5.0"),
+        .package(url: "https://github.com/ironsource-mobile/LevelPlay-Swift-Package", exact: "9.6.1"),
     ],
     targets: [
         // ── Core ──
@@ -74,6 +74,9 @@ let package = Package(
             dependencies: [
                 "AdWhaleAdMobAdapter",
                 "AdWhaleSDKTarget",
+                // AdMob 미디에이션의 Cauly 커스텀 이벤트(AdWhaleAdMobCaulyEvent)가 Cauly 어댑터의 로더를 쓴다.
+                // Android 와 같이 AdMob 어댑터를 넣으면 Cauly 어댑터도 함께 들어온다.
+                "AdWhaleCaulyAdapterTarget",
                 .product(name: "GoogleMobileAds", package: "swift-package-manager-google-mobile-ads"),
             ],
             path: "Shims/AdWhaleAdMobAdapterTarget"

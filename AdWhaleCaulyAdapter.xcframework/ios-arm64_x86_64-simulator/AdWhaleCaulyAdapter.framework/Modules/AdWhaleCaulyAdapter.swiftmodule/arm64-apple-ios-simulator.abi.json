@@ -747,6 +747,45 @@
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didAdImpression",
+            "printedName": "didAdImpression(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "CaulySDK.CaulyAdView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CaulyAdView",
+                    "printedName": "CaulySDK.CaulyAdView",
+                    "usr": "c:objc(cs)CaulyAdView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdWhaleCaulyAdapter@objc(cs)CaulyBannerAdapter(im)didAdImpression:",
+            "mangledName": "$s19AdWhaleCaulyAdapter0c6BannerD0C03didA10ImpressionyySo0cA4ViewCSgF",
+            "moduleName": "AdWhaleCaulyAdapter",
+            "objc_name": "didAdImpression:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -2094,6 +2133,34 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "applyStoredPrivacySettings",
+            "printedName": "applyStoredPrivacySettings(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdWhalePrivacySettings",
+                "printedName": "AdWhaleSDK.AdWhalePrivacySettings",
+                "usr": "s:10AdWhaleSDK0aB15PrivacySettingsC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19AdWhaleCaulyAdapter0c7PrivacyD0C011applyStoredE8Settingsyy0aB3SDK0abeH0CF",
+            "mangledName": "$s19AdWhaleCaulyAdapter0c7PrivacyD0C011applyStoredE8Settingsyy0aB3SDK0abeH0CF",
+            "moduleName": "AdWhaleCaulyAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -2128,6 +2195,810 @@
             "mangledName": "$ss9EscapableP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdWhaleCaulyAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "AdWhaleSDK",
+        "printedName": "AdWhaleSDK",
+        "declKind": "Import",
+        "moduleName": "AdWhaleCaulyAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "CaulySDK",
+        "printedName": "CaulySDK",
+        "declKind": "Import",
+        "moduleName": "AdWhaleCaulyAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CaulyRewardAdapter",
+        "printedName": "CaulyRewardAdapter",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "networkName",
+            "printedName": "networkName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19AdWhaleCaulyAdapter0c6RewardD0C11networkNameSSvpZ",
+            "mangledName": "$s19AdWhaleCaulyAdapter0c6RewardD0C11networkNameSSvpZ",
+            "moduleName": "AdWhaleCaulyAdapter",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AdWhaleCaulyAdapter0c6RewardD0C11networkNameSSvgZ",
+                "mangledName": "$s19AdWhaleCaulyAdapter0c6RewardD0C11networkNameSSvgZ",
+                "moduleName": "AdWhaleCaulyAdapter",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CaulyRewardAdapter",
+                "printedName": "AdWhaleCaulyAdapter.CaulyRewardAdapter",
+                "usr": "c:@M@AdWhaleCaulyAdapter@objc(cs)CaulyRewardAdapter"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AdWhaleCaulyAdapter@objc(cs)CaulyRewardAdapter(im)init",
+            "mangledName": "$s19AdWhaleCaulyAdapter0c6RewardD0CACycfc",
+            "moduleName": "AdWhaleCaulyAdapter",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "Required",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "loadRewardedAd",
+            "printedName": "loadRewardedAd(placementUid:adUnit:extras:listener:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdWhaleMediationRewardAdapterListener",
+                "printedName": "any AdWhaleSDK.AdWhaleMediationRewardAdapterListener",
+                "usr": "s:10AdWhaleSDK0aB30MediationRewardAdapterListenerP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19AdWhaleCaulyAdapter0c6RewardD0C012loadRewardedA012placementUid6adUnit6extras8listenerySS_SSSDyS2SGSg0aB3SDK0ab9MediationeD8Listener_ptF",
+            "mangledName": "$s19AdWhaleCaulyAdapter0c6RewardD0C012loadRewardedA012placementUid6adUnit6extras8listenerySS_SSSDyS2SGSg0aB3SDK0ab9MediationeD8Listener_ptF",
+            "moduleName": "AdWhaleCaulyAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showAd",
+            "printedName": "showAd(from:rewardListener:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdWhaleMediationRewardAdapterRewardListener",
+                "printedName": "any AdWhaleSDK.AdWhaleMediationRewardAdapterRewardListener",
+                "usr": "s:10AdWhaleSDK0ab22MediationRewardAdapterE8ListenerP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19AdWhaleCaulyAdapter0c6RewardD0C04showA04from14rewardListenerySo16UIViewControllerC_0aB3SDK0ab9MediationedeI0_ptF",
+            "mangledName": "$s19AdWhaleCaulyAdapter0c6RewardD0C04showA04from14rewardListenerySo16UIViewControllerC_0aB3SDK0ab9MediationedeI0_ptF",
+            "moduleName": "AdWhaleCaulyAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setFullScreenCallback",
+            "printedName": "setFullScreenCallback(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any AdWhaleSDK.AdWhaleMediationRewardAdapterFullScreenCallback)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdWhaleMediationRewardAdapterFullScreenCallback",
+                    "printedName": "any AdWhaleSDK.AdWhaleMediationRewardAdapterFullScreenCallback",
+                    "usr": "s:10AdWhaleSDK0aB40MediationRewardAdapterFullScreenCallbackP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19AdWhaleCaulyAdapter0c6RewardD0C21setFullScreenCallbackyy0aB3SDK0ab9MediationedghI0_pSgF",
+            "mangledName": "$s19AdWhaleCaulyAdapter0c6RewardD0C21setFullScreenCallbackyy0aB3SDK0ab9MediationedghI0_pSgF",
+            "moduleName": "AdWhaleCaulyAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "destroy",
+            "printedName": "destroy()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19AdWhaleCaulyAdapter0c6RewardD0C7destroyyyF",
+            "mangledName": "$s19AdWhaleCaulyAdapter0c6RewardD0C7destroyyyF",
+            "moduleName": "AdWhaleCaulyAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setRegion",
+            "printedName": "setRegion(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19AdWhaleCaulyAdapter0c6RewardD0C9setRegionyySSSgF",
+            "mangledName": "$s19AdWhaleCaulyAdapter0c6RewardD0C9setRegionyySSSgF",
+            "moduleName": "AdWhaleCaulyAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setGeocoder",
+            "printedName": "setGeocoder(latitude:longitude:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19AdWhaleCaulyAdapter0c6RewardD0C11setGeocoder8latitude9longitudeySd_SdtF",
+            "mangledName": "$s19AdWhaleCaulyAdapter0c6RewardD0C11setGeocoder8latitude9longitudeySd_SdtF",
+            "moduleName": "AdWhaleCaulyAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setUserId",
+            "printedName": "setUserId(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19AdWhaleCaulyAdapter0c6RewardD0C9setUserIdyySSSgF",
+            "mangledName": "$s19AdWhaleCaulyAdapter0c6RewardD0C9setUserIdyySSSgF",
+            "moduleName": "AdWhaleCaulyAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setCustomData",
+            "printedName": "setCustomData(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19AdWhaleCaulyAdapter0c6RewardD0C13setCustomDatayySDyS2SGF",
+            "mangledName": "$s19AdWhaleCaulyAdapter0c6RewardD0C13setCustomDatayySDyS2SGF",
+            "moduleName": "AdWhaleCaulyAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didReceive",
+            "printedName": "didReceive(_:isChargeableAd:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "CaulySDK.CaulyRewardAd?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CaulyRewardAd",
+                    "printedName": "CaulySDK.CaulyRewardAd",
+                    "usr": "c:objc(cs)CaulyRewardAd"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdWhaleCaulyAdapter@objc(cs)CaulyRewardAdapter(im)didReceiveRewardAd:isChargeableAd:",
+            "mangledName": "$s19AdWhaleCaulyAdapter0c6RewardD0C10didReceive_012isChargeableA0ySo0ceA0CSg_SbtF",
+            "moduleName": "AdWhaleCaulyAdapter",
+            "objc_name": "didReceiveRewardAd:isChargeableAd:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didFail",
+            "printedName": "didFail(toReceive:errorCode:errorMsg:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "CaulySDK.CaulyRewardAd?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CaulyRewardAd",
+                    "printedName": "CaulySDK.CaulyRewardAd",
+                    "usr": "c:objc(cs)CaulyRewardAd"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdWhaleCaulyAdapter@objc(cs)CaulyRewardAdapter(im)didFailToReceiveRewardAd:errorCode:errorMsg:",
+            "mangledName": "$s19AdWhaleCaulyAdapter0c6RewardD0C7didFail9toReceive9errorCode0J3MsgySo0ceA0CSg_s5Int32VSSSgtF",
+            "moduleName": "AdWhaleCaulyAdapter",
+            "objc_name": "didFailToReceiveRewardAd:errorCode:errorMsg:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "willShow",
+            "printedName": "willShow(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "CaulySDK.CaulyRewardAd?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CaulyRewardAd",
+                    "printedName": "CaulySDK.CaulyRewardAd",
+                    "usr": "c:objc(cs)CaulyRewardAd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdWhaleCaulyAdapter@objc(cs)CaulyRewardAdapter(im)willShowRewardAd:",
+            "mangledName": "$s19AdWhaleCaulyAdapter0c6RewardD0C8willShowyySo0ceA0CSgF",
+            "moduleName": "AdWhaleCaulyAdapter",
+            "objc_name": "willShowRewardAd:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didClose",
+            "printedName": "didClose(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "CaulySDK.CaulyRewardAd?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CaulyRewardAd",
+                    "printedName": "CaulySDK.CaulyRewardAd",
+                    "usr": "c:objc(cs)CaulyRewardAd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdWhaleCaulyAdapter@objc(cs)CaulyRewardAdapter(im)didCloseRewardAd:",
+            "mangledName": "$s19AdWhaleCaulyAdapter0c6RewardD0C8didCloseyySo0ceA0CSgF",
+            "moduleName": "AdWhaleCaulyAdapter",
+            "objc_name": "didCloseRewardAd:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didUserEarnReward",
+            "printedName": "didUserEarnReward(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "CaulySDK.CaulyRewardAd?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CaulyRewardAd",
+                    "printedName": "CaulySDK.CaulyRewardAd",
+                    "usr": "c:objc(cs)CaulyRewardAd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdWhaleCaulyAdapter@objc(cs)CaulyRewardAdapter(im)didUserEarnReward:",
+            "mangledName": "$s19AdWhaleCaulyAdapter0c6RewardD0C011didUserEarnE0yySo0ceA0CSgF",
+            "moduleName": "AdWhaleCaulyAdapter",
+            "objc_name": "didUserEarnReward:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AdWhaleCaulyAdapter@objc(cs)CaulyRewardAdapter",
+        "mangledName": "$s19AdWhaleCaulyAdapter0c6RewardD0C",
+        "moduleName": "AdWhaleCaulyAdapter",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "AdWhaleMediationRewardAdapterProtocol",
+            "printedName": "AdWhaleMediationRewardAdapterProtocol",
+            "usr": "s:10AdWhaleSDK0aB30MediationRewardAdapterProtocolP",
+            "mangledName": "$s10AdWhaleSDK0aB30MediationRewardAdapterProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AdWhaleMediationAdapterProtocol",
+            "printedName": "AdWhaleMediationAdapterProtocol",
+            "usr": "s:10AdWhaleSDK0aB24MediationAdapterProtocolP",
+            "mangledName": "$s10AdWhaleSDK0aB24MediationAdapterProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AdWhaleMediationRewardSSVAdapterProtocol",
+            "printedName": "AdWhaleMediationRewardSSVAdapterProtocol",
+            "usr": "s:10AdWhaleSDK0aB33MediationRewardSSVAdapterProtocolP",
+            "mangledName": "$s10AdWhaleSDK0aB33MediationRewardSSVAdapterProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdWhaleCaulyAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "AdWhaleSDK",
+        "printedName": "AdWhaleSDK",
+        "declKind": "Import",
+        "moduleName": "AdWhaleCaulyAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "CaulySDK",
+        "printedName": "CaulySDK",
+        "declKind": "Import",
+        "moduleName": "AdWhaleCaulyAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdWhaleCaulyAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "AdWhaleSDK",
+        "printedName": "AdWhaleSDK",
+        "declKind": "Import",
+        "moduleName": "AdWhaleCaulyAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "CaulySDK",
+        "printedName": "CaulySDK",
+        "declKind": "Import",
+        "moduleName": "AdWhaleCaulyAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdWhaleCaulyAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "AdWhaleSDK",
+        "printedName": "AdWhaleSDK",
+        "declKind": "Import",
+        "moduleName": "AdWhaleCaulyAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "CaulySDK",
+        "printedName": "CaulySDK",
+        "declKind": "Import",
+        "moduleName": "AdWhaleCaulyAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdWhaleCaulyAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "AdWhaleSDK",
+        "printedName": "AdWhaleSDK",
+        "declKind": "Import",
+        "moduleName": "AdWhaleCaulyAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "CaulySDK",
+        "printedName": "CaulySDK",
+        "declKind": "Import",
+        "moduleName": "AdWhaleCaulyAdapter"
       }
     ],
     "json_format_version": 8
@@ -2188,6 +3059,41 @@
       "offset": 520,
       "length": 1,
       "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/adwhale-sdk-ios\/adwhale-sdk-ios\/.build\/adapters\/Sources\/AdWhaleCaulyAdapter\/CaulyRewardAdapter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1317,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/adwhale-sdk-ios\/adwhale-sdk-ios\/.build\/adapters\/Sources\/AdWhaleCaulyAdapter\/CaulyRewardAdapter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1355,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/adwhale-sdk-ios\/adwhale-sdk-ios\/.build\/adapters\/Sources\/AdWhaleCaulyAdapter\/CaulyRewardAdapter.swift",
+      "kind": "Dictionary",
+      "offset": 1530,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/adwhale-sdk-ios\/adwhale-sdk-ios\/.build\/adapters\/Sources\/AdWhaleCaulyAdapter\/CustomEvent\/CaulyCustomEventBannerLoader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 635,
+      "length": 3,
+      "value": "320"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/adwhale-sdk-ios\/adwhale-sdk-ios\/.build\/adapters\/Sources\/AdWhaleCaulyAdapter\/CustomEvent\/CaulyCustomEventBannerLoader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 664,
+      "length": 2,
+      "value": "50"
     }
   ]
 }

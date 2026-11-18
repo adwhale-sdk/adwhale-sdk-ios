@@ -8,6 +8,7 @@ import Foundation
 import Foundation/*.Bundle*/
 import Foundation/*.ProcessInfo*/
 import Foundation/*.URL*/
+import Network
 import Swift
 import UIKit
 import UserMessagingPlatform
@@ -19,6 +20,10 @@ import os
   @objc public static func setQaNoResponseCount(_ count: Swift.Int)
   @objc public static func setQaAdLoadTimeoutSec(_ sec: Swift.Int)
   @objc public static var adLoadTimeoutSec: Swift.Int {
+    @objc get
+  }
+  @objc public static func setQaForceLog(_ enabled: Swift.Bool)
+  @objc public static var isQaForceLog: Swift.Bool {
     @objc get
   }
   @objc public static func initialize(completion: @escaping (_ statusCode: Swift.Int, _ message: Swift.String) -> Swift.Void)
@@ -104,6 +109,9 @@ public protocol AdWhaleMediationPopupAdapterListener : AnyObject {
   func onPopupAdClicked()
   func onPopupAdClosed(reason: AdWhaleSDK.AdWhalePopupCloseReason)
 }
+public protocol AdWhaleMediationLoadDiagnosticsListener : AnyObject {
+  func onLoadDiagnostics(_ diagnostics: [Swift.String : Any])
+}
 public protocol AdWhaleMediationAdapterProtocol : AnyObject {
   static var networkName: Swift.String { get }
   init()
@@ -117,6 +125,10 @@ public protocol AdWhaleMediationBannerAdapterProtocol : AdWhaleSDK.AdWhaleMediat
   func setRegion(_ region: Swift.String?)
   func setGeocoder(latitude: Swift.Double, longitude: Swift.Double)
   func setAdaptiveAnchorWidth(_ width: Swift.Int)
+  func adaptiveAnchorHeight() -> CoreFoundation.CGFloat?
+}
+extension AdWhaleSDK.AdWhaleMediationBannerAdapterProtocol {
+  public func adaptiveAnchorHeight() -> CoreFoundation.CGFloat?
 }
 public protocol AdWhaleMediationInterstitialAdapterProtocol : AdWhaleSDK.AdWhaleMediationAdapterProtocol {
   func loadInterstitial(placementUid: Swift.String, adUnit: Swift.String, extras: [Swift.String : Swift.String]?, listener: any AdWhaleSDK.AdWhaleMediationInterstitialAdapterListener)
@@ -168,6 +180,10 @@ public protocol AdWhaleMediationPopupAdapterProtocol : AdWhaleSDK.AdWhaleMediati
 }
 public protocol AdWhaleMediationPrivacyAdapterProtocol : AnyObject {
   func applyPrivacySettings(_ privacy: AdWhaleSDK.AdWhalePrivacySettings)
+  func applyStoredPrivacySettings(_ privacy: AdWhaleSDK.AdWhalePrivacySettings)
+}
+extension AdWhaleSDK.AdWhaleMediationPrivacyAdapterProtocol {
+  public func applyStoredPrivacySettings(_ privacy: AdWhaleSDK.AdWhalePrivacySettings)
 }
 public protocol AdWhaleMediationLogAdapterProtocol : AnyObject {
   func applyLogLevel(_ level: AdWhaleSDK.AdWhaleLogLevel)
@@ -196,6 +212,34 @@ public protocol AdWhaleMediationAdInspectorProtocol : AnyObject {
   final public func registerAdInspector(for network: Swift.String, adInspector: any AdWhaleSDK.AdWhaleMediationAdInspectorProtocol)
   final public func adInspector(for network: Swift.String) -> (any AdWhaleSDK.AdWhaleMediationAdInspectorProtocol)?
   @objc deinit
+}
+public protocol AdWhaleMediationCustomEventLoaderProtocol : AnyObject {
+  init()
+  static var networkSDKVersion: Swift.String { get }
+  func setCustomEventListener(_ listener: (any AdWhaleSDK.AdWhaleMediationCustomEventListener)?)
+  func setBannerSize(width: Swift.Int, height: Swift.Int)
+  func loadAd(appCode: Swift.String, viewController: UIKit.UIViewController?)
+  func showAd(from viewController: UIKit.UIViewController)
+  var view: UIKit.UIView? { get }
+  func destroy()
+}
+extension AdWhaleSDK.AdWhaleMediationCustomEventLoaderProtocol {
+  public func setBannerSize(width: Swift.Int, height: Swift.Int)
+  public func showAd(from viewController: UIKit.UIViewController)
+  public var view: UIKit.UIView? {
+    get
+  }
+}
+public protocol AdWhaleMediationCustomEventListener : AnyObject {
+  func onCustomEventReceived()
+  func onCustomEventFailedToLoad(statusCode: Swift.Int, message: Swift.String)
+  func onCustomEventClicked()
+  func onCustomEventClosed()
+  func onCustomEventShowed()
+  func onCustomEventUserRewarded(rewardType: Swift.String, amount: Swift.Int)
+}
+extension AdWhaleSDK.AdWhaleMediationCustomEventListener {
+  public func onCustomEventUserRewarded(rewardType: Swift.String, amount: Swift.Int)
 }
 final public class AdWhalePrivacySettings {
   public init(defaults: Foundation.UserDefaults = .standard)
@@ -254,6 +298,10 @@ public enum AdWhaleLoggerSelfTest {
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public var intrinsicContentSize: CoreFoundation.CGSize {
     @objc get
   }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func didMoveToWindow()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func layoutSubviews()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func traitCollectionDidChange(_ previousTraitCollection: UIKit.UITraitCollection?)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func safeAreaInsetsDidChange()
   @objc @_Concurrency.MainActor @preconcurrency public func loadAd()
   @objc @_Concurrency.MainActor @preconcurrency public func show()
   @objc @_Concurrency.MainActor @preconcurrency public func resume()
@@ -282,6 +330,10 @@ public enum AdWhaleLoggerSelfTest {
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public var intrinsicContentSize: CoreFoundation.CGSize {
     @objc get
   }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func didMoveToWindow()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func layoutSubviews()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func traitCollectionDidChange(_ previousTraitCollection: UIKit.UITraitCollection?)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func safeAreaInsetsDidChange()
   @objc @_Concurrency.MainActor @preconcurrency public func loadAd()
   @objc @_Concurrency.MainActor @preconcurrency public func resume()
   @objc @_Concurrency.MainActor @preconcurrency public func pause()
@@ -348,8 +400,6 @@ public enum AdWhaleLoggerSelfTest {
   @objc public init(placementUid: Swift.String)
   @objc public func setAdWhaleMediationPopupAdDelegate(_ delegate: (any AdWhaleSDK.AdWhaleMediationPopupAdDelegate)?)
   @objc public func setGeocoder(latitude: Swift.Double, longitude: Swift.Double)
-  @objc public func setCustomizeButtonText(primaryButtonText: Swift.String, secondaryButtonText: Swift.String)
-  @objc public func setCustomDescription(_ descriptionText: Swift.String)
   @objc public func loadAd()
   @objc public func show(from viewController: UIKit.UIViewController)
   @objc public func resume()

@@ -24,7 +24,7 @@ https://github.com/adwhale-sdk/adwhale-sdk-ios
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/adwhale-sdk/adwhale-sdk-ios.git", from: "1.0.0")
+    .package(url: "https://github.com/adwhale-sdk/adwhale-sdk-ios.git", from: "1.0.1")
 ]
 ```
 
@@ -49,27 +49,27 @@ Xcode → File → Add Package Dependencies 에서 필요한 네트워크만 추
 
 | 네트워크 | SPM 저장소 | 버전 (exact) | product |
 |---|---|---|---|
-| InMobi | `googleads/googleads-mobile-ios-mediation-inmobi` | `11.1.101` | `InMobiAdapterTarget` |
-| AppLovin | `googleads/googleads-mobile-ios-mediation-applovin` | `13.5.100` | `AppLovinAdapterTarget` |
-| Vungle (Liftoff) | `googleads/googleads-mobile-ios-mediation-liftoffmonetize` | `7.7.0` | `LiftoffMonetizeAdapterTarget` |
-| DT Exchange | `googleads/googleads-mobile-ios-mediation-dtexchange` | `8.4.401` | `DTExchangeAdapterTarget` |
-| Mintegral | `googleads/googleads-mobile-ios-mediation-mintegral` | `8.0.700` | `MintegralAdapterTarget` |
-| Pangle | `googleads/googleads-mobile-ios-mediation-pangle` | `7.9.600` | `PangleAdapterTarget` |
-| Unity Ads | `googleads/googleads-mobile-ios-mediation-unity` | `4.16.601` | `UnityAdapterTarget` |
-| Moloco | `googleads/googleads-mobile-ios-mediation-moloco` | `4.3.2` | `MolocoAdapterTarget` |
+| InMobi | `googleads/googleads-mobile-ios-mediation-inmobi` | `11.5.000` | `InMobiAdapterTarget` |
+| AppLovin | `googleads/googleads-mobile-ios-mediation-applovin` | `13.6.400` | `AppLovinAdapterTarget` |
+| Vungle (Liftoff) | `googleads/googleads-mobile-ios-mediation-liftoffmonetize` | `7.7.800` | `LiftoffMonetizeAdapterTarget` |
+| DT Exchange | `googleads/googleads-mobile-ios-mediation-dtexchange` | `8.5.000` | `DTExchangeAdapterTarget` |
+| Mintegral | `googleads/googleads-mobile-ios-mediation-mintegral` | `8.1.700` | `MintegralAdapterTarget` |
+| Pangle | `googleads/googleads-mobile-ios-mediation-pangle` | `8.3.00800` | `PangleAdapterTarget` |
+| Unity Ads | `googleads/googleads-mobile-ios-mediation-unity` | `4.21.000` | `UnityAdapterTarget` |
+| Moloco | `googleads/googleads-mobile-ios-mediation-moloco` | `4.11.000` | `MolocoAdapterTarget` |
 
 `Package.swift` 로 추가하는 경우:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/adwhale-sdk/adwhale-sdk-ios.git", from: "1.0.0"),
-    .package(url: "https://github.com/googleads/googleads-mobile-ios-mediation-inmobi.git", exact: "11.1.101"),
+    .package(url: "https://github.com/adwhale-sdk/adwhale-sdk-ios.git", from: "1.0.1"),
+    .package(url: "https://github.com/googleads/googleads-mobile-ios-mediation-inmobi.git", exact: "11.5.000"),
     // 필요한 네트워크만 추가
 ]
 ```
 
 > ⚠️ **버전을 반드시 위 표대로 고정하세요.**
-> ADwhale AdMob 어댑터는 `Google-Mobile-Ads-SDK 13.0.0` 기준으로 빌드되어 있습니다.
+> ADwhale AdMob 어댑터는 `Google-Mobile-Ads-SDK 13.11.0` 기준으로 빌드되어 있습니다.
 > 파트너 어댑터가 다른 메이저 버전의 GMA 를 끌어오면 런타임에 광고가 로드되지 않습니다.
 
 > ⚠️ **앱 타겟에 `-ObjC` 링커 플래그가 필요합니다.**

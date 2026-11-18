@@ -36,6 +36,7 @@ extension AdWhaleCaulyAdapter.CaulyBannerAdapter : CaulySDK.CaulyAdViewDelegate 
   @objc final public func didFail(toReceiveAd adView: CaulySDK.CaulyAdView!, errorCode: Swift.Int32, errorMsg: Swift.String!)
   @objc final public func willShowLanding(_ adView: CaulySDK.CaulyAdView!)
   @objc final public func didCloseLanding(_ adView: CaulySDK.CaulyAdView!)
+  @objc final public func didAdImpression(_ adView: CaulySDK.CaulyAdView!)
 }
 @objc @_inheritsConvenienceInitializers final public class CaulyInterstitialAdapter : ObjectiveC.NSObject, AdWhaleSDK.AdWhaleMediationInterstitialAdapterProtocol {
   public static var networkName: Swift.String {
@@ -77,5 +78,30 @@ extension AdWhaleCaulyAdapter.CaulyNativeAdapter : CaulySDK.CaulyNativeAdDelegat
 final public class CaulyPrivacyAdapter : AdWhaleSDK.AdWhaleMediationPrivacyAdapterProtocol {
   public init()
   final public func applyPrivacySettings(_ privacy: AdWhaleSDK.AdWhalePrivacySettings)
+  final public func applyStoredPrivacySettings(_ privacy: AdWhaleSDK.AdWhalePrivacySettings)
   @objc deinit
+}
+@objc @_inheritsConvenienceInitializers final public class CaulyRewardAdapter : ObjectiveC.NSObject, AdWhaleSDK.AdWhaleMediationRewardAdapterProtocol {
+  public static var networkName: Swift.String {
+    get
+  }
+  @objc required override dynamic public init()
+  final public func loadRewardedAd(placementUid: Swift.String, adUnit: Swift.String, extras: [Swift.String : Swift.String]?, listener: any AdWhaleSDK.AdWhaleMediationRewardAdapterListener)
+  final public func showAd(from viewController: UIKit.UIViewController, rewardListener: any AdWhaleSDK.AdWhaleMediationRewardAdapterRewardListener)
+  final public func setFullScreenCallback(_ callback: (any AdWhaleSDK.AdWhaleMediationRewardAdapterFullScreenCallback)?)
+  final public func destroy()
+  final public func setRegion(_ region: Swift.String?)
+  final public func setGeocoder(latitude: Swift.Double, longitude: Swift.Double)
+  @objc deinit
+}
+extension AdWhaleCaulyAdapter.CaulyRewardAdapter : AdWhaleSDK.AdWhaleMediationRewardSSVAdapterProtocol {
+  final public func setUserId(_ userId: Swift.String?)
+  final public func setCustomData(_ customData: [Swift.String : Swift.String])
+}
+extension AdWhaleCaulyAdapter.CaulyRewardAdapter : CaulySDK.CaulyRewardAdDelegate {
+  @objc final public func didReceive(_ rewardAd: CaulySDK.CaulyRewardAd!, isChargeableAd: Swift.Bool)
+  @objc final public func didFail(toReceive rewardAd: CaulySDK.CaulyRewardAd!, errorCode: Swift.Int32, errorMsg: Swift.String!)
+  @objc final public func willShow(_ rewardAd: CaulySDK.CaulyRewardAd!)
+  @objc final public func didClose(_ rewardAd: CaulySDK.CaulyRewardAd!)
+  @objc final public func didUserEarnReward(_ rewardAd: CaulySDK.CaulyRewardAd!)
 }

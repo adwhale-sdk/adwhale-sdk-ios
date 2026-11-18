@@ -24,7 +24,7 @@
 
 Pod::Spec.new do |s|
   s.name     = 'AdWhaleSDK'
-  s.version  = '1.0.0'
+  s.version  = '1.0.1'
   s.summary  = 'ADwhale Mediation iOS SDK'
   s.description = <<-DESC
     다양한 광고 네트워크를 지원하는 광고 미디에이션 플랫폼 iOS SDK.
@@ -73,10 +73,14 @@ Pod::Spec.new do |s|
   #
   # 미디에이션 파트너 어댑터는 포함하지 않는다. 앱 Podfile 에서 직접 추가한다.
   # (안드로이드와 동일한 방식. README 의 버전표 참조)
+  #
+  # AdMob 미디에이션의 Cauly 커스텀 이벤트(AdWhaleAdMobCaulyEvent)가 Cauly 어댑터의 로더를 쓴다.
+  # Android 와 같이 AdMob 어댑터를 넣으면 Cauly 어댑터도 함께 들어온다(앱 Podfile 에 Cauly source 필요).
   s.subspec 'AdMob' do |ss|
     ss.dependency 'AdWhaleSDK/Core'
+    ss.dependency 'AdWhaleSDK/Cauly'
     ss.vendored_frameworks = 'AdWhaleAdMobAdapter.xcframework'
-    ss.dependency 'Google-Mobile-Ads-SDK', '13.0.0'
+    ss.dependency 'Google-Mobile-Ads-SDK', '13.11.0'
   end
 
   # ── Cauly 어댑터 ──
@@ -85,7 +89,7 @@ Pod::Spec.new do |s|
   s.subspec 'Cauly' do |ss|
     ss.dependency 'AdWhaleSDK/Core'
     ss.vendored_frameworks = 'AdWhaleCaulyAdapter.xcframework'
-    ss.dependency 'CaulySDK', '3.1.24'
+    ss.dependency 'CaulySDK', '3.1.25'
   end
 
   # ── AdFit 어댑터 - CocoaPods 미지원 ──

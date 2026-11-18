@@ -919,6 +919,36 @@
           },
           {
             "kind": "Function",
+            "name": "adaptiveAnchorHeight",
+            "printedName": "adaptiveAnchorHeight()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreGraphics.CGFloat?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:07AdWhaleA10MobAdapter0a13ManagerBannerD0C20adaptiveAnchorHeight14CoreFoundation7CGFloatVSgyF",
+            "mangledName": "$s07AdWhaleA10MobAdapter0a13ManagerBannerD0C20adaptiveAnchorHeight12CoreGraphics7CGFloatVSgyF",
+            "moduleName": "AdWhaleAdMobAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "bannerViewDidReceiveAd",
             "printedName": "bannerViewDidReceiveAd(_:)",
             "children": [
@@ -4806,6 +4836,36 @@
           },
           {
             "kind": "Function",
+            "name": "adaptiveAnchorHeight",
+            "printedName": "adaptiveAnchorHeight()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreGraphics.CGFloat?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:07AdWhaleA10MobAdapter0ac6BannerD0C20adaptiveAnchorHeight14CoreFoundation7CGFloatVSgyF",
+            "mangledName": "$s07AdWhaleA10MobAdapter0ac6BannerD0C20adaptiveAnchorHeight12CoreGraphics7CGFloatVSgyF",
+            "moduleName": "AdWhaleAdMobAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "bannerViewDidReceiveAd",
             "printedName": "bannerViewDidReceiveAd(_:)",
             "children": [
@@ -5577,6 +5637,27 @@
             "mangledName": "$sSH"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdWhaleAdMobAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "AdWhaleSDK",
+        "printedName": "AdWhaleSDK",
+        "declKind": "Import",
+        "moduleName": "AdWhaleAdMobAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AdWhaleAdMobAdapter"
       },
       {
         "kind": "Import",
@@ -6353,6 +6434,34 @@
             "declAttributes": [
               "Final",
               "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "applyStoredPrivacySettings",
+            "printedName": "applyStoredPrivacySettings(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdWhalePrivacySettings",
+                "printedName": "AdWhaleSDK.AdWhalePrivacySettings",
+                "usr": "s:10AdWhaleSDK0aB15PrivacySettingsC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:07AdWhaleA10MobAdapter0ac7PrivacyD0C011applyStoredE8Settingsyy0aB3SDK0abeH0CF",
+            "mangledName": "$s07AdWhaleA10MobAdapter0ac7PrivacyD0C011applyStoredE8Settingsyy0aB3SDK0abeH0CF",
+            "moduleName": "AdWhaleAdMobAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           }
@@ -8189,6 +8298,606 @@
             "mangledName": "$sSH"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdWhaleAdMobAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "AdWhaleSDK",
+        "printedName": "AdWhaleSDK",
+        "declKind": "Import",
+        "moduleName": "AdWhaleAdMobAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AdWhaleAdMobAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdWhaleAdMobCaulyEvent",
+        "printedName": "AdWhaleAdMobCaulyEvent",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdWhaleAdMobCaulyEvent",
+                "printedName": "AdWhaleAdMobAdapter.AdWhaleAdMobCaulyEvent",
+                "usr": "c:@M@AdWhaleAdMobAdapter@objc(cs)AdWhaleAdMobCaulyEvent"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AdWhaleAdMobAdapter@objc(cs)AdWhaleAdMobCaulyEvent(im)init",
+            "mangledName": "$s07AdWhaleA10MobAdapter0abaC10CaulyEventCACycfc",
+            "moduleName": "AdWhaleAdMobAdapter",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "Required",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "adapterVersion",
+            "printedName": "adapterVersion()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VersionNumber",
+                "printedName": "GoogleMobileAds.VersionNumber",
+                "usr": "c:@S@GADVersionNumber"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdWhaleAdMobAdapter@objc(cs)AdWhaleAdMobCaulyEvent(cm)adapterVersion",
+            "mangledName": "$s07AdWhaleA10MobAdapter0abaC10CaulyEventC14adapterVersionSo16GADVersionNumberVyFZ",
+            "moduleName": "AdWhaleAdMobAdapter",
+            "static": true,
+            "objc_name": "adapterVersion",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adSDKVersion",
+            "printedName": "adSDKVersion()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VersionNumber",
+                "printedName": "GoogleMobileAds.VersionNumber",
+                "usr": "c:@S@GADVersionNumber"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdWhaleAdMobAdapter@objc(cs)AdWhaleAdMobCaulyEvent(cm)adSDKVersion",
+            "mangledName": "$s07AdWhaleA10MobAdapter0abaC10CaulyEventC12adSDKVersionSo16GADVersionNumberVyFZ",
+            "moduleName": "AdWhaleAdMobAdapter",
+            "static": true,
+            "objc_name": "adSDKVersion",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "networkExtrasClass",
+            "printedName": "networkExtrasClass()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any GoogleMobileAds.AdNetworkExtras.Type)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExistentialMetatype",
+                    "printedName": "any GoogleMobileAds.AdNetworkExtras.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdNetworkExtras",
+                        "printedName": "GoogleMobileAds.AdNetworkExtras",
+                        "usr": "c:objc(pl)GADAdNetworkExtras"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdWhaleAdMobAdapter@objc(cs)AdWhaleAdMobCaulyEvent(cm)networkExtrasClass",
+            "mangledName": "$s07AdWhaleA10MobAdapter0abaC10CaulyEventC18networkExtrasClassSo012GADAdNetworkH0_pXpSgyFZ",
+            "moduleName": "AdWhaleAdMobAdapter",
+            "static": true,
+            "objc_name": "networkExtrasClass",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setUp",
+            "printedName": "setUp(with:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MediationServerConfiguration",
+                "printedName": "GoogleMobileAds.MediationServerConfiguration",
+                "usr": "c:objc(cs)GADMediationServerConfiguration"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "((any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Swift.Error)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdWhaleAdMobAdapter@objc(cs)AdWhaleAdMobCaulyEvent(cm)setUpWithConfiguration:completionHandler:",
+            "mangledName": "$s07AdWhaleA10MobAdapter0abaC10CaulyEventC5setUp4with17completionHandlerySo31GADMediationServerConfigurationC_ys5Error_pSgctFZ",
+            "moduleName": "AdWhaleAdMobAdapter",
+            "static": true,
+            "objc_name": "setUpWithConfiguration:completionHandler:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loadBanner",
+            "printedName": "loadBanner(for:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MediationBannerAdConfiguration",
+                "printedName": "GoogleMobileAds.MediationBannerAdConfiguration",
+                "usr": "c:objc(cs)GADMediationBannerAdConfiguration"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "((any GoogleMobileAds.MediationBannerAd)?, (any Swift.Error)?) -> (any GoogleMobileAds.MediationBannerAdEventDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any GoogleMobileAds.MediationBannerAdEventDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MediationBannerAdEventDelegate",
+                        "printedName": "any GoogleMobileAds.MediationBannerAdEventDelegate",
+                        "usr": "c:objc(pl)GADMediationBannerAdEventDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "((any GoogleMobileAds.MediationBannerAd)?, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any GoogleMobileAds.MediationBannerAd)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "MediationBannerAd",
+                            "printedName": "any GoogleMobileAds.MediationBannerAd",
+                            "usr": "c:objc(pl)GADMediationBannerAd"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdWhaleAdMobAdapter@objc(cs)AdWhaleAdMobCaulyEvent(im)loadBannerForAdConfiguration:completionHandler:",
+            "mangledName": "$s07AdWhaleA10MobAdapter0abaC10CaulyEventC10loadBanner3for17completionHandlerySo012GADMediationhA13ConfigurationC_So0lhaF8Delegate_pSgSo0lhA0_pSg_s5Error_pSgtctF",
+            "moduleName": "AdWhaleAdMobAdapter",
+            "objc_name": "loadBannerForAdConfiguration:completionHandler:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loadInterstitial",
+            "printedName": "loadInterstitial(for:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MediationInterstitialAdConfiguration",
+                "printedName": "GoogleMobileAds.MediationInterstitialAdConfiguration",
+                "usr": "c:objc(cs)GADMediationInterstitialAdConfiguration"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "((any GoogleMobileAds.MediationInterstitialAd)?, (any Swift.Error)?) -> (any GoogleMobileAds.MediationInterstitialAdEventDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any GoogleMobileAds.MediationInterstitialAdEventDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MediationInterstitialAdEventDelegate",
+                        "printedName": "any GoogleMobileAds.MediationInterstitialAdEventDelegate",
+                        "usr": "c:objc(pl)GADMediationInterstitialAdEventDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "((any GoogleMobileAds.MediationInterstitialAd)?, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any GoogleMobileAds.MediationInterstitialAd)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "MediationInterstitialAd",
+                            "printedName": "any GoogleMobileAds.MediationInterstitialAd",
+                            "usr": "c:objc(pl)GADMediationInterstitialAd"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdWhaleAdMobAdapter@objc(cs)AdWhaleAdMobCaulyEvent(im)loadInterstitialForAdConfiguration:completionHandler:",
+            "mangledName": "$s07AdWhaleA10MobAdapter0abaC10CaulyEventC16loadInterstitial3for17completionHandlerySo012GADMediationhA13ConfigurationC_So0lhaF8Delegate_pSgSo0lhA0_pSg_s5Error_pSgtctF",
+            "moduleName": "AdWhaleAdMobAdapter",
+            "objc_name": "loadInterstitialForAdConfiguration:completionHandler:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loadRewardedAd",
+            "printedName": "loadRewardedAd(for:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MediationRewardedAdConfiguration",
+                "printedName": "GoogleMobileAds.MediationRewardedAdConfiguration",
+                "usr": "c:objc(cs)GADMediationRewardedAdConfiguration"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "((any GoogleMobileAds.MediationRewardedAd)?, (any Swift.Error)?) -> (any GoogleMobileAds.MediationRewardedAdEventDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any GoogleMobileAds.MediationRewardedAdEventDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MediationRewardedAdEventDelegate",
+                        "printedName": "any GoogleMobileAds.MediationRewardedAdEventDelegate",
+                        "usr": "c:objc(pl)GADMediationRewardedAdEventDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "((any GoogleMobileAds.MediationRewardedAd)?, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any GoogleMobileAds.MediationRewardedAd)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "MediationRewardedAd",
+                            "printedName": "any GoogleMobileAds.MediationRewardedAd",
+                            "usr": "c:objc(pl)GADMediationRewardedAd"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdWhaleAdMobAdapter@objc(cs)AdWhaleAdMobCaulyEvent(im)loadRewardedAdForAdConfiguration:completionHandler:",
+            "mangledName": "$s07AdWhaleA10MobAdapter0abaC10CaulyEventC012loadRewardedA03for17completionHandlerySo012GADMediationhA13ConfigurationC_So0lhaF8Delegate_pSgSo0lhA0_pSg_s5Error_pSgtctF",
+            "moduleName": "AdWhaleAdMobAdapter",
+            "objc_name": "loadRewardedAdForAdConfiguration:completionHandler:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AdWhaleAdMobAdapter@objc(cs)AdWhaleAdMobCaulyEvent",
+        "mangledName": "$s07AdWhaleA10MobAdapter0abaC10CaulyEventC",
+        "moduleName": "AdWhaleAdMobAdapter",
+        "objc_name": "AdWhaleAdMobCaulyEvent",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdWhaleAdMobAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "AdWhaleSDK",
+        "printedName": "AdWhaleSDK",
+        "declKind": "Import",
+        "moduleName": "AdWhaleAdMobAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AdWhaleAdMobAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdWhaleAdMobAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "AdWhaleSDK",
+        "printedName": "AdWhaleSDK",
+        "declKind": "Import",
+        "moduleName": "AdWhaleAdMobAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AdWhaleAdMobAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdWhaleAdMobAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "AdWhaleSDK",
+        "printedName": "AdWhaleSDK",
+        "declKind": "Import",
+        "moduleName": "AdWhaleAdMobAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AdWhaleAdMobAdapter"
       }
     ],
     "json_format_version": 8
@@ -8349,6 +9058,20 @@
       "value": "0"
     },
     {
+      "filePath": "\/Users\/runner\/work\/adwhale-sdk-ios\/adwhale-sdk-ios\/.build\/adapters\/Sources\/AdWhaleAdMobAdapter\/AdMobLoadDiagnostics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 481,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/adwhale-sdk-ios\/adwhale-sdk-ios\/.build\/adapters\/Sources\/AdWhaleAdMobAdapter\/AdMobLoadDiagnostics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 528,
+      "length": 1,
+      "value": "0"
+    },
+    {
       "filePath": "\/Users\/runner\/work\/adwhale-sdk-ios\/adwhale-sdk-ios\/.build\/adapters\/Sources\/AdWhaleAdMobAdapter\/AdMobNativeAdapter.swift",
       "kind": "IntegerLiteral",
       "offset": 753,
@@ -8431,6 +9154,55 @@
       "offset": 1294,
       "length": 9,
       "value": "\"admob_2\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/adwhale-sdk-ios\/adwhale-sdk-ios\/.build\/adapters\/Sources\/AdWhaleAdMobAdapter\/CustomEvent\/Cauly\/AdWhaleAdMobCaulyEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 3275,
+      "length": 37,
+      "value": "\"AdWhaleCaulyCustomEventBannerLoader\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/adwhale-sdk-ios\/adwhale-sdk-ios\/.build\/adapters\/Sources\/AdWhaleAdMobAdapter\/CustomEvent\/Cauly\/AdWhaleAdMobCaulyEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 3343,
+      "length": 43,
+      "value": "\"AdWhaleCaulyCustomEventInterstitialLoader\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/adwhale-sdk-ios\/adwhale-sdk-ios\/.build\/adapters\/Sources\/AdWhaleAdMobAdapter\/CustomEvent\/Cauly\/AdWhaleAdMobCaulyEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 3411,
+      "length": 37,
+      "value": "\"AdWhaleCaulyCustomEventRewardLoader\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/adwhale-sdk-ios\/adwhale-sdk-ios\/.build\/adapters\/Sources\/AdWhaleAdMobAdapter\/CustomEvent\/Cauly\/AdWhaleAdMobCaulyEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 3479,
+      "length": 44,
+      "value": "\"net.adwhale.sdk.admob.adapter.custom.cauly\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/adwhale-sdk-ios\/adwhale-sdk-ios\/.build\/adapters\/Sources\/AdWhaleAdMobAdapter\/CustomEvent\/Cauly\/AdWhaleAdMobCaulyEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 3558,
+      "length": 21,
+      "value": "\"kr.co.cauly.sdk.ios\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/adwhale-sdk-ios\/adwhale-sdk-ios\/.build\/adapters\/Sources\/AdWhaleAdMobAdapter\/CustomEvent\/Cauly\/AdWhaleAdMobCaulyEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3613,
+      "length": 3,
+      "value": "101"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/adwhale-sdk-ios\/adwhale-sdk-ios\/.build\/adapters\/Sources\/AdWhaleAdMobAdapter\/CustomEvent\/Cauly\/AdWhaleAdMobCaulyEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3654,
+      "length": 3,
+      "value": "102"
     }
   ]
 }

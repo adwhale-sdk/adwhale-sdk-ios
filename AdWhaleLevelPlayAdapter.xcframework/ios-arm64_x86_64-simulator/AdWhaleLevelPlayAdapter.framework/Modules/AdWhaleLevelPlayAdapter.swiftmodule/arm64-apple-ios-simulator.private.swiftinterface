@@ -30,6 +30,7 @@ import _SwiftConcurrencyShims
   final public func setRegion(_ region: String?)
   final public func setGeocoder(latitude: Double, longitude: Double)
   final public func setAdaptiveAnchorWidth(_ width: Int)
+  final public func adaptiveAnchorHeight() -> CGFloat?
   @objc deinit
 }
 extension LevelPlayBannerAdapter : LPMBannerAdViewDelegate {
@@ -84,6 +85,7 @@ extension LevelPlayNativeAdapter : LevelPlayNativeAdDelegate {
 final public class LevelPlayPrivacyAdapter : AdWhaleMediationPrivacyAdapterProtocol {
   public init()
   final public func applyPrivacySettings(_ privacy: AdWhalePrivacySettings)
+  final public func applyStoredPrivacySettings(_ privacy: AdWhalePrivacySettings)
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers final public class LevelPlayRewardAdapter : NSObject, AdWhaleMediationRewardAdapterProtocol, AdWhaleMediationPlacementAdapterProtocol, AdWhaleMediationRewardSSVAdapterProtocol {

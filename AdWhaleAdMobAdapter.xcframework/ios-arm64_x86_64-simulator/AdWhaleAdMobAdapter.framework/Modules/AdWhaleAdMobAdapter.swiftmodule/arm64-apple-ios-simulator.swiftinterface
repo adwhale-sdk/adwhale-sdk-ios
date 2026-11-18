@@ -44,6 +44,7 @@ extension AdWhaleAdMobAdapter.AdManagerAppOpenAdapter : GoogleMobileAds.FullScre
   final public func setRegion(_ region: Swift.String?)
   final public func setGeocoder(latitude: Swift.Double, longitude: Swift.Double)
   final public func setAdaptiveAnchorWidth(_ width: Swift.Int)
+  final public func adaptiveAnchorHeight() -> CoreFoundation.CGFloat?
   @objc deinit
 }
 extension AdWhaleAdMobAdapter.AdManagerBannerAdapter : GoogleMobileAds.BannerViewDelegate {
@@ -183,6 +184,7 @@ extension AdWhaleAdMobAdapter.AdMobAppOpenAdapter : GoogleMobileAds.FullScreenCo
   final public func setRegion(_ region: Swift.String?)
   final public func setGeocoder(latitude: Swift.Double, longitude: Swift.Double)
   final public func setAdaptiveAnchorWidth(_ width: Swift.Int)
+  final public func adaptiveAnchorHeight() -> CoreFoundation.CGFloat?
   @objc deinit
 }
 extension AdWhaleAdMobAdapter.AdMobBannerAdapter : GoogleMobileAds.BannerViewDelegate {
@@ -239,6 +241,7 @@ extension AdWhaleAdMobAdapter.AdMobNativeAdapter : GoogleMobileAds.NativeAdDeleg
 }
 @_hasMissingDesignatedInitializers final public class AdMobPrivacyAdapter : AdWhaleSDK.AdWhaleMediationPrivacyAdapterProtocol {
   final public func applyPrivacySettings(_ privacy: AdWhaleSDK.AdWhalePrivacySettings)
+  final public func applyStoredPrivacySettings(_ privacy: AdWhaleSDK.AdWhalePrivacySettings)
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers final public class AdMobRewardAdapter : ObjectiveC.NSObject, AdWhaleSDK.AdWhaleMediationRewardAdapterProtocol {
@@ -299,5 +302,16 @@ extension AdWhaleAdMobAdapter.AdMobRewardedInterstitialAdapter : GoogleMobileAds
   public static let networkNameRewardedInterstitial: Swift.String
   @objc public static func register()
   @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc(AdWhaleAdMobCaulyEvent) final public class AdWhaleAdMobCaulyEvent : ObjectiveC.NSObject, GoogleMobileAds.MediationAdapter {
+  @objc required override dynamic public init()
+  @objc public static func adapterVersion() -> GoogleMobileAds.VersionNumber
+  @objc public static func adSDKVersion() -> GoogleMobileAds.VersionNumber
+  @objc public static func networkExtrasClass() -> (any GoogleMobileAds.AdNetworkExtras.Type)?
+  @objc public static func setUp(with configuration: GoogleMobileAds.MediationServerConfiguration, completionHandler: @escaping ((any Swift.Error)?) -> Swift.Void)
+  @objc final public func loadBanner(for adConfiguration: GoogleMobileAds.MediationBannerAdConfiguration, completionHandler: @escaping ((any GoogleMobileAds.MediationBannerAd)?, (any Swift.Error)?) -> (any GoogleMobileAds.MediationBannerAdEventDelegate)?)
+  @objc final public func loadInterstitial(for adConfiguration: GoogleMobileAds.MediationInterstitialAdConfiguration, completionHandler: @escaping ((any GoogleMobileAds.MediationInterstitialAd)?, (any Swift.Error)?) -> (any GoogleMobileAds.MediationInterstitialAdEventDelegate)?)
+  @objc final public func loadRewardedAd(for adConfiguration: GoogleMobileAds.MediationRewardedAdConfiguration, completionHandler: @escaping ((any GoogleMobileAds.MediationRewardedAd)?, (any Swift.Error)?) -> (any GoogleMobileAds.MediationRewardedAdEventDelegate)?)
   @objc deinit
 }

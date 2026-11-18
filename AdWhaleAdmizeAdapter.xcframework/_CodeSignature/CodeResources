@@ -6,15 +6,15 @@
 	<dict>
 		<key>ios-arm64/AdWhaleAdmizeAdapter.framework/AdWhaleAdmizeAdapter</key>
 		<data>
-		KafzcqizYSvhL/p0dFRyijNaFas=
+		VRZrs0wReep5Nu3dfCO3yaGXuZs=
 		</data>
 		<key>ios-arm64/AdWhaleAdmizeAdapter.framework/Headers/AdWhaleAdmizeAdapter-Swift.h</key>
 		<data>
-		E7M1C+NuOEazC8YdYT/CaolsLi0=
+		yJslq7WfQoq9VqMnEmVsQ/8P+TA=
 		</data>
 		<key>ios-arm64/AdWhaleAdmizeAdapter.framework/Info.plist</key>
 		<data>
-		tdTta4HLW5P5EYf6E1Dq9ogygNo=
+		3L1NPLZQD9RaVeeY4ZP0ERrBwr8=
 		</data>
 		<key>ios-arm64/AdWhaleAdmizeAdapter.framework/Modules/AdWhaleAdmizeAdapter.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -42,15 +42,15 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleAdmizeAdapter.framework/AdWhaleAdmizeAdapter</key>
 		<data>
-		9FsVVK+pYLiCdHztFZoQ9DkHmuA=
+		c700At6h0jnSFt3a/XpPP2vrIUk=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleAdmizeAdapter.framework/Headers/AdWhaleAdmizeAdapter-Swift.h</key>
 		<data>
-		E7M1C+NuOEazC8YdYT/CaolsLi0=
+		CWRTeyfeZXOPrndXE4vwMUN9gQM=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleAdmizeAdapter.framework/Info.plist</key>
 		<data>
-		/UYTqpC5/0k5IyJvori+Nx0kH+8=
+		TWy8wMzHRInQappfbVlc6OZ6K88=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleAdmizeAdapter.framework/Modules/AdWhaleAdmizeAdapter.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -98,7 +98,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleAdmizeAdapter.framework/_CodeSignature/CodeDirectory</key>
 		<data>
-		Uq/Re4SCUlcG26BNyM7yuc+5S4A=
+		kgKGZcxCznKDZdCojGMKtkuHhqI=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleAdmizeAdapter.framework/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -106,7 +106,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleAdmizeAdapter.framework/_CodeSignature/CodeResources</key>
 		<data>
-		eLHpb/CSi0CeF11rLeHZ25Kg7XE=
+		TLYeWGYqjdXYzLxsFhtWQ0CbGDQ=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleAdmizeAdapter.framework/_CodeSignature/CodeSignature</key>
 		<data>
@@ -119,21 +119,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			n1ijcMDoKzs0FFS7dHxtO79KvdjpH8Vf8xj8nFplG/w=
+			zfvek6ICNkzMxItACznyzPGXv98zInkOotz+DvtnDyw=
 			</data>
 		</dict>
 		<key>ios-arm64/AdWhaleAdmizeAdapter.framework/Headers/AdWhaleAdmizeAdapter-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			j+X9zcTN+XicvUIO7bxH3K6PxDPtgj7giUeoHL7vXtA=
+			f3StT+FB+AbvkQebnDIIZTzEwHk3MOxL11a7MU7pjxY=
 			</data>
 		</dict>
 		<key>ios-arm64/AdWhaleAdmizeAdapter.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AaWkJF+xcr+vqjy/4zjP4NsvbJBtfF2e7HN/UVKvvcg=
+			wyPxMl3wq2PvkGyTWJkRXpw7kSoeiJ6cMC2II4cItDE=
 			</data>
 		</dict>
 		<key>ios-arm64/AdWhaleAdmizeAdapter.framework/Modules/AdWhaleAdmizeAdapter.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -182,21 +182,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KF00fwpwgXjxadiWZWv+CRZ+9n+VLeZ3zvfjOi/ehp0=
+			IEjObNkDOgJ9vYGGtIub2X2e/azmh4Myx7oNf3Ju3YA=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AdWhaleAdmizeAdapter.framework/Headers/AdWhaleAdmizeAdapter-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			j+X9zcTN+XicvUIO7bxH3K6PxDPtgj7giUeoHL7vXtA=
+			JwCcfxUCejrjH8pUFdWiHUonni7UKH2MCFaYsoKS02o=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AdWhaleAdmizeAdapter.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			I3SYSBSeuHIY2KU4hQwQ0DZ11kJv3157WeHF7Emz628=
+			xCPIqL6iU4aEdOaG5VtsE5FR/Ge76YNR8CTxIIC1CwM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AdWhaleAdmizeAdapter.framework/Modules/AdWhaleAdmizeAdapter.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -280,7 +280,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			b6ygwUUhT75OSPkeQh2seg07O9aok+VAHyGbbmIWVNI=
+			RyBas6CrAoGvwg2/wuyErD926AVhK8Is2QW3Tu6WgpA=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AdWhaleAdmizeAdapter.framework/_CodeSignature/CodeRequirements</key>
@@ -294,7 +294,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wecdkX2NzQLTs2+wsmNJK9LeHMDKwB6PzjifbMkS+kA=
+			zYlkvGVPpMuGzbSP2Iedhz1YQXJ5cMFBJNMtumhv1NU=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AdWhaleAdmizeAdapter.framework/_CodeSignature/CodeSignature</key>

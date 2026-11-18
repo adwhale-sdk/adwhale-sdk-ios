@@ -6,35 +6,35 @@
 	<dict>
 		<key>ios-arm64/AdWhaleLevelPlayAdapter.framework/AdWhaleLevelPlayAdapter</key>
 		<data>
-		EO0oe+Bp16xad41mv+b++lnmlMY=
+		lB4OkQcHQtJQU5qJNI3XaU4GuD8=
 		</data>
 		<key>ios-arm64/AdWhaleLevelPlayAdapter.framework/Headers/AdWhaleLevelPlayAdapter-Swift.h</key>
 		<data>
-		ueVftYr5HYTMYLqrH8/hfaNehrs=
+		aSsIBamLIzW0SnZG1cA6quNKrTc=
 		</data>
 		<key>ios-arm64/AdWhaleLevelPlayAdapter.framework/Info.plist</key>
 		<data>
-		DBexo39xLMm3vsKDKumxeSrh//o=
+		dStOJAYqRgO3RtZPa4xLoo0Qf6A=
 		</data>
 		<key>ios-arm64/AdWhaleLevelPlayAdapter.framework/Modules/AdWhaleLevelPlayAdapter.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		+YODWzK6Z5hHrgprWL/wjGoDYKE=
+		po5qx1AfJNMZ+5vxx7MuILcE/10=
 		</data>
 		<key>ios-arm64/AdWhaleLevelPlayAdapter.framework/Modules/AdWhaleLevelPlayAdapter.swiftmodule/arm64-apple-ios.package.swiftinterface</key>
 		<data>
-		n9q3GDh/HV76l/XLcbojygUUdqE=
+		Q1ubdFBbY+qA5yDdMQb4n+yOnGM=
 		</data>
 		<key>ios-arm64/AdWhaleLevelPlayAdapter.framework/Modules/AdWhaleLevelPlayAdapter.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		n9q3GDh/HV76l/XLcbojygUUdqE=
+		Q1ubdFBbY+qA5yDdMQb4n+yOnGM=
 		</data>
 		<key>ios-arm64/AdWhaleLevelPlayAdapter.framework/Modules/AdWhaleLevelPlayAdapter.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		iV4kTWHZRx1C/VySr6WPic/vCTU=
+		pFQWivqCfs71v0rmhJmZiYxE/5A=
 		</data>
 		<key>ios-arm64/AdWhaleLevelPlayAdapter.framework/Modules/AdWhaleLevelPlayAdapter.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		n9q3GDh/HV76l/XLcbojygUUdqE=
+		Q1ubdFBbY+qA5yDdMQb4n+yOnGM=
 		</data>
 		<key>ios-arm64/AdWhaleLevelPlayAdapter.framework/Modules/module.modulemap</key>
 		<data>
@@ -42,55 +42,55 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleLevelPlayAdapter.framework/AdWhaleLevelPlayAdapter</key>
 		<data>
-		XrOQvqSabUjVywsfMMwvDnITXoY=
+		3Oo0b1h9MFBLhrugTx2+e+nWI1M=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleLevelPlayAdapter.framework/Headers/AdWhaleLevelPlayAdapter-Swift.h</key>
 		<data>
-		ueVftYr5HYTMYLqrH8/hfaNehrs=
+		cfJZeaRg6izSfpnwLbg1cUeMzQc=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleLevelPlayAdapter.framework/Info.plist</key>
 		<data>
-		MCV67RxRWoAWeLZw3GdrvjvHaMg=
+		bxwBG0UtWABLWA/zzYvpr+YqBp0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleLevelPlayAdapter.framework/Modules/AdWhaleLevelPlayAdapter.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		+YODWzK6Z5hHrgprWL/wjGoDYKE=
+		po5qx1AfJNMZ+5vxx7MuILcE/10=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleLevelPlayAdapter.framework/Modules/AdWhaleLevelPlayAdapter.swiftmodule/arm64-apple-ios-simulator.package.swiftinterface</key>
 		<data>
-		LFsvW5a8A8j48A3Zwv1/Vd03+SE=
+		vioE65LNGtLF38ORNoALMZSTNSc=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleLevelPlayAdapter.framework/Modules/AdWhaleLevelPlayAdapter.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		LFsvW5a8A8j48A3Zwv1/Vd03+SE=
+		vioE65LNGtLF38ORNoALMZSTNSc=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleLevelPlayAdapter.framework/Modules/AdWhaleLevelPlayAdapter.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		nXm+tl6suqDODoYXlNa7hqTRm5w=
+		fi4zUS1j9ZiHUB9E4DOBTnLV6iw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleLevelPlayAdapter.framework/Modules/AdWhaleLevelPlayAdapter.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		LFsvW5a8A8j48A3Zwv1/Vd03+SE=
+		vioE65LNGtLF38ORNoALMZSTNSc=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleLevelPlayAdapter.framework/Modules/AdWhaleLevelPlayAdapter.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		+YODWzK6Z5hHrgprWL/wjGoDYKE=
+		po5qx1AfJNMZ+5vxx7MuILcE/10=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleLevelPlayAdapter.framework/Modules/AdWhaleLevelPlayAdapter.swiftmodule/x86_64-apple-ios-simulator.package.swiftinterface</key>
 		<data>
-		af28OFT4+XUbG0y+TsnJ4yl87tY=
+		61J4wPNiZUBj1nqaIJOa0+lLwnk=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleLevelPlayAdapter.framework/Modules/AdWhaleLevelPlayAdapter.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		af28OFT4+XUbG0y+TsnJ4yl87tY=
+		61J4wPNiZUBj1nqaIJOa0+lLwnk=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleLevelPlayAdapter.framework/Modules/AdWhaleLevelPlayAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		2g3rDHFWdNSDRNyyAc6dNPtCjGI=
+		VDRhs8EVVujT33R5LE8vgiO9oIk=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleLevelPlayAdapter.framework/Modules/AdWhaleLevelPlayAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		af28OFT4+XUbG0y+TsnJ4yl87tY=
+		61J4wPNiZUBj1nqaIJOa0+lLwnk=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleLevelPlayAdapter.framework/Modules/module.modulemap</key>
 		<data>
@@ -98,7 +98,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleLevelPlayAdapter.framework/_CodeSignature/CodeDirectory</key>
 		<data>
-		hE9opkWrrgf1scMJFaMpN3n3t0o=
+		gSD1+esuahTnJWzIUzYZsCMOK3M=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleLevelPlayAdapter.framework/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -106,7 +106,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleLevelPlayAdapter.framework/_CodeSignature/CodeResources</key>
 		<data>
-		H9X11vPZiE1NH6dt3IRGmWwODSg=
+		6vdOAXkqItrHP7FddhxqM04TnNw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleLevelPlayAdapter.framework/_CodeSignature/CodeSignature</key>
 		<data>
@@ -119,56 +119,56 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BkY/SiGtQBjNDpIH9xKdn0k1+Z2flxJJJuoGghekylc=
+			DEJcyryDLz+dNT7g67TvUwkr/KrNzV4Ig4emZAOY3CE=
 			</data>
 		</dict>
 		<key>ios-arm64/AdWhaleLevelPlayAdapter.framework/Headers/AdWhaleLevelPlayAdapter-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			erfpsbPfol4TMB8gilyGcU3XdXyYw/ZWubqiLZ4YPio=
+			rVnrxqqYYgCLqUQ2CSTh5/LXw6/8iEid4oQLxy+RPKE=
 			</data>
 		</dict>
 		<key>ios-arm64/AdWhaleLevelPlayAdapter.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			evQsx2aA0KWcFqtvT5tWtQvAaGpcvZPIYsLNZ2PF5HQ=
+			rKA76jplQC4MB89DUta13sBpKF2t/uYKzDK6wgbVisk=
 			</data>
 		</dict>
 		<key>ios-arm64/AdWhaleLevelPlayAdapter.framework/Modules/AdWhaleLevelPlayAdapter.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AyE/+P0bx7jfBdg7FdPQUiewcXn1r9zG4nymSUUUWR0=
+			lbaW5nHqTL+jS/zF1x7DOzeP4vYroDpLvMyrRzPFuTE=
 			</data>
 		</dict>
 		<key>ios-arm64/AdWhaleLevelPlayAdapter.framework/Modules/AdWhaleLevelPlayAdapter.swiftmodule/arm64-apple-ios.package.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LtDLjfiine8ip+6vO8iK259IeA8QDX/lDt3UA0RN8KA=
+			MMWGTOrY+TMkO7Zp01d9p+knLpHw8bOmL9bdh/NzHFw=
 			</data>
 		</dict>
 		<key>ios-arm64/AdWhaleLevelPlayAdapter.framework/Modules/AdWhaleLevelPlayAdapter.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LtDLjfiine8ip+6vO8iK259IeA8QDX/lDt3UA0RN8KA=
+			MMWGTOrY+TMkO7Zp01d9p+knLpHw8bOmL9bdh/NzHFw=
 			</data>
 		</dict>
 		<key>ios-arm64/AdWhaleLevelPlayAdapter.framework/Modules/AdWhaleLevelPlayAdapter.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hlXxTP7+OGhKAwYAnw1JdUq4kxwFO//+EA6nx2i7pFI=
+			RK/4ahQioGU6DvjUOaBX/OoUaLioYDiE+wAvndVrFQE=
 			</data>
 		</dict>
 		<key>ios-arm64/AdWhaleLevelPlayAdapter.framework/Modules/AdWhaleLevelPlayAdapter.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LtDLjfiine8ip+6vO8iK259IeA8QDX/lDt3UA0RN8KA=
+			MMWGTOrY+TMkO7Zp01d9p+knLpHw8bOmL9bdh/NzHFw=
 			</data>
 		</dict>
 		<key>ios-arm64/AdWhaleLevelPlayAdapter.framework/Modules/module.modulemap</key>
@@ -182,91 +182,91 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SDWn/yguo0mbyUsVmgMLV5PzxmD3pdF83JE7T4wcXqk=
+			iLspZrmhcUXDMyTKpsiWdBS7Iq+B05U4c0+bkyZpUwc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AdWhaleLevelPlayAdapter.framework/Headers/AdWhaleLevelPlayAdapter-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			erfpsbPfol4TMB8gilyGcU3XdXyYw/ZWubqiLZ4YPio=
+			f2wQfsl/hjb6Jm5BE24tczUytiQqDV+qeFQnqCHmYpE=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AdWhaleLevelPlayAdapter.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fEKV3kHGiqzuPSc/A1w+H2jGVkRz2u1VCkm33Aga6/k=
+			U9Nmhe87w928S9o1vmmx8kWdC4RwSHKGzKvDzlSMGmM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AdWhaleLevelPlayAdapter.framework/Modules/AdWhaleLevelPlayAdapter.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AyE/+P0bx7jfBdg7FdPQUiewcXn1r9zG4nymSUUUWR0=
+			lbaW5nHqTL+jS/zF1x7DOzeP4vYroDpLvMyrRzPFuTE=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AdWhaleLevelPlayAdapter.framework/Modules/AdWhaleLevelPlayAdapter.swiftmodule/arm64-apple-ios-simulator.package.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9/b3/eEcbO2R7DNnaLZibpbgL90BhxbvbGA49wMS1R4=
+			tvIe1Buy/64YUW/Ofr33ixQLaVD5WPEyWpn09TM0wgY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AdWhaleLevelPlayAdapter.framework/Modules/AdWhaleLevelPlayAdapter.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9/b3/eEcbO2R7DNnaLZibpbgL90BhxbvbGA49wMS1R4=
+			tvIe1Buy/64YUW/Ofr33ixQLaVD5WPEyWpn09TM0wgY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AdWhaleLevelPlayAdapter.framework/Modules/AdWhaleLevelPlayAdapter.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bCi8JklxAdms6EYPC9+hk4xy+o/8FbL6xak7v1t7czA=
+			CvJ5FMUkFqaW6peK+N7w4IosHLUZWofave+WmWjKiQM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AdWhaleLevelPlayAdapter.framework/Modules/AdWhaleLevelPlayAdapter.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9/b3/eEcbO2R7DNnaLZibpbgL90BhxbvbGA49wMS1R4=
+			tvIe1Buy/64YUW/Ofr33ixQLaVD5WPEyWpn09TM0wgY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AdWhaleLevelPlayAdapter.framework/Modules/AdWhaleLevelPlayAdapter.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AyE/+P0bx7jfBdg7FdPQUiewcXn1r9zG4nymSUUUWR0=
+			lbaW5nHqTL+jS/zF1x7DOzeP4vYroDpLvMyrRzPFuTE=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AdWhaleLevelPlayAdapter.framework/Modules/AdWhaleLevelPlayAdapter.swiftmodule/x86_64-apple-ios-simulator.package.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pMhumn6H9j9pWKexBmZeBIXopsggAPwtBNBAbhPcM84=
+			FQO77hV/etDK7jY/makAcyAjHBMFA/o+gPeqDTOOKQw=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AdWhaleLevelPlayAdapter.framework/Modules/AdWhaleLevelPlayAdapter.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pMhumn6H9j9pWKexBmZeBIXopsggAPwtBNBAbhPcM84=
+			FQO77hV/etDK7jY/makAcyAjHBMFA/o+gPeqDTOOKQw=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AdWhaleLevelPlayAdapter.framework/Modules/AdWhaleLevelPlayAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pUWALY8EcsmSuYcUFjGrTmy0ogujJ+v6TTPBPCHLzQ4=
+			uJqr/ZzjLAykYq7AoZhuxXtE7/0nie6eDc0WetABa+U=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AdWhaleLevelPlayAdapter.framework/Modules/AdWhaleLevelPlayAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pMhumn6H9j9pWKexBmZeBIXopsggAPwtBNBAbhPcM84=
+			FQO77hV/etDK7jY/makAcyAjHBMFA/o+gPeqDTOOKQw=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AdWhaleLevelPlayAdapter.framework/Modules/module.modulemap</key>
@@ -280,7 +280,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7cBFtS0aX7eSJNswYs9iabdfjy4v+d8gGMlsj0uKTIY=
+			w/oaUmGrgRgAeaquVOsyFXh27/vnRA8dIC0+/CmYfts=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AdWhaleLevelPlayAdapter.framework/_CodeSignature/CodeRequirements</key>
@@ -294,7 +294,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1ZWIrVAQkV+wxwz+4Vk4+1hhzvTixMVYrK1pKd75+C0=
+			6vylHF8l6q+8e3uasTdMXHD1n4WWaVM15EtHuGyGGfc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AdWhaleLevelPlayAdapter.framework/_CodeSignature/CodeSignature</key>

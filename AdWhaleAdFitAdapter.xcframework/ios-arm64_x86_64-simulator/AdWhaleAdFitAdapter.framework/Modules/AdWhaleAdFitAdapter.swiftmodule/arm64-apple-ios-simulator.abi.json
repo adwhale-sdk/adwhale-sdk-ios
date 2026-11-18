@@ -952,7 +952,8 @@
             "moduleName": "AdWhaleAdFitAdapter",
             "declAttributes": [
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"

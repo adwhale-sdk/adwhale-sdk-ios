@@ -607,6 +607,36 @@
           },
           {
             "kind": "Function",
+            "name": "adaptiveAnchorHeight",
+            "printedName": "adaptiveAnchorHeight()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreGraphics.CGFloat?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AdWhaleLevelPlayAdapter0cd6BannerE0C20adaptiveAnchorHeight14CoreFoundation7CGFloatVSgyF",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd6BannerE0C20adaptiveAnchorHeight12CoreGraphics7CGFloatVSgyF",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "didLoadAd",
             "printedName": "didLoadAd(with:)",
             "children": [
@@ -2265,6 +2295,34 @@
             "declAttributes": [
               "Final",
               "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "applyStoredPrivacySettings",
+            "printedName": "applyStoredPrivacySettings(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdWhalePrivacySettings",
+                "printedName": "AdWhaleSDK.AdWhalePrivacySettings",
+                "usr": "s:10AdWhaleSDK0aB15PrivacySettingsC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AdWhaleLevelPlayAdapter0cd7PrivacyE0C011applyStoredF8Settingsyy0aB3SDK0abfI0CF",
+            "mangledName": "$s23AdWhaleLevelPlayAdapter0cd7PrivacyE0C011applyStoredF8Settingsyy0aB3SDK0abfI0CF",
+            "moduleName": "AdWhaleLevelPlayAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           }
